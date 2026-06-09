@@ -9,7 +9,7 @@
           "title": "Bài 1: Tập hợp",
           "description": "Làm quen với khái niệm tập hợp, phần tử và các ký hiệu thuộc (∈), không thuộc (∉).",
           "theory": {
-            "explanation": "Tập hợp là sự gom nhóm các đối tượng có cùng một hoặc một vài đặc điểm chung. Các đối tượng này gọi là phần tử của tập hợp đó. Ta dùng kí hiệu ∈ (thuộc) để chỉ một phần tử nằm trong tập hợp, và ∉ (không thuộc) để chỉ phần tử không nằm trong tập hợp. Ví dụ: Nếu tập hợp A gồm các số lẻ nhỏ hơn 10: A = {1, 3, 5, 7, 9}, thì 3 ∈ A nhưng 4 ∉ A. Để trực quan hóa, ta có thể dùng biểu đồ Venn gồm hai vòng tròn giao nhau để xếp các phần tử vào đúng nhóm của chúng.",
+            "explanation": "Tập hợp là sự gom nhóm các đối tượng có cùng một hoặc một vài đặc điểm chung. Các đối tượng này gọi là phần tử của tập hợp đó. Ta dùng ký hiệu ∈ (thuộc) để chỉ một phần tử nằm trong tập hợp, và ∉ (không thuộc) để chỉ phần tử không nằm trong tập hợp. Ví dụ: Nếu tập hợp A gồm các số lẻ nhỏ hơn 10: A = {1, 3, 5, 7, 9}, thì 3 ∈ A nhưng 4 ∉ A. Để trực quan hóa, ta có thể dùng biểu đồ Venn gồm hai vòng tròn giao nhau để xếp các phần tử vào đúng nhóm của chúng.",
             "visualizerType": "VennDiagram",
             "visualizerConfig": {
               "setA": {
@@ -38,7 +38,7 @@
                 "question": "Cho tập hợp M gồm các chữ cái trong từ \"HỌC TẬP\". Phần tử nào sau đây thuộc tập hợp M?",
                 "options": ["A", "H", "B", "U"],
                 "correctAnswer": "H",
-                "explanation": "Tập hợp M = {H, O, C, T, A, P} (lưu ý chữ cái không viết dấu và không lặp lại). Do đó chữ cái H thuộc tập hợp M."
+                "explanation": "Tập hợp M = {H, O, C, T, Â, P} (lưu ý ta chỉ viết các chữ cái tiếng Việt dưới dạng in hoa không kèm dấu thanh và không lặp lại). Vì chữ cái trong từ \"TẬP\" là chữ Â chứ không phải chữ A, nên chữ cái A không thuộc M, còn chữ cái H thuộc tập hợp M."
               }
             ],
             "medium": [
