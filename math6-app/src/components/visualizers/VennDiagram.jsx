@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 export default function VennDiagram({ config }) {
   if (!config || !config.setA || !config.setB) {
@@ -13,14 +13,20 @@ export default function VennDiagram({ config }) {
     allElements.reduce((acc, el) => ({ ...acc, [el]: 'pool' }), {})
   );
   const [selectedElement, setSelectedElement] = useState(null);
-  const [feedback, setFeedback] = useState('');
+  const [feedback, setFeedback] = useState({ text: '', type: null });
+
+  useEffect(() => {
+    setPositions(allElements.reduce((acc, el) => ({ ...acc, [el]: 'pool' }), {}));
+    setFeedback({ text: '', type: null });
+    setSelectedElement(null);
+  }, [config]);
 
   const checkAnswers = () => {
     let correct = true;
     allElements.forEach(el => {
       const inA = setA.elements.includes(el);
       const inB = setB.elements.includes(el);
-      const pos = positions[el];
+      const pos = positions[el] || 'pool';
 
       if (inA && inB && pos !== 'AB') correct = false;
       else if (inA && !inB && pos !== 'A') correct = false;
@@ -30,15 +36,15 @@ export default function VennDiagram({ config }) {
     });
 
     if (correct) {
-      setFeedback('🎉 Tuyệt vời! Cún đã xếp đúng các số vào các tập hợp!');
+      setFeedback({ text: '🎉 Tuyệt vời! Cún đã xếp đúng các số vào các tập hợp!', type: 'success' });
     } else {
-      setFeedback('❌ Có số bị xếp nhầm vị trí rồi. Cún xem lại nhé!');
+      setFeedback({ text: '❌ Có số bị xếp nhầm vị trí rồi. Cún xem lại nhé!', type: 'error' });
     }
   };
 
   const moveElement = (element, target) => {
     setPositions(prev => ({ ...prev, [element]: target }));
-    setFeedback(''); // Clear feedback on move
+    setFeedback({ text: '', type: null }); // Clear feedback on move
   };
 
   const handlePoolElementClick = (el) => {
@@ -52,10 +58,17 @@ export default function VennDiagram({ config }) {
     }
   };
 
+  const handleKeyDownZone = (e, zone) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      handleZoneClick(zone);
+    }
+  };
+
   const handleReset = () => {
     setPositions(allElements.reduce((acc, el) => ({ ...acc, [el]: 'pool' }), {}));
     setSelectedElement(null);
-    setFeedback('');
+    setFeedback({ text: '', type: null });
   };
 
   return (
@@ -65,6 +78,10 @@ export default function VennDiagram({ config }) {
         <div 
           className={`venn-circle set-a ${selectedElement !== null ? 'highlight-target' : ''}`}
           onClick={() => handleZoneClick('A')}
+          onKeyDown={(e) => handleKeyDownZone(e, 'A')}
+          role="button"
+          tabIndex={0}
+          aria-label={`Vùng tập hợp ${setA.name}`}
           data-testid="zone-a"
         >
           <div className="circle-title">{setA.name}</div>
@@ -87,6 +104,10 @@ export default function VennDiagram({ config }) {
         <div 
           className={`venn-overlap ${selectedElement !== null ? 'highlight-target' : ''}`}
           onClick={() => handleZoneClick('AB')}
+          onKeyDown={(e) => handleKeyDownZone(e, 'AB')}
+          role="button"
+          tabIndex={0}
+          aria-label={`Vùng giao của hai tập hợp ${setA.name} và ${setB.name}`}
           data-testid="zone-ab"
         >
           <div className="overlap-title">Giao của A và B</div>
@@ -109,6 +130,10 @@ export default function VennDiagram({ config }) {
         <div 
           className={`venn-circle set-b ${selectedElement !== null ? 'highlight-target' : ''}`}
           onClick={() => handleZoneClick('B')}
+          onKeyDown={(e) => handleKeyDownZone(e, 'B')}
+          role="button"
+          tabIndex={0}
+          aria-label={`Vùng tập hợp ${setB.name}`}
           data-testid="zone-b"
         >
           <div className="circle-title">{setB.name}</div>
@@ -132,7 +157,7 @@ export default function VennDiagram({ config }) {
       <div className="elements-pool">
         <p className="instructions-text">Bấm vào số để chọn, rồi bấm vào nhóm trên hình tròn để xếp. Hoặc dùng các nút nhanh:</p>
         <div className="pool-list">
-          {allElements.filter(el => positions[el] === 'pool').map(el => {
+          {allElements.filter(el => (positions[el] || 'pool') === 'pool').map(el => {
             const isSelected = selectedElement === el;
             return (
               <div 
@@ -143,6 +168,7 @@ export default function VennDiagram({ config }) {
                 <button 
                   className={`number-badge draggable-badge ${isSelected ? 'active' : ''}`}
                   onClick={() => handlePoolElementClick(el)}
+                  aria-pressed={isSelected}
                   data-testid={`badge-pool-${el}`}
                 >
                   {el}
@@ -180,12 +206,13 @@ export default function VennDiagram({ config }) {
         <button className="btn-reset" onClick={handleReset} data-testid="btn-reset">Làm lại</button>
       </div>
 
-      {feedback && (
+      {feedback.text && (
         <div 
-          className={`feedback-msg ${feedback.startsWith('🎉') ? 'success' : 'error'}`}
+          className={`feedback-msg ${feedback.type === 'success' ? 'success' : feedback.type === 'error' ? 'error' : ''}`}
           data-testid="venn-feedback"
+          role="status"
         >
-          {feedback}
+          {feedback.text}
         </div>
       )}
     </div>

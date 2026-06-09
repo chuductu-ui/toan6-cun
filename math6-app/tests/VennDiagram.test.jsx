@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, afterEach } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import React from 'react';
 import VennDiagram from '../src/components/visualizers/VennDiagram';
@@ -143,6 +143,102 @@ describe('VennDiagram Component', () => {
     // Element 1 is back in pool, feedback cleared
     expect(screen.getByTestId('badge-pool-1')).toBeInTheDocument();
     expect(screen.queryByTestId('badge-a-1')).not.toBeInTheDocument();
+    expect(screen.queryByTestId('venn-feedback')).not.toBeInTheDocument();
+  });
+
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
+  it('has correct accessibility properties for the Venn zones', () => {
+    render(<VennDiagram config={mockConfig} />);
+    const zoneA = screen.getByTestId('zone-a');
+    const zoneB = screen.getByTestId('zone-b');
+    const zoneAB = screen.getByTestId('zone-ab');
+
+    expect(zoneA).toHaveAttribute('role', 'button');
+    expect(zoneA).toHaveAttribute('tabIndex', '0');
+    expect(zoneA).toHaveAttribute('aria-label');
+
+    expect(zoneB).toHaveAttribute('role', 'button');
+    expect(zoneB).toHaveAttribute('tabIndex', '0');
+    expect(zoneB).toHaveAttribute('aria-label');
+
+    expect(zoneAB).toHaveAttribute('role', 'button');
+    expect(zoneAB).toHaveAttribute('tabIndex', '0');
+    expect(zoneAB).toHaveAttribute('aria-label');
+  });
+
+  it('supports keyboard interaction for the Venn zones', () => {
+    render(<VennDiagram config={mockConfig} />);
+
+    // Select element 2 in pool
+    fireEvent.click(screen.getByTestId('badge-pool-2'));
+
+    // Move to zone B using Enter key
+    fireEvent.keyDown(screen.getByTestId('zone-b'), { key: 'Enter', code: 'Enter' });
+
+    // Element 2 should be in Set B circle
+    expect(screen.queryByTestId('badge-pool-2')).not.toBeInTheDocument();
+    expect(screen.getByTestId('badge-b-2')).toBeInTheDocument();
+
+    // Move element 1 in pool
+    fireEvent.click(screen.getByTestId('badge-pool-1'));
+
+    // Move to zone A using Space key
+    fireEvent.keyDown(screen.getByTestId('zone-a'), { key: ' ', code: 'Space' });
+
+    // Element 1 should be in Set A circle
+    expect(screen.queryByTestId('badge-pool-1')).not.toBeInTheDocument();
+    expect(screen.getByTestId('badge-a-1')).toBeInTheDocument();
+  });
+
+  it('sets aria-pressed correctly on pool items when selected', () => {
+    render(<VennDiagram config={mockConfig} />);
+
+    const badge1 = screen.getByTestId('badge-pool-1');
+    expect(badge1).toHaveAttribute('aria-pressed', 'false');
+
+    fireEvent.click(badge1);
+    expect(badge1).toHaveAttribute('aria-pressed', 'true');
+  });
+
+  it('resets state when config prop changes', () => {
+    const { rerender } = render(<VennDiagram config={mockConfig} />);
+
+    // Move 1 to A
+    fireEvent.click(screen.getByTestId('badge-pool-1'));
+    fireEvent.click(screen.getByText('A'));
+    expect(screen.getByTestId('badge-a-1')).toBeInTheDocument();
+
+    // Cause feedback
+    fireEvent.click(screen.getByTestId('btn-verify'));
+    expect(screen.getByTestId('venn-feedback')).toBeInTheDocument();
+
+    // Change configuration prop
+    const newConfig = {
+      setA: {
+        name: 'Tập X: Số nhỏ < 5',
+        elements: [1, 2]
+      },
+      setB: {
+        name: 'Tập Y: Số chẵn < 5',
+        elements: [2, 4]
+      }
+    };
+
+    rerender(<VennDiagram config={newConfig} />);
+
+    // The visualizer positions should reset. Element 1 is no longer in set A badge, but back in the pool
+    expect(screen.queryByTestId('badge-a-1')).not.toBeInTheDocument();
+    expect(screen.getByTestId('badge-pool-1')).toBeInTheDocument();
+    
+    // Check elements pool matches new elements: 1, 2, 4
+    expect(screen.getByTestId('badge-pool-1')).toBeInTheDocument();
+    expect(screen.getByTestId('badge-pool-2')).toBeInTheDocument();
+    expect(screen.getByTestId('badge-pool-4')).toBeInTheDocument();
+
+    // Feedback should be cleared
     expect(screen.queryByTestId('venn-feedback')).not.toBeInTheDocument();
   });
 });

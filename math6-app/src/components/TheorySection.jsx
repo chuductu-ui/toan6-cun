@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import VennDiagram from './visualizers/VennDiagram';
 
 export default function TheorySection({ lesson, onBack, onRecoverHearts }) {
   if (!lesson) return null;
 
   const [recovered, setRecovered] = useState(false);
+
+  useEffect(() => {
+    setRecovered(false);
+  }, [lesson.id]);
 
   const renderVisualizer = () => {
     const type = lesson.theory?.visualizerType;

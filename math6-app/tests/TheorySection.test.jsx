@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, afterEach } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
 import React from 'react';
 import TheorySection from '../src/components/TheorySection';
@@ -83,6 +83,10 @@ describe('TheorySection Component', () => {
     expect(onBackSpy).toHaveBeenCalledTimes(1);
   });
 
+  afterEach(() => {
+    vi.restoreAllMocks();
+  });
+
   it('handles heart recovery click correctly', () => {
     const onRecoverSpy = vi.fn();
     
@@ -107,7 +111,35 @@ describe('TheorySection Component', () => {
     expect(alertSpy).toHaveBeenCalledWith('Khôi phục 2 ❤️ thành công!');
     expect(screen.getByTestId('recover-success')).toBeInTheDocument();
     expect(recoverBtn).toBeDisabled();
+  });
 
-    alertSpy.mockRestore();
+  it('resets recovered state when lesson.id changes', () => {
+    const onRecoverSpy = vi.fn();
+    vi.spyOn(window, 'alert').mockImplementation(() => {});
+
+    const { rerender } = render(
+      <TheorySection 
+        lesson={mockLessonWithVenn} 
+        onBack={() => {}} 
+        onRecoverHearts={onRecoverSpy} 
+      />
+    );
+
+    const recoverBtn = screen.getByTestId('btn-recover');
+    fireEvent.click(recoverBtn);
+    expect(screen.getByTestId('recover-success')).toBeInTheDocument();
+    expect(recoverBtn).toBeDisabled();
+
+    // Rerender with another lesson (different id)
+    rerender(
+      <TheorySection 
+        lesson={mockLessonWithOther} 
+        onBack={() => {}} 
+        onRecoverHearts={onRecoverSpy} 
+      />
+    );
+
+    expect(screen.queryByTestId('recover-success')).not.toBeInTheDocument();
+    expect(screen.getByTestId('btn-recover')).not.toBeDisabled();
   });
 });
