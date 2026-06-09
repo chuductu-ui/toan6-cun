@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, afterEach, afterAll } from 'vitest';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import App from '../src/App';
 import { getHistory } from '../src/utils/storage';

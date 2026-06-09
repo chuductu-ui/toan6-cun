@@ -29,7 +29,7 @@ export function formatZaloMessage(lessonTitle, levelLabel, scoreText, timeSecond
   const minutes = Math.floor(safeSeconds / 60);
   const seconds = safeSeconds % 60;
   
-  let timeStr = '';
+  let timeStr;
   if (minutes === 0) {
     timeStr = `${seconds} giây`;
   } else if (seconds === 0) {

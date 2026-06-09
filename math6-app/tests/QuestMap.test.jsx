@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import QuestMap from '../src/components/QuestMap';
 
@@ -9,9 +10,9 @@ const mockCurriculum = {
       id: 'chapter-1',
       title: 'Chương I: Số tự nhiên',
       lessons: [
-        { id: 'lesson-1', title: 'Bài 1: Tập hợp' },
-        { id: 'lesson-2', title: 'Bài 2: Phép toán' },
-        { id: 'lesson-3', title: 'Bài 3: Lũy thừa' }
+        { id: 'lesson-1', title: 'Bài 1: Tập hợp', exercises: { easy: [], medium: [], hard: [] } },
+        { id: 'lesson-2', title: 'Bài 2: Phép toán', exercises: { easy: [], medium: [], hard: [] } },
+        { id: 'lesson-3', title: 'Bài 3: Lũy thừa', exercises: { easy: [], medium: [], hard: [] } }
       ]
     }
   ]

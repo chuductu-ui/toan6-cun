@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
 import QuestMap from './components/QuestMap';
 import LessonDrawer from './components/LessonDrawer';
@@ -45,6 +46,7 @@ export default function App() {
     // Calculate initial stars & progress from storage
     const history = getHistory();
     if (active) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setHistoryList(history);
 
       const loadedProgress = {};

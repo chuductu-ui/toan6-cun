@@ -1,5 +1,6 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen, fireEvent } from '@testing-library/react';
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import LessonDrawer from '../src/components/LessonDrawer';
 
@@ -66,6 +67,22 @@ describe('LessonDrawer Component', () => {
     const content = screen.getByTestId('drawer-content');
     fireEvent.click(content);
     expect(onClose).toHaveBeenCalledTimes(2);
+  });
+
+  it('calls onClose when Escape key is pressed', () => {
+    const onClose = vi.fn();
+    render(
+      <LessonDrawer 
+        lesson={mockLesson} 
+        progress={{}} 
+        onClose={onClose} 
+        onStartTheory={() => {}} 
+        onStartQuiz={() => {}} 
+      />
+    );
+
+    fireEvent.keyDown(window, { key: 'Escape' });
+    expect(onClose).toHaveBeenCalledTimes(1);
   });
 
   it('calls onStartTheory when start theory button is clicked', () => {
