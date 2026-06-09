@@ -20,7 +20,13 @@ export default function NumberLine() {
 
   const handleStartChange = (val) => {
     setError('');
-    const startVal = Math.max(-10, Math.min(10, Number(val)));
+    const num = Number(val);
+    if (isNaN(num)) {
+      setStart(0);
+      setValue(0);
+      return;
+    }
+    const startVal = Math.max(-10, Math.min(10, num));
     setStart(startVal);
     // Also move rabbit to new start if user updates it
     setValue(startVal);
@@ -28,7 +34,12 @@ export default function NumberLine() {
 
   const handleDiffChange = (val) => {
     setError('');
-    setDiff(Math.max(0, Number(val)));
+    const num = Number(val);
+    if (isNaN(num)) {
+      setDiff(1);
+      return;
+    }
+    setDiff(Math.max(0, num));
   };
 
   const handleSetStartAtCurrent = () => {
