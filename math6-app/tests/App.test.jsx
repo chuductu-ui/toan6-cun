@@ -1,4 +1,4 @@
-import { describe, it, expect, vi } from 'vitest';
+import { describe, it, expect, vi, afterEach, afterAll } from 'vitest';
 import { render, screen, fireEvent, waitFor } from '@testing-library/react';
 import React from 'react';
 import App from '../src/App';
@@ -6,6 +6,7 @@ import { getHistory } from '../src/utils/storage';
 
 vi.stubGlobal('fetch', vi.fn(() =>
   Promise.resolve({
+    ok: true,
     json: () => Promise.resolve({
       chapters: [
         {
@@ -60,11 +61,23 @@ vi.mock('../src/components/LessonDrawer', () => ({
 }));
 
 vi.mock('../src/components/QuizSection', () => ({
-  default: ({ hearts, setHearts, onBack }) => (
+  default: ({ hearts, setHearts, onBack, onCompleted, lesson, level }) => (
     <div data-testid="quiz-section">
       <span data-testid="quiz-hearts">{hearts}</span>
       <button data-testid="set-hearts-2-btn" onClick={() => setHearts(2)}>Set Hearts to 2</button>
       <button data-testid="back-to-map-btn" onClick={onBack}>Back</button>
+      <button 
+        data-testid="complete-quiz-btn" 
+        onClick={() => onCompleted(lesson.id, level, '10/10')}
+      >
+        Complete Perfect
+      </button>
+      <button 
+        data-testid="complete-quiz-non-perfect-btn" 
+        onClick={() => onCompleted(lesson.id, level, '7/10')}
+      >
+        Complete Non-Perfect
+      </button>
     </div>
   )
 }));
@@ -79,10 +92,18 @@ vi.mock('../src/components/TheorySection', () => ({
 }));
 
 describe('App Shell & Router Integration', () => {
+  afterEach(() => {
+    vi.clearAllMocks();
+  });
+
+  afterAll(() => {
+    vi.unstubAllGlobals();
+  });
+
   it('should render header with stats and Quest Map', async () => {
     vi.mocked(getHistory).mockReturnValue([]);
     render(<App />);
-    expect(screen.getByText(/Tải dữ liệu/i)).toBeInTheDocument();
+    expect(screen.getByText(/Tải dữ liệu Toán 6/i)).toBeInTheDocument();
     await waitFor(() => {
       expect(screen.getByText(/Bài 1: Tập hợp/i)).toBeInTheDocument();
     });
@@ -180,5 +201,53 @@ describe('App Shell & Router Integration', () => {
     
     // Verify modal is closed
     expect(screen.queryByText(/Nhật Ký Học Tập Của Cún/i)).not.toBeInTheDocument();
+  });
+
+  it('should upgrade stars correctly when Cún improves from a non-perfect score to a perfect score', async () => {
+    vi.mocked(getHistory).mockReturnValue([]);
+
+    render(<App />);
+
+    await waitFor(() => {
+      expect(screen.getByText(/Bài 1: Tập hợp/i)).toBeInTheDocument();
+    });
+
+    // 1. Initial stars is 0
+    let starBadge = screen.getByText(/⭐/i).closest('.stat-badge');
+    expect(starBadge).toHaveTextContent('0');
+
+    // 2. Open drawer and start quiz (which is easy level by default)
+    fireEvent.click(screen.getByTestId('lesson-bai-1'));
+    fireEvent.click(screen.getByTestId('start-quiz-btn'));
+
+    // 3. Complete quiz with a non-perfect score (7/10) -> Should gain 1 star
+    fireEvent.click(screen.getByTestId('complete-quiz-non-perfect-btn'));
+    starBadge = screen.getByText(/⭐/i).closest('.stat-badge');
+    expect(starBadge).toHaveTextContent('1');
+
+    // Go back to map view
+    fireEvent.click(screen.getByTestId('back-to-map-btn'));
+
+    // 4. Open drawer and start quiz again
+    fireEvent.click(screen.getByTestId('lesson-bai-1'));
+    fireEvent.click(screen.getByTestId('start-quiz-btn'));
+
+    // 5. Complete quiz with a perfect score (10/10) -> Should gain 2 more stars, making it 3
+    fireEvent.click(screen.getByTestId('complete-quiz-btn'));
+    starBadge = screen.getByText(/⭐/i).closest('.stat-badge');
+    expect(starBadge).toHaveTextContent('3');
+  });
+
+  it('should render friendly error banner if fetching lessons fails', async () => {
+    vi.mocked(fetch).mockRejectedValueOnce(new Error('Fetch failed'));
+
+    render(<App />);
+
+    await waitFor(() => {
+      expect(screen.getByTestId('error-banner')).toBeInTheDocument();
+      expect(screen.getByText(/Fetch failed/i)).toBeInTheDocument();
+    });
+
+    expect(screen.queryByText(/Tải dữ liệu Toán 6/i)).not.toBeInTheDocument();
   });
 });

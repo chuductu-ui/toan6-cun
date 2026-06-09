@@ -1,15 +1,6 @@
-import React, { useEffect, useState } from 'react';
-import { getHistory } from '../utils/storage';
+import React from 'react';
 
-export default function HistoryModal({ isOpen, onClose }) {
-  const [history, setHistory] = useState([]);
-
-  useEffect(() => {
-    if (isOpen) {
-      setHistory(getHistory());
-    }
-  }, [isOpen]);
-
+export default function HistoryModal({ isOpen, onClose, history = [] }) {
   if (!isOpen) return null;
 
   return (
@@ -34,15 +25,29 @@ export default function HistoryModal({ isOpen, onClose }) {
                 </tr>
               </thead>
               <tbody>
-                {history.map((h, i) => (
-                  <tr key={i}>
-                    <td><strong>{h.lessonTitle}</strong></td>
-                    <td><span className={`badge ${h.level}`}>{h.level.toUpperCase()}</span></td>
-                    <td><strong className="score-text">{h.score}</strong></td>
-                    <td>{Math.floor(h.timeTaken / 60)}m {h.timeTaken % 60}s</td>
-                    <td className="date-cell">{new Date(h.timestamp).toLocaleString('vi-VN')}</td>
-                  </tr>
-                ))}
+                {history.map((h, i) => {
+                  const time = h.timeTaken || 0;
+                  const minutes = Math.floor(time / 60);
+                  const seconds = time % 60;
+                  
+                  let dateStr = '---';
+                  if (h.timestamp) {
+                    const date = new Date(h.timestamp);
+                    if (!isNaN(date.getTime())) {
+                      dateStr = date.toLocaleString('vi-VN');
+                    }
+                  }
+
+                  return (
+                    <tr key={i}>
+                      <td><strong>{h.lessonTitle}</strong></td>
+                      <td><span className={`badge ${h.level}`}>{h.level ? h.level.toUpperCase() : ''}</span></td>
+                      <td><strong className="score-text">{h.score}</strong></td>
+                      <td>{minutes}m {seconds}s</td>
+                      <td className="date-cell">{dateStr}</td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           )}

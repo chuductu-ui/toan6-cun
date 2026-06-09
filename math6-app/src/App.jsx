@@ -9,49 +9,94 @@ import { getHistory } from './utils/storage';
 export default function App() {
   const [curriculum, setCurriculum] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
   const [stars, setStars] = useState(0);
   const [hearts, setHearts] = useState(5);
   const [selectedLesson, setSelectedLesson] = useState(null);
   const [currentView, setCurrentView] = useState({ type: 'map' }); // 'map', 'theory', 'quiz'
   const [historyOpen, setHistoryOpen] = useState(false);
-  const [progress, setProgress] = useState({}); // Map of { lessonId_level: true }
+  const [progress, setProgress] = useState({}); // Map of { lessonId_level: stars_count }
+  const [historyList, setHistoryList] = useState([]);
 
   useEffect(() => {
+    let active = true;
+
     fetch('/lessons.json')
-      .then(res => res.json())
-      .then(data => {
-        setCurriculum(data);
-        setLoading(false);
+      .then(res => {
+        if (!res.ok) {
+          throw new Error('Không thể tải bài học. Vui lòng thử lại sau.');
+        }
+        return res.json();
       })
-      .catch(err => console.error(err));
+      .then(data => {
+        if (active) {
+          setCurriculum(data);
+          setLoading(false);
+        }
+      })
+      .catch(err => {
+        console.error(err);
+        if (active) {
+          setError(err.message || 'Không thể tải dữ liệu bài học.');
+          setLoading(false);
+        }
+      });
 
     // Calculate initial stars & progress from storage
     const history = getHistory();
-    const loadedProgress = {};
-    let calculatedStars = 0;
-    history.forEach(item => {
-      const key = `${item.lessonId}_${item.level}`;
-      if (!loadedProgress[key]) {
-        loadedProgress[key] = true;
-        calculatedStars += item.score?.startsWith('10') ? 3 : 1; // 3 stars for perfect score, 1 otherwise
-      }
-    });
-    setProgress(loadedProgress);
-    setStars(calculatedStars);
+    if (active) {
+      setHistoryList(history);
+
+      const loadedProgress = {};
+      history.forEach(item => {
+        const key = `${item.lessonId}_${item.level}`;
+        const isPerfect = item.score?.startsWith('10');
+        const starsCount = isPerfect ? 3 : 1;
+        if (!loadedProgress[key] || starsCount > loadedProgress[key]) {
+          loadedProgress[key] = starsCount;
+        }
+      });
+      setProgress(loadedProgress);
+      const calculatedStars = Object.values(loadedProgress).reduce((acc, curr) => acc + curr, 0);
+      setStars(calculatedStars);
+    }
+
+    return () => {
+      active = false;
+    };
   }, []);
 
   const handleLevelCompleted = (lessonId, level, scoreText) => {
     const key = `${lessonId}_${level}`;
-    if (!progress[key]) {
-      const isPerfect = scoreText?.startsWith('10');
-      setStars(prev => prev + (isPerfect ? 3 : 1));
-      setProgress(prev => ({ ...prev, [key]: true }));
-    }
+    const isPerfect = scoreText?.startsWith('10');
+    const newStarsCount = isPerfect ? 3 : 1;
+
+    setProgress(prev => {
+      const currentStarsCount = prev[key] || 0;
+      if (newStarsCount > currentStarsCount) {
+        const updatedProgress = { ...prev, [key]: newStarsCount };
+        const newTotalStars = Object.values(updatedProgress).reduce((acc, curr) => acc + curr, 0);
+        setStars(newTotalStars);
+        return updatedProgress;
+      }
+      return prev;
+    });
+
+    setHistoryList(getHistory());
   };
 
   const recoverHearts = () => {
     setHearts(prev => Math.min(5, prev + 2));
   };
+
+  if (error) {
+    return (
+      <div className="error-banner" data-testid="error-banner" style={{ padding: '20px', textAlign: 'center', color: '#ff4d4f' }}>
+        <h2>⚠️ Lỗi tải dữ liệu</h2>
+        <p>{error}</p>
+      </div>
+    );
+  }
 
   if (loading) {
     return <div className="loading-screen">🔄 Tải dữ liệu Toán 6...</div>;
@@ -112,7 +157,7 @@ export default function App() {
         )}
       </main>
 
-      <HistoryModal isOpen={historyOpen} onClose={() => setHistoryOpen(false)} />
+      <HistoryModal isOpen={historyOpen} onClose={() => setHistoryOpen(false)} history={historyList} />
     </div>
   );
 }
