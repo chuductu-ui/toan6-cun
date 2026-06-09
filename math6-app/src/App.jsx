@@ -33,7 +33,7 @@ export default function App() {
       const key = `${item.lessonId}_${item.level}`;
       if (!loadedProgress[key]) {
         loadedProgress[key] = true;
-        calculatedStars += item.score.startsWith('10') ? 3 : 1; // 3 stars for perfect score, 1 otherwise
+        calculatedStars += item.score?.startsWith('10') ? 3 : 1; // 3 stars for perfect score, 1 otherwise
       }
     });
     setProgress(loadedProgress);
@@ -43,7 +43,7 @@ export default function App() {
   const handleLevelCompleted = (lessonId, level, scoreText) => {
     const key = `${lessonId}_${level}`;
     if (!progress[key]) {
-      const isPerfect = scoreText.startsWith('10');
+      const isPerfect = scoreText?.startsWith('10');
       setStars(prev => prev + (isPerfect ? 3 : 1));
       setProgress(prev => ({ ...prev, [key]: true }));
     }
