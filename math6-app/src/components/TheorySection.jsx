@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import VennDiagram from './visualizers/VennDiagram';
+import NumberLine from './visualizers/NumberLine';
+import DivisibilitySieve from './visualizers/DivisibilitySieve';
+import SymmetryLab from './visualizers/SymmetryLab';
 
 export default function TheorySection({ lesson, onBack, onRecoverHearts }) {
   if (!lesson) return null;
@@ -16,6 +19,15 @@ export default function TheorySection({ lesson, onBack, onRecoverHearts }) {
 
     if (type === 'VennDiagram') {
       return <VennDiagram config={config} />;
+    }
+    if (type === 'NumberLine') {
+      return <NumberLine />;
+    }
+    if (type === 'DivisibilitySieve') {
+      return <DivisibilitySieve />;
+    }
+    if (type === 'SymmetryLab') {
+      return <SymmetryLab />;
     }
 
     return (

@@ -23,7 +23,40 @@ const mockLessonWithOther = {
   description: 'Trục số nguyên.',
   theory: {
     explanation: 'Lý thuyết trục số.',
+    visualizerType: 'UnknownVisualizer',
+    visualizerConfig: {}
+  }
+};
+
+const mockLessonWithNumberLine = {
+  id: 'lesson-numberline',
+  title: 'Bài 2: Số nguyên',
+  description: 'Mô phỏng trục số.',
+  theory: {
+    explanation: 'Lý thuyết trục số.',
     visualizerType: 'NumberLine',
+    visualizerConfig: {}
+  }
+};
+
+const mockLessonWithSieve = {
+  id: 'lesson-sieve',
+  title: 'Bài 3: Ước và Bội',
+  description: 'Sàng chia hết.',
+  theory: {
+    explanation: 'Lý thuyết chia hết.',
+    visualizerType: 'DivisibilitySieve',
+    visualizerConfig: {}
+  }
+};
+
+const mockLessonWithSymmetry = {
+  id: 'lesson-symmetry',
+  title: 'Bài 4: Đối xứng',
+  description: 'Phòng thí nghiệm đối xứng.',
+  theory: {
+    explanation: 'Lý thuyết đối xứng.',
+    visualizerType: 'SymmetryLab',
     visualizerConfig: {}
   }
 };
@@ -56,7 +89,46 @@ describe('TheorySection Component', () => {
     expect(screen.queryByTestId('placeholder-visualizer')).not.toBeInTheDocument();
   });
 
-  it('renders placeholder visualizer when type is not VennDiagram', () => {
+  it('renders NumberLine visualizer when type is NumberLine', () => {
+    render(
+      <TheorySection 
+        lesson={mockLessonWithNumberLine} 
+        onBack={() => {}} 
+        onRecoverHearts={() => {}} 
+      />
+    );
+
+    expect(screen.getByTestId('numberline-visualizer')).toBeInTheDocument();
+    expect(screen.queryByTestId('placeholder-visualizer')).not.toBeInTheDocument();
+  });
+
+  it('renders DivisibilitySieve visualizer when type is DivisibilitySieve', () => {
+    render(
+      <TheorySection 
+        lesson={mockLessonWithSieve} 
+        onBack={() => {}} 
+        onRecoverHearts={() => {}} 
+      />
+    );
+
+    expect(screen.getByTestId('sieve-visualizer')).toBeInTheDocument();
+    expect(screen.queryByTestId('placeholder-visualizer')).not.toBeInTheDocument();
+  });
+
+  it('renders SymmetryLab visualizer when type is SymmetryLab', () => {
+    render(
+      <TheorySection 
+        lesson={mockLessonWithSymmetry} 
+        onBack={() => {}} 
+        onRecoverHearts={() => {}} 
+      />
+    );
+
+    expect(screen.getByTestId('symmetry-visualizer')).toBeInTheDocument();
+    expect(screen.queryByTestId('placeholder-visualizer')).not.toBeInTheDocument();
+  });
+
+  it('renders placeholder visualizer when type is not recognized', () => {
     render(
       <TheorySection 
         lesson={mockLessonWithOther} 
