@@ -1,0 +1,11 @@
+# Ignore the large textbook PDF
+toan6_T1_KNTT.pdf
+
+# Logs & temp files
+.gemini/
+.superpowers/
+.idea/
+.vscode/
+*.log
+node_modules/
+dist/
