@@ -1,0 +1,283 @@
+{
+  "chapters": [
+    {
+      "id": "chapter-1",
+      "title": "Chương I: Tập hợp các số tự nhiên",
+      "lessons": [
+        {
+          "id": "bai-1-tap-hop",
+          "title": "Bài 1: Tập hợp",
+          "description": "Làm quen với khái niệm tập hợp, phần tử và các ký hiệu thuộc (∈), không thuộc (∉).",
+          "theory": {
+            "explanation": "Tập hợp là sự gom nhóm các đối tượng có cùng một hoặc một vài đặc điểm chung. Các đối tượng này gọi là phần tử của tập hợp đó. Ta dùng kí hiệu ∈ (thuộc) để chỉ một phần tử nằm trong tập hợp, và ∉ (không thuộc) để chỉ phần tử không nằm trong tập hợp. Ví dụ: Nếu tập hợp A gồm các số lẻ nhỏ hơn 10: A = {1, 3, 5, 7, 9}, thì 3 ∈ A nhưng 4 ∉ A. Để trực quan hóa, ta có thể dùng biểu đồ Venn gồm hai vòng tròn giao nhau để xếp các phần tử vào đúng nhóm của chúng.",
+            "visualizerType": "VennDiagram",
+            "visualizerConfig": {
+              "setA": {
+                "name": "Tập A: Số lẻ < 10",
+                "elements": [1, 3, 5, 7, 9]
+              },
+              "setB": {
+                "name": "Tập B: Số nguyên tố < 10",
+                "elements": [2, 3, 5, 7]
+              }
+            }
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q1_1",
+                "type": "multiple-choice",
+                "question": "Cho tập hợp A = {2, 4, 6, 8}. Khẳng định nào sau đây là ĐÚNG?",
+                "options": ["5 ∈ A", "2 ∈ A", "4 ∉ A", "8 ∉ A"],
+                "correctAnswer": "2 ∈ A",
+                "explanation": "Số 2 nằm trong dấu ngoặc nhọn của tập hợp A nên số 2 là một phần tử của tập hợp A, ta viết 2 ∈ A."
+              },
+              {
+                "id": "q1_2",
+                "type": "multiple-choice",
+                "question": "Cho tập hợp M gồm các chữ cái trong từ \"HỌC TẬP\". Phần tử nào sau đây thuộc tập hợp M?",
+                "options": ["A", "H", "B", "U"],
+                "correctAnswer": "H",
+                "explanation": "Tập hợp M = {H, O, C, T, A, P} (lưu ý chữ cái không viết dấu và không lặp lại). Do đó chữ cái H thuộc tập hợp M."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q1_3",
+                "type": "multiple-choice",
+                "question": "Giao của hai tập hợp A = {1, 3, 5} và B = {3, 5, 7} là tập hợp nào?",
+                "options": ["{3, 5}", "{1, 7}", "{1, 3, 5, 7}", "Rỗng"],
+                "correctAnswer": "{3, 5}",
+                "explanation": "Giao của hai tập hợp là tập hợp gồm các phần tử chung của cả hai tập hợp đó. A và B đều có chung hai số 3 và 5, nên giao của chúng là {3, 5}."
+              },
+              {
+                "id": "q1_4",
+                "type": "multiple-choice",
+                "question": "Cách viết nào sau đây biểu diễn ĐÚNG tập hợp B gồm các số tự nhiên lớn hơn 5 và nhỏ hơn 10?",
+                "options": ["B = {6, 7, 8, 9}", "B = {5, 6, 7, 8, 9, 10}", "B = {6, 7, 8, 9, 10}", "B = {5, 6, 7, 8, 9}"],
+                "correctAnswer": "B = {6, 7, 8, 9}",
+                "explanation": "Các số tự nhiên lớn hơn 5 và nhỏ hơn 10 là 6, 7, 8, 9. Do đó B = {6, 7, 8, 9}."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q1_5",
+                "type": "multiple-choice",
+                "question": "Cho hai tập hợp X = {x ∈ N | x < 5} và Y = {2, 4, 6}. Tập hợp các phần tử thuộc X nhưng không thuộc Y là gì?",
+                "options": ["{0, 1, 3}", "{0, 1, 3, 4}", "{2, 4}", "{6}"],
+                "correctAnswer": "{0, 1, 3}",
+                "explanation": "X gồm các số tự nhiên nhỏ hơn 5 là {0, 1, 2, 3, 4}. Y = {2, 4, 6}. Các phần tử thuộc X nhưng không thuộc Y là các phần tử trong X sau khi loại bỏ 2 và 4, còn lại {0, 1, 3}."
+              },
+              {
+                "id": "q1_6",
+                "type": "multiple-choice",
+                "question": "Cho tập hợp P = {x ∈ N* | x là số chẵn nhỏ hơn 10}. Số lượng phần tử của tập hợp P là bao nhiêu?",
+                "options": ["4", "5", "9", "3"],
+                "correctAnswer": "4",
+                "explanation": "N* là tập hợp các số tự nhiên khác 0. Các số tự nhiên khác 0, chẵn và nhỏ hơn 10 là 2, 4, 6, 8. Vậy P = {2, 4, 6, 8}, có tất cả 4 phần tử."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-2-cach-ghi-so-tu-nhien",
+          "title": "Bài 2: Cách ghi số tự nhiên",
+          "description": "Tìm hiểu cách ghi số tự nhiên, hệ thập phân, chữ số La Mã và thực hành tìm ước, bội trên bảng số trực quan.",
+          "theory": {
+            "explanation": "Trong hệ thập phân, giá trị của mỗi chữ số phụ thuộc vào vị trí của nó. Ví dụ: Trong số 325, chữ số 3 ở hàng trăm nên giá trị của nó là 300. Ngoài ra, khi một số tự nhiên a chia hết cho số tự nhiên b (b khác 0), ta nói a là bội của b và b là ước của a. Sử dụng bảng số (Divisibility Sieve), ta có thể chọn một ước và tự động tô màu các bội số của nó để phát hiện ra các quy luật chia hết vô cùng thú vị.",
+            "visualizerType": "DivisibilitySieve",
+            "visualizerConfig": {}
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q2_1",
+                "type": "multiple-choice",
+                "question": "Trong số tự nhiên 5284, chữ số 2 nằm ở hàng nào và có giá trị bằng bao nhiêu?",
+                "options": ["Hàng trăm, giá trị 200", "Hàng chục, giá trị 20", "Hàng nghìn, giá trị 2000", "Hàng đơn vị, giá trị 2"],
+                "correctAnswer": "Hàng trăm, giá trị 200",
+                "explanation": "Số 5284 gồm 5 nghìn, 2 trăm, 8 chục, 4 đơn vị. Chữ số 2 đứng ở hàng trăm nên có giá trị là 200."
+              },
+              {
+                "id": "q2_2",
+                "type": "multiple-choice",
+                "question": "Số tự nhiên liền sau của số 9999 là số nào?",
+                "options": ["10000", "9998", "10001", "99990"],
+                "correctAnswer": "10000",
+                "explanation": "Số liền sau của số a là số a + 1. Vậy liền sau của 9999 là 9999 + 1 = 10000."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q2_3",
+                "type": "multiple-choice",
+                "question": "Viết số La Mã XXIV dưới dạng số tự nhiên trong hệ thập phân:",
+                "options": ["24", "16", "26", "14"],
+                "correctAnswer": "24",
+                "explanation": "Số La Mã XXIV gồm XX (20) và IV (4), tổng giá trị là 20 + 4 = 24."
+              },
+              {
+                "id": "q2_4",
+                "type": "multiple-choice",
+                "question": "Tìm tập hợp các ước của số tự nhiên 8:",
+                "options": ["{1, 2, 4, 8}", "{2, 4}", "{1, 2, 4}", "{0, 1, 2, 4, 8}"],
+                "correctAnswer": "{1, 2, 4, 8}",
+                "explanation": "Ước của 8 là các số tự nhiên mà 8 chia hết cho chúng. 8 chia hết cho 1, 2, 4, 8. Nên tập hợp các ước của 8 là {1, 2, 4, 8}."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q2_5",
+                "type": "multiple-choice",
+                "question": "Cho ba chữ số 0, 3, 5. Có thể viết được bao nhiêu số tự nhiên có ba chữ số khác nhau từ ba chữ số trên?",
+                "options": ["4 số", "6 số", "3 số", "5 số"],
+                "correctAnswer": "4 số",
+                "explanation": "Số có ba chữ số thì chữ số hàng trăm phải khác 0, nên chữ số hàng trăm chỉ có thể là 3 hoặc 5. Nếu trăm là 3, ta có: 305, 350. Nếu trăm là 5, ta có: 503, 530. Tổng cộng có 4 số."
+              },
+              {
+                "id": "q2_6",
+                "type": "multiple-choice",
+                "question": "Tìm số tự nhiên x biết x vừa là bội của 5, vừa là ước của 30, và thỏa mãn 10 < x < 20.",
+                "options": ["15", "12", "25", "30"],
+                "correctAnswer": "15",
+                "explanation": "Ước của 30 là {1, 2, 3, 5, 6, 10, 15, 30}. Bội của 5 là {0, 5, 10, 15, 20, 25, 30, ...}. Số vừa là ước của 30, vừa là bội của 5 và nằm trong khoảng từ 10 đến 20 là 15."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-3-lam-quen-so-nguyen-am",
+          "title": "Bài 3: Làm quen với số nguyên âm",
+          "description": "Làm quen với số nguyên âm, tập hợp số nguyên và các phép tính cộng trừ số nguyên trên trục số nằm ngang.",
+          "theory": {
+            "explanation": "Số nguyên âm biểu thị các đại lượng có hướng ngược với hướng dương (ví dụ: nhiệt độ dưới 0°C, độ sâu dưới mực nước biển, hoặc số tiền nợ). Tập hợp số nguyên Z gồm số nguyên âm, số 0 và số nguyên dương. Trên trục số (Number Line), các số âm nằm bên trái điểm 0, các số dương nằm bên phải điểm 0. Phép cộng (+) tương ứng với việc di chuyển sang phải, phép trừ (-) tương ứng với việc di chuyển sang trái.",
+            "visualizerType": "NumberLine",
+            "visualizerConfig": {}
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q3_1",
+                "type": "multiple-choice",
+                "question": "Nhiệt độ 5 độ dưới 0 độ C được biểu diễn bằng số nguyên nào?",
+                "options": ["-5 °C", "5 °C", "-50 °C", "0 °C"],
+                "correctAnswer": "-5 °C",
+                "explanation": "Nhiệt độ dưới 0 độ C được biểu diễn bằng số nguyên âm. Vì vậy, 5 độ dưới 0 độ C là -5 °C."
+              },
+              {
+                "id": "q3_2",
+                "type": "multiple-choice",
+                "question": "Số nguyên nào sau đây là số nguyên âm?",
+                "options": ["-12", "0", "7", "100"],
+                "correctAnswer": "-12",
+                "explanation": "Số nguyên âm có dấu trừ (-) ở đằng trước một số tự nhiên khác 0. Do đó -12 là số nguyên âm."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q3_3",
+                "type": "multiple-choice",
+                "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần (từ bé đến lớn): -3, 0, 2, -5, 1.",
+                "options": ["-5; -3; 0; 1; 2", "-3; -5; 0; 1; 2", "2; 1; 0; -3; -5", "-5; -3; 1; 0; 2"],
+                "correctAnswer": "-5; -3; 0; 1; 2",
+                "explanation": "Trên trục số, số nằm bên trái bé hơn số nằm bên phải. Số âm có giá trị tuyệt đối càng lớn thì càng bé. Do đó -5 < -3 < 0 < 1 < 2."
+              },
+              {
+                "id": "q3_4",
+                "type": "multiple-choice",
+                "question": "Trên trục số nằm ngang, điểm biểu diễn số -3 cách điểm biểu diễn số 2 bao nhiêu đơn vị?",
+                "options": ["5 đơn vị", "1 đơn vị", "3 đơn vị", "2 đơn vị"],
+                "correctAnswer": "5 đơn vị",
+                "explanation": "Khoảng cách từ -3 đến 0 là 3 đơn vị, từ 0 đến 2 là 2 đơn vị. Vậy tổng khoảng cách từ -3 đến 2 là 3 + 2 = 5 đơn vị."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q3_5",
+                "type": "multiple-choice",
+                "question": "Tìm tập hợp tất cả các số nguyên x thỏa mãn: -3 < x ≤ 2.",
+                "options": ["{-2, -1, 0, 1, 2}", "{-3, -2, -1, 0, 1, 2}", "{-2, -1, 0, 1}", "{-3, -2, -1, 0, 1}"],
+                "correctAnswer": "{-2, -1, 0, 1, 2}",
+                "explanation": "x là số nguyên lớn hơn -3 (tức là từ -2) và nhỏ hơn hoặc bằng 2 (tức là đến 2). Vậy các số nguyên thỏa mãn là -2, -1, 0, 1, 2."
+              },
+              {
+                "id": "q3_6",
+                "type": "multiple-choice",
+                "question": "Trong các khẳng định sau, khẳng định nào SAI?",
+                "options": ["Mọi số nguyên âm đều nhỏ hơn mọi số nguyên dương", "Số 0 là số nguyên dương lớn nhất", "Số nguyên âm lớn nhất là -1", "Số 0 không là số nguyên âm cũng không là số nguyên dương"],
+                "correctAnswer": "Số 0 là số nguyên dương lớn nhất",
+                "explanation": "Số 0 không phải là số nguyên dương và cũng không phải là số nguyên âm. Do đó khẳng định 'Số 0 là số nguyên dương lớn nhất' là sai."
+              }
+            ]
+          }
+        },
+        {
+          "id": "bai-4-hinh-co-truc-doi-xung",
+          "title": "Bài 4: Hình có trục đối xứng",
+          "description": "Nhận biết hình có trục đối xứng, tìm số trục đối xứng của các hình học phẳng và khám phá phòng thí nghiệm đối xứng trực quan.",
+          "theory": {
+            "explanation": "Một hình được gọi là hình có trục đối xứng nếu có một đường thẳng chia hình đó thành hai phần sao cho nếu ta 'gấp' hình theo đường thẳng đó thì hai phần đó trùng khít lên nhau. Đường thẳng đó được gọi là trục đối xứng của hình. Ví dụ: Hình vuông có 4 trục đối xứng, hình tam giác đều có 3 trục đối xứng, hình chữ nhật có 2 trục đối xứng, và hình tròn có vô số trục đối xứng. Trong phòng thí nghiệm đối xứng (Symmetry Lab), con có thể bật trục đối xứng và xoay hình để tự mình kiểm tra.",
+            "visualizerType": "SymmetryLab",
+            "visualizerConfig": {}
+          },
+          "exercises": {
+            "easy": [
+              {
+                "id": "q4_1",
+                "type": "multiple-choice",
+                "question": "Hình nào sau đây KHÔNG có trục đối xứng?",
+                "options": ["Hình tam giác thường", "Hình tròn", "Hình vuông", "Hình chữ nhật"],
+                "correctAnswer": "Hình tam giác thường",
+                "explanation": "Hình tam giác thường có ba cạnh khác nhau nên không có đường thẳng nào chia nó thành hai phần trùng khít khi gấp lại. Hình tròn, vuông và chữ nhật đều là các hình có trục đối xứng."
+              },
+              {
+                "id": "q4_2",
+                "type": "multiple-choice",
+                "question": "Hình chữ nhật có bao nhiêu trục đối xứng?",
+                "options": ["2 trục đối xứng", "4 trục đối xứng", "1 trục đối xứng", "Vô số trục đối xứng"],
+                "correctAnswer": "2 trục đối xứng",
+                "explanation": "Hình chữ nhật có 2 trục đối xứng là hai đường thẳng đi qua trung điểm của các cặp cạnh đối diện."
+              }
+            ],
+            "medium": [
+              {
+                "id": "q4_3",
+                "type": "multiple-choice",
+                "question": "Hình vuông có bao nhiêu trục đối xứng?",
+                "options": ["4 trục đối xứng", "2 trục đối xứng", "8 trục đối xứng", "Vô số trục đối xứng"],
+                "correctAnswer": "4 trục đối xứng",
+                "explanation": "Hình vuông có 4 trục đối xứng: 2 đường trung trực của các cạnh đối diện và 2 đường chéo."
+              },
+              {
+                "id": "q4_4",
+                "type": "multiple-choice",
+                "question": "Cho các chữ cái in hoa sau: B, A, N, M. Chữ cái nào có trục đối xứng nằm ngang?",
+                "options": ["Chữ B", "Chữ A", "Chữ N", "Chữ M"],
+                "correctAnswer": "Chữ B",
+                "explanation": "Chữ B có trục đối xứng nằm ngang chia đôi phần trên và phần dưới. Chữ A và M có trục đối xứng thẳng đứng, còn chữ N không có trục đối xứng."
+              }
+            ],
+            "hard": [
+              {
+                "id": "q4_5",
+                "type": "multiple-choice",
+                "question": "Hình tam giác đều có bao nhiêu trục đối xứng?",
+                "options": ["3 trục đối xứng", "1 trục đối xứng", "0 trục đối xứng", "6 trục đối xứng"],
+                "correctAnswer": "3 trục đối xứng",
+                "explanation": "Hình tam giác đều có 3 trục đối xứng là ba đường thẳng đi qua các đỉnh và trung điểm của cạnh đối diện tương ứng."
+              },
+              {
+                "id": "q4_6",
+                "type": "multiple-choice",
+                "question": "Trong các hình sau đây, hình nào có vô số trục đối xứng?",
+                "options": ["Hình tròn", "Hình lục giác đều", "Hình vuông", "Hình ngôi sao 5 cánh đều"],
+                "correctAnswer": "Hình tròn",
+                "explanation": "Hình tròn có vô số trục đối xứng là mọi đường thẳng đi qua tâm của nó."
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
