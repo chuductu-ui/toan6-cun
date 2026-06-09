@@ -1,122 +1,118 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import React, { useState, useEffect } from 'react';
+import QuestMap from './components/QuestMap';
+import LessonDrawer from './components/LessonDrawer';
+import TheorySection from './components/TheorySection';
+import QuizSection from './components/QuizSection';
+import HistoryModal from './components/HistoryModal';
+import { getHistory } from './utils/storage';
 
-function App() {
-  const [count, setCount] = useState(0)
+export default function App() {
+  const [curriculum, setCurriculum] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [stars, setStars] = useState(0);
+  const [hearts, setHearts] = useState(5);
+  const [selectedLesson, setSelectedLesson] = useState(null);
+  const [currentView, setCurrentView] = useState({ type: 'map' }); // 'map', 'theory', 'quiz'
+  const [historyOpen, setHistoryOpen] = useState(false);
+  const [progress, setProgress] = useState({}); // Map of { lessonId_level: true }
+
+  useEffect(() => {
+    fetch('/lessons.json')
+      .then(res => res.json())
+      .then(data => {
+        setCurriculum(data);
+        setLoading(false);
+      })
+      .catch(err => console.error(err));
+
+    // Calculate initial stars & progress from storage
+    const history = getHistory();
+    const loadedProgress = {};
+    let calculatedStars = 0;
+    history.forEach(item => {
+      const key = `${item.lessonId}_${item.level}`;
+      if (!loadedProgress[key]) {
+        loadedProgress[key] = true;
+        calculatedStars += item.score.startsWith('10') ? 3 : 1; // 3 stars for perfect score, 1 otherwise
+      }
+    });
+    setProgress(loadedProgress);
+    setStars(calculatedStars);
+  }, []);
+
+  const handleLevelCompleted = (lessonId, level, scoreText) => {
+    const key = `${lessonId}_${level}`;
+    if (!progress[key]) {
+      const isPerfect = scoreText.startsWith('10');
+      setStars(prev => prev + (isPerfect ? 3 : 1));
+      setProgress(prev => ({ ...prev, [key]: true }));
+    }
+  };
+
+  const recoverHearts = () => {
+    setHearts(prev => Math.min(5, prev + 2));
+  };
+
+  if (loading) {
+    return <div className="loading-screen">🔄 Tải dữ liệu Toán 6...</div>;
+  }
 
   return (
-    <>
-      <section id="center">
-        <div className="hero">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+    <div className="app-container">
+      <header className="app-header">
+        <div className="header-left" onClick={() => setCurrentView({ type: 'map' })}>
+          <span className="logo-emoji">🦉</span>
+          <div>
+            <h1>Toán 6 Phiêu Lưu Ký</h1>
+            <p className="student-name">Học sinh: <strong>Cún</strong></p>
+          </div>
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+        <div className="header-right">
+          <div className="stat-badge hearts">❤️ <span className="stat-val">{hearts}/5</span></div>
+          <div className="stat-badge stars">⭐ <span className="stat-val">{stars}</span></div>
+          <button className="btn-history" onClick={() => setHistoryOpen(true)}>📊 Lịch sử học</button>
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
-      </section>
+      </header>
 
-      <div className="ticks"></div>
+      <main className="app-main">
+        {currentView.type === 'map' && (
+          <>
+            <QuestMap 
+              curriculum={curriculum} 
+              progress={progress} 
+              onSelectLesson={setSelectedLesson} 
+            />
+            <LessonDrawer 
+              lesson={selectedLesson} 
+              progress={progress}
+              onClose={() => setSelectedLesson(null)} 
+              onStartTheory={() => setCurrentView({ type: 'theory' })}
+              onStartQuiz={(level) => setCurrentView({ type: 'quiz', level })}
+            />
+          </>
+        )}
 
-      <section id="next-steps">
-        <div id="docs">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#documentation-icon"></use>
-          </svg>
-          <h2>Documentation</h2>
-          <p>Your questions, answered</p>
-          <ul>
-            <li>
-              <a href="https://vite.dev/" target="_blank">
-                <img className="logo" src={viteLogo} alt="" />
-                Explore Vite
-              </a>
-            </li>
-            <li>
-              <a href="https://react.dev/" target="_blank">
-                <img className="button-icon" src={reactLogo} alt="" />
-                Learn more
-              </a>
-            </li>
-          </ul>
-        </div>
-        <div id="social">
-          <svg className="icon" role="presentation" aria-hidden="true">
-            <use href="/icons.svg#social-icon"></use>
-          </svg>
-          <h2>Connect with us</h2>
-          <p>Join the Vite community</p>
-          <ul>
-            <li>
-              <a href="https://github.com/vitejs/vite" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#github-icon"></use>
-                </svg>
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a href="https://chat.vite.dev/" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#discord-icon"></use>
-                </svg>
-                Discord
-              </a>
-            </li>
-            <li>
-              <a href="https://x.com/vite_js" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#x-icon"></use>
-                </svg>
-                X.com
-              </a>
-            </li>
-            <li>
-              <a href="https://bsky.app/profile/vite.dev" target="_blank">
-                <svg
-                  className="button-icon"
-                  role="presentation"
-                  aria-hidden="true"
-                >
-                  <use href="/icons.svg#bluesky-icon"></use>
-                </svg>
-                Bluesky
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
+        {currentView.type === 'theory' && (
+          <TheorySection 
+            lesson={selectedLesson} 
+            onBack={() => setCurrentView({ type: 'map' })} 
+            onRecoverHearts={recoverHearts}
+          />
+        )}
 
-      <div className="ticks"></div>
-      <section id="spacer"></section>
-    </>
-  )
+        {currentView.type === 'quiz' && (
+          <QuizSection 
+            lesson={selectedLesson} 
+            level={currentView.level} 
+            hearts={hearts}
+            setHearts={setHearts}
+            onCompleted={handleLevelCompleted}
+            onBack={() => setCurrentView({ type: 'map' })} 
+          />
+        )}
+      </main>
+
+      <HistoryModal isOpen={historyOpen} onClose={() => setHistoryOpen(false)} />
+    </div>
+  );
 }
-
-export default App
