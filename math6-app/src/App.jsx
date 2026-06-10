@@ -24,7 +24,7 @@ export default function App() {
   useEffect(() => {
     let active = true;
 
-    fetch('/lessons.json')
+    fetch('lessons.json')
       .then(res => {
         if (!res.ok) {
           throw new Error('Không thể tải bài học. Vui lòng thử lại sau.');
