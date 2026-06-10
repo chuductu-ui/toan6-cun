@@ -144,7 +144,18 @@
               }
             ]
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "chapter-2",
+      "title": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
+      "lessons": []
+    },
+    {
+      "id": "chapter-3",
+      "title": "Chương III: Số nguyên",
+      "lessons": [
         {
           "id": "bai-3-lam-quen-so-nguyen-am",
           "title": "Bài 3: Làm quen với số nguyên âm",
@@ -210,7 +221,18 @@
               }
             ]
           }
-        },
+        }
+      ]
+    },
+    {
+      "id": "chapter-4",
+      "title": "Chương IV: Một số hình phẳng trong thực tiễn",
+      "lessons": []
+    },
+    {
+      "id": "chapter-5",
+      "title": "Chương V: Tính đối xứng của hình phẳng trong tự nhiên",
+      "lessons": [
         {
           "id": "bai-4-hinh-co-truc-doi-xung",
           "title": "Bài 4: Hình có trục đối xứng",

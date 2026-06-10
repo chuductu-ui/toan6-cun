@@ -251,4 +251,33 @@ describe('App Shell & Router Integration', () => {
 
     expect(screen.queryByText(/Tải dữ liệu Toán 6/i)).not.toBeInTheDocument();
   });
+
+  it('should toggle table of contents modal and select a lesson', async () => {
+    vi.mocked(getHistory).mockReturnValue([]);
+    render(<App />);
+    
+    await waitFor(() => {
+      expect(screen.getByText(/Bài 1: Tập hợp/i)).toBeInTheDocument();
+    });
+
+    // Initially modal should not be in the document
+    expect(screen.queryByText(/Mục Lục Sách Giáo Khoa/i)).not.toBeInTheDocument();
+
+    // Click "📖 Mục lục" button
+    fireEvent.click(screen.getByTestId('btn-toc'));
+
+    // Verify modal is open
+    expect(screen.getByText(/Mục Lục Sách Giáo Khoa/i)).toBeInTheDocument();
+
+    // Click on Lesson 1 from the TOC list
+    const tocLesson1 = screen.getByTestId('toc-item-bai-1');
+    fireEvent.click(tocLesson1);
+
+    // Verify modal is closed
+    expect(screen.queryByText(/Mục Lục Sách Giáo Khoa/i)).not.toBeInTheDocument();
+    
+    // Verify that the lesson selection drawer is open
+    expect(screen.getByTestId('lesson-drawer')).toBeInTheDocument();
+    expect(screen.getByTestId('drawer-title')).toHaveTextContent('Bài 1: Tập hợp');
+  });
 });

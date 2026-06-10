@@ -26,6 +26,7 @@ export default function QuestMap({ curriculum, progress = {}, onSelectLesson }) 
                 return (
                   <button 
                     key={lesson.id} 
+                    id={`node-${lesson.id}`}
                     className={`lesson-node ${isCompleted ? 'completed' : ''} ${isCurrent ? 'active' : ''} ${!isActive ? 'locked' : ''}`}
                     onClick={() => onSelectLesson && onSelectLesson(lesson)}
                     disabled={!isActive}

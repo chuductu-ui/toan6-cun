@@ -5,6 +5,7 @@ import LessonDrawer from './components/LessonDrawer';
 import TheorySection from './components/TheorySection';
 import QuizSection from './components/QuizSection';
 import HistoryModal from './components/HistoryModal';
+import TableOfContentsModal from './components/TableOfContentsModal';
 import { getHistory } from './utils/storage';
 
 export default function App() {
@@ -16,6 +17,7 @@ export default function App() {
   const [selectedLesson, setSelectedLesson] = useState(null);
   const [currentView, setCurrentView] = useState({ type: 'map' }); // 'map', 'theory', 'quiz'
   const [historyOpen, setHistoryOpen] = useState(false);
+  const [tocOpen, setTocOpen] = useState(false);
   const [progress, setProgress] = useState({}); // Map of { lessonId_level: stars_count }
   const [historyList, setHistoryList] = useState([]);
 
@@ -91,6 +93,17 @@ export default function App() {
     setHearts(prev => Math.min(5, prev + 2));
   };
 
+  const handleSelectLessonFromToc = (lesson) => {
+    setSelectedLesson(lesson);
+    setCurrentView({ type: 'map' });
+    setTimeout(() => {
+      const element = document.getElementById(`node-${lesson.id}`);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+    }, 100);
+  };
+
   if (error) {
     return (
       <div className="error-banner" data-testid="error-banner" style={{ padding: '20px', textAlign: 'center', color: '#ff4d4f' }}>
@@ -117,6 +130,7 @@ export default function App() {
         <div className="header-right">
           <div className="stat-badge hearts">❤️ <span className="stat-val">{hearts}/5</span></div>
           <div className="stat-badge stars">⭐ <span className="stat-val">{stars}</span></div>
+          <button className="btn-toc" onClick={() => setTocOpen(true)} data-testid="btn-toc">📖 Mục lục</button>
           <button className="btn-history" onClick={() => setHistoryOpen(true)}>📊 Lịch sử học</button>
         </div>
       </header>
@@ -160,6 +174,13 @@ export default function App() {
       </main>
 
       <HistoryModal isOpen={historyOpen} onClose={() => setHistoryOpen(false)} history={historyList} />
+      <TableOfContentsModal 
+        isOpen={tocOpen} 
+        onClose={() => setTocOpen(false)} 
+        curriculum={curriculum} 
+        progress={progress} 
+        onSelectLesson={handleSelectLessonFromToc} 
+      />
     </div>
   );
 }

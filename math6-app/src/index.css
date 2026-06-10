@@ -1615,3 +1615,204 @@ button.option-card.incorrect .option-letter {
   70% { box-shadow: 0 0 0 15px rgba(75, 137, 220, 0); }
   100% { box-shadow: 0 0 0 0 rgba(75, 137, 220, 0); }
 }
+
+/* Table of Contents Modal & Button Styles */
+.btn-toc {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: var(--radius-sm);
+  font-family: var(--font-game);
+  font-size: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 4px 12px var(--primary-glow);
+  transition: var(--transition);
+}
+
+.btn-toc:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(155, 89, 182, 0.45);
+}
+
+.toc-modal {
+  max-width: 650px;
+  width: 90%;
+}
+
+.toc-subtitle {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.5;
+}
+
+.toc-body {
+  max-height: 60vh;
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+/* Custom Scrollbar for TOC list */
+.toc-body::-webkit-scrollbar {
+  width: 8px;
+}
+.toc-body::-webkit-scrollbar-track {
+  background: var(--bg);
+  border-radius: 4px;
+}
+.toc-body::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 4px;
+}
+.toc-body::-webkit-scrollbar-thumb:hover {
+  background: var(--text-muted);
+}
+
+.toc-chapter-section {
+  background: var(--bg);
+  border-radius: var(--radius-md);
+  padding: 1.2rem;
+  border: 1px solid var(--border);
+  margin-bottom: 1.2rem;
+}
+
+.toc-chapter-title {
+  margin: 0 0 1rem 0;
+  font-family: var(--font-game);
+  font-size: 1.1rem;
+  color: var(--primary);
+  border-bottom: 2px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+
+.toc-empty-chapter {
+  font-style: italic;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  padding: 0.5rem;
+}
+
+.toc-lessons-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.toc-lesson-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.9rem 1.2rem;
+  border-radius: var(--radius-sm);
+  border: 2px solid var(--border);
+  background: white;
+  cursor: pointer;
+  transition: var(--transition);
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.toc-lesson-item.active:hover {
+  border-color: var(--primary);
+  background: var(--primary-light);
+  transform: translateX(4px);
+}
+
+.toc-lesson-item.completed {
+  border-color: rgba(46, 204, 113, 0.4);
+  background: rgba(46, 204, 113, 0.02);
+}
+
+.toc-lesson-item.completed:hover {
+  border-color: var(--success);
+  background: var(--success-light);
+  transform: translateX(4px);
+}
+
+.toc-lesson-item.locked {
+  background: var(--bg);
+  border-color: var(--border);
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.toc-lesson-left {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  color: var(--text);
+}
+
+.toc-lesson-icon {
+  font-size: 1.2rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.toc-lesson-title {
+  font-weight: 700;
+  font-family: var(--font-game);
+  font-size: 0.95rem;
+}
+
+.toc-lesson-item.locked .toc-lesson-title {
+  color: var(--text-muted);
+  font-weight: normal;
+}
+
+.toc-lesson-progress {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.toc-badge {
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #e2e8f0;
+  color: #718096;
+  border: 1px solid #cbd5e0;
+}
+
+.toc-badge.easy.completed {
+  background: var(--success-light);
+  color: var(--success);
+  border-color: rgba(46, 204, 113, 0.4);
+}
+
+.toc-badge.medium.completed {
+  background: var(--warning-light);
+  color: #d4ac0d;
+  border-color: rgba(241, 196, 15, 0.4);
+}
+
+.toc-badge.hard.completed {
+  background: var(--danger-light);
+  color: var(--danger);
+  border-color: rgba(231, 76, 60, 0.4);
+}
+
+/* Header Responsive Layout for Small Screens */
+@media (max-width: 600px) {
+  .app-header {
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+  }
+  .header-left {
+    justify-content: center;
+  }
+  .header-right {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+  }
+  .btn-toc, .btn-history {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.85rem;
+  }
+}
