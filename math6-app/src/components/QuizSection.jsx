@@ -185,15 +185,18 @@ export default function QuizSection({ lesson, level, hearts, setHearts, onComple
             }
 
             return (
-              <div 
+              <button 
                 key={opt} 
                 className={`option-card ${optClass}`} 
                 onClick={() => handleAnswerSelect(opt)}
+                disabled={isAnswered}
+                type="button"
                 data-testid={`option-card-${optIndex}`}
+                aria-pressed={isSelected}
               >
                 <span className="option-letter">{String.fromCharCode(65 + optIndex)}</span>
                 <span className="option-text">{opt}</span>
-              </div>
+              </button>
             );
           })}
         </div>
