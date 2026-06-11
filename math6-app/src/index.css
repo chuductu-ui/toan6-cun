@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
 
 :root {
   --primary: #4b89dc;
@@ -19,7 +19,7 @@
   --radius-md: 16px;
   --radius-sm: 12px;
   --font-main: 'Inter', system-ui, sans-serif;
-  --font-game: 'Fredoka', 'Inter', system-ui, sans-serif;
+  --font-game: 'Quicksand', 'Inter', system-ui, sans-serif;
   --shadow: 0 8px 30px rgba(166, 173, 201, 0.25);
   --shadow-sm: 0 4px 10px rgba(166, 173, 201, 0.15);
   --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
