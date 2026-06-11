@@ -34,7 +34,7 @@ describe('QuestMap Component', () => {
     expect(screen.getByText('Bài 3: Lũy thừa')).toBeInTheDocument();
   });
 
-  it('unlocks only the first lesson when progress is empty', () => {
+  it('unlocks all lessons when progress is empty', () => {
     const onSelectLesson = vi.fn();
     render(
       <QuestMap 
@@ -44,33 +44,34 @@ describe('QuestMap Component', () => {
       />
     );
 
-    // First lesson should be active/unlocked
+    // All lessons should be active and unlocked
     const lesson1Node = screen.getByTestId('lesson-node-lesson-1');
     expect(lesson1Node).toHaveClass('active');
     expect(lesson1Node).not.toHaveClass('locked');
     expect(lesson1Node).not.toHaveClass('completed');
     expect(lesson1Node.querySelector('.node-button')).toHaveTextContent('📝');
 
-    // Second and third lessons should be locked
     const lesson2Node = screen.getByTestId('lesson-node-lesson-2');
-    expect(lesson2Node).toHaveClass('locked');
-    expect(lesson2Node.querySelector('.node-button')).toHaveTextContent('🔒');
+    expect(lesson2Node).toHaveClass('active');
+    expect(lesson2Node).not.toHaveClass('locked');
+    expect(lesson2Node.querySelector('.node-button')).toHaveTextContent('📝');
 
     const lesson3Node = screen.getByTestId('lesson-node-lesson-3');
-    expect(lesson3Node).toHaveClass('locked');
-    expect(lesson3Node.querySelector('.node-button')).toHaveTextContent('🔒');
+    expect(lesson3Node).toHaveClass('active');
+    expect(lesson3Node).not.toHaveClass('locked');
+    expect(lesson3Node.querySelector('.node-button')).toHaveTextContent('📝');
 
-    // Click on active lesson-1 should call onSelectLesson
+    // Click on lesson-1 should call onSelectLesson
     fireEvent.click(lesson1Node);
     expect(onSelectLesson).toHaveBeenCalledWith(mockCurriculum.chapters[0].lessons[0]);
 
-    // Click on locked lesson-2 should not call onSelectLesson
+    // Click on lesson-2 should also call onSelectLesson (unlocked!)
     onSelectLesson.mockClear();
     fireEvent.click(lesson2Node);
-    expect(onSelectLesson).not.toHaveBeenCalled();
+    expect(onSelectLesson).toHaveBeenCalledWith(mockCurriculum.chapters[0].lessons[1]);
   });
 
-  it('unlocks subsequent lesson only if all three levels of previous lesson are completed', () => {
+  it('keeps subsequent lessons unlocked and correctly computes isCompleted using progress', () => {
     const onSelectLesson = vi.fn();
     
     // Partial progress: only easy and medium completed for lesson-1
@@ -87,13 +88,14 @@ describe('QuestMap Component', () => {
       />
     );
 
-    // Lesson 1 is not fully completed, so lesson 2 should still be locked
+    // Lesson 1 is not fully completed
     let lesson1Node = screen.getByTestId('lesson-node-lesson-1');
     expect(lesson1Node).not.toHaveClass('completed');
     expect(lesson1Node).toHaveClass('active');
 
     let lesson2Node = screen.getByTestId('lesson-node-lesson-2');
-    expect(lesson2Node).toHaveClass('locked');
+    expect(lesson2Node).toHaveClass('active');
+    expect(lesson2Node).not.toHaveClass('locked');
 
     // Full progress: all three levels of lesson-1 completed
     const fullProgress = {
@@ -110,23 +112,45 @@ describe('QuestMap Component', () => {
       />
     );
 
-    // Now lesson 1 should be completed (👑) and lesson 2 should be active/unlocked (📝)
+    // Now lesson 1 should be completed (👑) and lesson 2 is still active/unlocked (📝)
     lesson1Node = screen.getByTestId('lesson-node-lesson-1');
     expect(lesson1Node).toHaveClass('completed');
     expect(lesson1Node.querySelector('.node-button')).toHaveTextContent('👑');
 
     lesson2Node = screen.getByTestId('lesson-node-lesson-2');
     expect(lesson2Node).toHaveClass('active');
-    expect(lesson2Node).not.toHaveClass('locked');
     expect(lesson2Node.querySelector('.node-button')).toHaveTextContent('📝');
 
-    // Lesson 3 should still be locked
     const lesson3Node = screen.getByTestId('lesson-node-lesson-3');
-    expect(lesson3Node).toHaveClass('locked');
-    expect(lesson3Node.querySelector('.node-button')).toHaveTextContent('🔒');
+    expect(lesson3Node).toHaveClass('active');
+    expect(lesson3Node.querySelector('.node-button')).toHaveTextContent('📝');
+  });
 
-    // Click on active lesson-2 should call onSelectLesson
-    fireEvent.click(lesson2Node);
-    expect(onSelectLesson).toHaveBeenCalledWith(mockCurriculum.chapters[0].lessons[1]);
+  it('renders placeholder lessons correctly with class and emoji', () => {
+    const placeholderCurriculum = {
+      chapters: [
+        {
+          id: 'chapter-1',
+          title: 'Chương I: Số tự nhiên',
+          lessons: [
+            { id: 'lesson-1', title: 'Bài 1: Tập hợp', exercises: { easy: [], medium: [], hard: [] } },
+            { id: 'lesson-2', title: 'Bài 2: Placeholder', isPlaceholder: true }
+          ]
+        }
+      ]
+    };
+
+    render(
+      <QuestMap 
+        curriculum={placeholderCurriculum} 
+        progress={{}} 
+        onSelectLesson={() => {}} 
+      />
+    );
+
+    const lesson2Node = screen.getByTestId('lesson-node-lesson-2');
+    expect(lesson2Node).toHaveClass('placeholder-node');
+    expect(lesson2Node.querySelector('.node-button')).toHaveTextContent('⏳');
+    expect(lesson2Node).not.toHaveAttribute('disabled');
   });
 });

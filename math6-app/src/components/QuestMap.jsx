@@ -2,8 +2,6 @@
 import React from 'react';
 
 export default function QuestMap({ curriculum, progress = {}, onSelectLesson }) {
-  let unlocked = true; // First lesson is unlocked
-
   return (
     <div className="quest-map">
       <h2 className="section-title">📍 Bản Đồ Bài Học</h2>
@@ -15,26 +13,40 @@ export default function QuestMap({ curriculum, progress = {}, onSelectLesson }) 
               {chapter.lessons && chapter.lessons.map((lesson) => {
                 const levels = Object.keys(lesson.exercises || {});
                 const isCompleted = levels.length > 0 && levels.every(level => progress[`${lesson.id}_${level}`]);
-                const isActive = unlocked;
-                const isCurrent = isActive && !isCompleted;
-                
-                // Next lesson is locked unless this one is fully completed
-                if (!isCompleted) unlocked = false;
+                const isActive = true; // All lessons are unlocked
+                const isCurrent = !isCompleted && !lesson.isPlaceholder;
 
-                const completionText = isCompleted ? 'Hoàn thành' : isActive ? 'Sẵn sàng học' : 'Đang khóa';
+                const completionText = isCompleted 
+                  ? 'Hoàn thành' 
+                  : lesson.isPlaceholder 
+                    ? 'Đang biên soạn' 
+                    : 'Sẵn sàng học';
+
+                const emoji = isCompleted 
+                  ? '👑' 
+                  : lesson.isPlaceholder 
+                    ? '⏳' 
+                    : '📝';
+
+                const buttonClass = [
+                  'lesson-node',
+                  lesson.isPlaceholder ? 'placeholder-node' : '',
+                  isCompleted ? 'completed' : '',
+                  isCurrent ? 'active' : ''
+                ].filter(Boolean).join(' ');
 
                 return (
                   <button 
                     key={lesson.id} 
                     id={`node-${lesson.id}`}
-                    className={`lesson-node ${isCompleted ? 'completed' : ''} ${isCurrent ? 'active' : ''} ${!isActive ? 'locked' : ''}`}
+                    className={buttonClass}
                     onClick={() => onSelectLesson && onSelectLesson(lesson)}
                     disabled={!isActive}
                     aria-label={`${lesson.title} - ${completionText}`}
                     data-testid={`lesson-node-${lesson.id}`}
                   >
                     <div className="node-button">
-                      {isCompleted ? '👑' : !isActive ? '🔒' : '📝'}
+                      {emoji}
                     </div>
                     <span className="node-label">{lesson.title}</span>
                   </button>

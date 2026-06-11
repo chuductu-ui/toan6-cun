@@ -1816,3 +1816,19 @@ button.option-card.incorrect .option-letter {
     font-size: 0.85rem;
   }
 }
+
+/* Placeholder Lesson Node Styles */
+.lesson-node.placeholder-node .node-button {
+  background: var(--text-muted);
+  box-shadow: 0 8px 16px rgba(127, 140, 141, 0.2);
+  border-color: #cbd5e1;
+}
+
+.lesson-node.placeholder-node:hover:not(:disabled) .node-button {
+  background: #64748b;
+  transform: scale(1.05) rotate(-3deg);
+}
+
+.lesson-node.placeholder-node .node-label {
+  color: var(--text-muted);
+}
