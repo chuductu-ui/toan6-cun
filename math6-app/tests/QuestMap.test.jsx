@@ -126,7 +126,7 @@ describe('QuestMap Component', () => {
     expect(lesson3Node.querySelector('.node-button')).toHaveTextContent('📝');
   });
 
-  it('renders placeholder lessons correctly with class and emoji', () => {
+  it('renders lessons with isPlaceholder as standard active lessons', () => {
     const placeholderCurriculum = {
       chapters: [
         {
@@ -149,8 +149,9 @@ describe('QuestMap Component', () => {
     );
 
     const lesson2Node = screen.getByTestId('lesson-node-lesson-2');
-    expect(lesson2Node).toHaveClass('placeholder-node');
-    expect(lesson2Node.querySelector('.node-button')).toHaveTextContent('⏳');
+    expect(lesson2Node).not.toHaveClass('placeholder-node');
+    expect(lesson2Node).toHaveClass('active');
+    expect(lesson2Node.querySelector('.node-button')).toHaveTextContent('📝');
     expect(lesson2Node).not.toHaveAttribute('disabled');
   });
 });

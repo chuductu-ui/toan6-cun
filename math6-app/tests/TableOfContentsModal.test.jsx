@@ -162,7 +162,7 @@ describe('TableOfContentsModal Component', () => {
     expect(lesson3).not.toBeDisabled();
   });
 
-  it('renders placeholder lessons correctly with placeholder class, ⏳ icon, and Sắp ra mắt badge', () => {
+  it('renders lessons with isPlaceholder as standard active lessons without placeholder styling or badge', () => {
     const placeholderCurriculum = {
       chapters: [
         {
@@ -191,9 +191,12 @@ describe('TableOfContentsModal Component', () => {
 
     const lesson1 = screen.getByTestId('toc-item-bai-1');
     expect(lesson1).not.toBeDisabled();
-    expect(lesson1).toHaveClass('placeholder');
-    expect(lesson1.querySelector('.toc-lesson-icon')).toHaveTextContent('⏳');
-    expect(screen.getByText('Sắp ra mắt')).toBeInTheDocument();
+    expect(lesson1).not.toHaveClass('placeholder');
+    expect(lesson1.querySelector('.toc-lesson-icon')).toHaveTextContent('📝');
+    expect(screen.queryByText('Sắp ra mắt')).not.toBeInTheDocument();
+    expect(screen.getByText('Dễ')).toBeInTheDocument();
+    expect(screen.getByText('TB')).toBeInTheDocument();
+    expect(screen.getByText('Khó')).toBeInTheDocument();
   });
 
   it('triggers onSelectLesson and onClose when active lesson is clicked', () => {

@@ -50,44 +50,36 @@ export default function LessonDrawer({ lesson, progress = {}, onClose, onStartTh
         <div className="drawer-body">
           <p className="lesson-desc">{lesson.description}</p>
           
-          {lesson.isPlaceholder ? (
-            <p className="placeholder-notice" data-testid="placeholder-notice">
-              Bài học này đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập thú vị cho con nhé! 🚀
-            </p>
-          ) : (
-            <>
-              <div className="theory-block">
-                <h4>📖 Phần 1: Học Lý Thuyết</h4>
-                <button className="btn-primary start-theory-btn" onClick={onStartTheory}>
-                  Xem bài giảng & Mô phỏng đồ họa ➔
-                </button>
-              </div>
+          <div className="theory-block">
+            <h4>📖 Phần 1: Học Lý Thuyết</h4>
+            <button className="btn-primary start-theory-btn" onClick={onStartTheory}>
+              Xem bài giảng & Mô phỏng đồ họa ➔
+            </button>
+          </div>
 
-              <div className="exercise-block">
-                <h4>🎯 Phần 2: Thử Thách Trắc Nghiệm</h4>
-                <div className="level-buttons">
-                  {levels.map((level, index) => {
-                    const meta = levelMeta[level] || { stars: '⭐', label: `Cấp độ ${level}`, className: level };
-                    const isCompleted = !!progress[`${lesson.id}_${level}`];
-                    const isUnlocked = index === 0 || !!progress[`${lesson.id}_${levels[index - 1]}`];
+          <div className="exercise-block">
+            <h4>🎯 Phần 2: Thử Thách Trắc Nghiệm</h4>
+            <div className="level-buttons">
+              {levels.map((level, index) => {
+                const meta = levelMeta[level] || { stars: '⭐', label: `Cấp độ ${level}`, className: level };
+                const isCompleted = !!progress[`${lesson.id}_${level}`];
+                const isUnlocked = index === 0 || !!progress[`${lesson.id}_${levels[index - 1]}`];
 
-                    return (
-                      <button
-                        key={level}
-                        className={`btn-level ${meta.className} ${!isUnlocked ? 'btn-locked' : ''}`}
-                        onClick={() => isUnlocked && onStartQuiz && onStartQuiz(level)}
-                        disabled={!isUnlocked}
-                        data-testid={`btn-level-${level}`}
-                      >
-                        <span>{meta.stars} {meta.label}</span>
-                        <span>{!isUnlocked ? '🔒 Khóa' : isCompleted ? '✅ Đã xong' : 'Chơi ➔'}</span>
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            </>
-          )}
+                return (
+                  <button
+                    key={level}
+                    className={`btn-level ${meta.className} ${!isUnlocked ? 'btn-locked' : ''}`}
+                    onClick={() => isUnlocked && onStartQuiz && onStartQuiz(level)}
+                    disabled={!isUnlocked}
+                    data-testid={`btn-level-${level}`}
+                  >
+                    <span>{meta.stars} {meta.label}</span>
+                    <span>{!isUnlocked ? '🔒 Khóa' : isCompleted ? '✅ Đã xong' : 'Chơi ➔'}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
       </div>
     </div>

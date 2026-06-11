@@ -186,7 +186,7 @@ describe('LessonDrawer Component', () => {
     expect(onStartQuiz).toHaveBeenCalledWith('hard');
   });
 
-  it('renders placeholder notice and hides theory/exercise blocks for placeholder lessons', () => {
+  it('does not render placeholder notice and shows theory/exercise blocks for all lessons', () => {
     const placeholderLesson = {
       id: 'lesson-placeholder',
       title: 'Bài 3: Placeholder Lesson',
@@ -207,12 +207,10 @@ describe('LessonDrawer Component', () => {
     expect(screen.getByText('Bài 3: Placeholder Lesson')).toBeInTheDocument();
     expect(screen.getByText('Bài học đang được biên soạn.')).toBeInTheDocument();
 
-    const notice = screen.getByTestId('placeholder-notice');
-    expect(notice).toBeInTheDocument();
-    expect(notice).toHaveTextContent(/Bài học này đang được biên soạn/i);
+    expect(screen.queryByTestId('placeholder-notice')).not.toBeInTheDocument();
 
-    expect(screen.queryByText('📖 Phần 1: Học Lý Thuyết')).not.toBeInTheDocument();
-    expect(screen.queryByText('🎯 Phần 2: Thử Thách Trắc Nghiệm')).not.toBeInTheDocument();
-    expect(screen.queryByText(/Xem bài giảng & Mô phỏng đồ họa/i)).not.toBeInTheDocument();
+    expect(screen.getByText('📖 Phần 1: Học Lý Thuyết')).toBeInTheDocument();
+    expect(screen.getByText('🎯 Phần 2: Thử Thách Trắc Nghiệm')).toBeInTheDocument();
+    expect(screen.getByText(/Xem bài giảng & Mô phỏng đồ họa/i)).toBeInTheDocument();
   });
 });

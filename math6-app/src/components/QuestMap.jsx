@@ -14,23 +14,18 @@ export default function QuestMap({ curriculum, progress = {}, onSelectLesson }) 
                 const levels = Object.keys(lesson.exercises || {});
                 const isCompleted = levels.length > 0 && levels.every(level => progress[`${lesson.id}_${level}`]);
                 const isActive = true; // All lessons are unlocked
-                const isCurrent = !isCompleted && !lesson.isPlaceholder;
+                const isCurrent = !isCompleted;
 
                 const completionText = isCompleted 
                   ? 'Hoàn thành' 
-                  : lesson.isPlaceholder 
-                    ? 'Đang biên soạn' 
-                    : 'Sẵn sàng học';
+                  : 'Sẵn sàng học';
 
                 const emoji = isCompleted 
                   ? '👑' 
-                  : lesson.isPlaceholder 
-                    ? '⏳' 
-                    : '📝';
+                  : '📝';
 
                 const buttonClass = [
                   'lesson-node',
-                  lesson.isPlaceholder ? 'placeholder-node' : '',
                   isCompleted ? 'completed' : '',
                   isCurrent ? 'active' : ''
                 ].filter(Boolean).join(' ');

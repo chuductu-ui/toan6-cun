@@ -63,20 +63,15 @@ export default function TableOfContentsModal({ isOpen, onClose, curriculum, prog
                       const isHardCompleted = !!progress[`${lesson.id}_hard`];
                       const statusText = status.isCompleted 
                         ? 'Đã hoàn thành' 
-                        : lesson.isPlaceholder 
-                          ? 'Sắp ra mắt' 
-                          : 'Sẵn sàng học';
+                        : 'Sẵn sàng học';
 
                       const icon = status.isCompleted 
                         ? '👑' 
-                        : lesson.isPlaceholder 
-                          ? '⏳' 
-                          : '📝';
+                        : '📝';
 
                       const buttonClass = [
                         'toc-lesson-item',
                         status.isCompleted ? 'completed' : '',
-                        lesson.isPlaceholder ? 'placeholder' : '',
                         status.isActive ? 'active' : 'locked'
                       ].filter(Boolean).join(' ');
 
@@ -94,20 +89,14 @@ export default function TableOfContentsModal({ isOpen, onClose, curriculum, prog
                         >
                           <div className="toc-lesson-left">
                             <span className="toc-lesson-icon">
-                              {icon}
+                               {icon}
                             </span>
                             <span className="toc-lesson-title">{lesson.title}</span>
                           </div>
                           <div className="toc-lesson-progress">
-                            {lesson.isPlaceholder ? (
-                              <span className="toc-placeholder-badge">Sắp ra mắt</span>
-                            ) : (
-                              <>
-                                <span className={`toc-badge easy ${isEasyCompleted ? 'completed' : ''}`}>Dễ</span>
-                                <span className={`toc-badge medium ${isMediumCompleted ? 'completed' : ''}`}>TB</span>
-                                <span className={`toc-badge hard ${isHardCompleted ? 'completed' : ''}`}>Khó</span>
-                              </>
-                            )}
+                            <span className={`toc-badge easy ${isEasyCompleted ? 'completed' : ''}`}>Dễ</span>
+                            <span className={`toc-badge medium ${isMediumCompleted ? 'completed' : ''}`}>TB</span>
+                            <span className={`toc-badge hard ${isHardCompleted ? 'completed' : ''}`}>Khó</span>
                           </div>
                         </button>
                       );
