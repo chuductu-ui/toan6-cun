@@ -144,21 +144,118 @@
               }
             ]
           }
+        },
+        {
+          "id": "bai-3-thu-tu-trong-tap-hop-cac-so-tu-nhien",
+          "title": "Bài 3: Thứ tự trong tập hợp các số tự nhiên",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-4-phep-cong-va-phep-tru-so-tu-nhien",
+          "title": "Bài 4: Phép cộng và phép trừ số tự nhiên",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-5-phep-nhan-va-phep-chia-so-tu-nhien",
+          "title": "Bài 5: Phép nhân và phép chia số tự nhiên",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "luyen-tap-chung-trang-20",
+          "title": "Luyện tập chung trang 20",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-6-luy-thua-voi-so-mu-tu-nhien",
+          "title": "Bài 6: Lũy thừa với số mũ tự nhiên",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-7-thu-tu-thuc-hien-cac-phep-tinh",
+          "title": "Bài 7: Thứ tự thực hiện các phép tính",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "luyen-tap-chung-trang-27",
+          "title": "Luyện tập chung trang 27",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-tap-cuoi-chuong-1",
+          "title": "Bài tập cuối chương I",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
         }
       ]
     },
     {
       "id": "chapter-2",
       "title": "Chương II: Tính chia hết trong tập hợp các số tự nhiên",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "bai-8-quan-he-chia-het-va-tinh-chat",
+          "title": "Bài 8: Quan hệ chia hết và tính chất",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-9-dau-hieu-chia-het",
+          "title": "Bài 9: Dấu hiệu chia hết",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-10-so-nguyen-to",
+          "title": "Bài 10: Số nguyên tố",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "luyen-tap-chung-trang-43",
+          "title": "Luyện tập chung trang 43",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-11-uoc-chung-uoc-chung-lon-nhat",
+          "title": "Bài 11: Ước chung. Ước chung lớn nhất",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-12-boi-chung-boi-chung-nho-nhat",
+          "title": "Bài 12: Bội chung. Bội chung nhỏ nhất",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "luyen-tap-chung-trang-56",
+          "title": "Luyện tập chung trang 56",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-tap-cuoi-chuong-2",
+          "title": "Bài tập cuối chương II",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        }
+      ]
     },
     {
       "id": "chapter-3",
       "title": "Chương III: Số nguyên",
       "lessons": [
         {
-          "id": "bai-3-lam-quen-so-nguyen-am",
-          "title": "Bài 3: Làm quen với số nguyên âm",
+          "id": "bai-13-tap-hop-cac-so-nguyen",
+          "title": "Bài 13: Tập hợp các số nguyên",
           "description": "Làm quen với số nguyên âm, tập hợp số nguyên và các phép tính cộng trừ số nguyên trên trục số nằm ngang.",
           "theory": {
             "explanation": "Số nguyên âm biểu thị các đại lượng có hướng ngược với hướng dương (ví dụ: nhiệt độ dưới 0°C, độ sâu dưới mực nước biển, hoặc số tiền nợ). Tập hợp số nguyên Z gồm số nguyên âm, số 0 và số nguyên dương. Trên trục số (Number Line), các số âm nằm bên trái điểm 0, các số dương nằm bên phải điểm 0. Phép cộng (+) tương ứng với việc di chuyển sang phải, phép trừ (-) tương ứng với việc di chuyển sang trái.",
@@ -221,21 +318,94 @@
               }
             ]
           }
+        },
+        {
+          "id": "bai-14-phep-cong-va-phep-tru-so-nguyen",
+          "title": "Bài 14: Phép cộng và phép trừ số nguyên",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-15-quy-tac-dau-ngoac",
+          "title": "Bài 15: Quy tắc dấu ngoặc",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "luyen-tap-chung-trang-69",
+          "title": "Luyện tập chung trang 69",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-16-phep-nhan-so-nguyen",
+          "title": "Bài 16: Phép nhân số nguyên",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-17-phep-chia-het-uoc-va-boi-cua-mot-so-nguyen",
+          "title": "Bài 17: Phép chia hết. Ước và bội của một số nguyên",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "luyen-tap-chung-trang-75",
+          "title": "Luyện tập chung trang 75",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-tap-cuoi-chuong-3",
+          "title": "Bài tập cuối chương III",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
         }
       ]
     },
     {
       "id": "chapter-4",
       "title": "Chương IV: Một số hình phẳng trong thực tiễn",
-      "lessons": []
+      "lessons": [
+        {
+          "id": "bai-18-hinh-tam-giac-deu-hinh-vuong-hinh-luc-giac-deu",
+          "title": "Bài 18: Hình tam giác đều. Hình vuông. Hình lục giác đều",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-19-hinh-chu-nhat-hinh-thoi-hinh-binh-hanh-hinh-thang-can",
+          "title": "Bài 19: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-20-chu-vi-va-dien-tich-cua-mot-so-tu-giac-da-hoc",
+          "title": "Bài 20: Chu vi và diện tích của một số tứ giác đã học",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "luyen-tap-chung-trang-95",
+          "title": "Luyện tập chung trang 95",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-tap-cuoi-chuong-4",
+          "title": "Bài tập cuối chương IV",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        }
+      ]
     },
     {
       "id": "chapter-5",
       "title": "Chương V: Tính đối xứng của hình phẳng trong tự nhiên",
       "lessons": [
         {
-          "id": "bai-4-hinh-co-truc-doi-xung",
-          "title": "Bài 4: Hình có trục đối xứng",
+          "id": "bai-21-hinh-co-truc-doi-xung",
+          "title": "Bài 21: Hình có trục đối xứng",
           "description": "Nhận biết hình có trục đối xứng, tìm số trục đối xứng của các hình học phẳng và khám phá phòng thí nghiệm đối xứng trực quan.",
           "theory": {
             "explanation": "Một hình được gọi là hình có trục đối xứng nếu có một đường thẳng chia hình đó thành hai phần sao cho nếu ta 'gấp' hình theo đường thẳng đó thì hai phần đó trùng khít lên nhau. Đường thẳng đó được gọi là trục đối xứng của hình. Ví dụ: Hình vuông có 4 trục đối xứng, hình tam giác đều có 3 trục đối xứng, hình chữ nhật có 2 trục đối xứng, và hình tròn có vô số trục đối xứng. Trong phòng thí nghiệm đối xứng (Symmetry Lab), con có thể bật trục đối xứng và xoay hình để tự mình kiểm tra.",
@@ -298,6 +468,24 @@
               }
             ]
           }
+        },
+        {
+          "id": "bai-22-hinh-co-tam-doi-xung",
+          "title": "Bài 22: Hình có tâm đối xứng",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "luyen-tap-chung-trang-108",
+          "title": "Luyện tập chung trang 108",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
+        },
+        {
+          "id": "bai-tap-cuoi-chuong-5",
+          "title": "Bài tập cuối chương V",
+          "isPlaceholder": true,
+          "description": "Bài học đang được biên soạn. Bố Mẹ sẽ sớm cập nhật lý thuyết và bài tập nhé!"
         }
       ]
     }
