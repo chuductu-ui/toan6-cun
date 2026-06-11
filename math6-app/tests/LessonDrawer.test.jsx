@@ -102,9 +102,9 @@ describe('LessonDrawer Component', () => {
     expect(onStartTheory).toHaveBeenCalledTimes(1);
   });
 
-  it('unlocks quiz levels sequentially based on progress', () => {
+  it('renders all quiz levels as unlocked by default', () => {
     const onStartQuiz = vi.fn();
-    const { rerender } = render(
+    render(
       <LessonDrawer 
         lesson={mockLesson} 
         progress={{}} 
@@ -114,75 +114,29 @@ describe('LessonDrawer Component', () => {
       />
     );
 
-    // Initial state: Easy unlocked, Medium and Hard locked
+    // All levels should be unlocked and clickable
     const easyBtn = screen.getByTestId('btn-level-easy');
     expect(easyBtn).not.toHaveClass('btn-locked');
     expect(easyBtn).not.toBeDisabled();
 
     const mediumBtn = screen.getByTestId('btn-level-medium');
-    expect(mediumBtn).toHaveClass('btn-locked');
-    expect(mediumBtn).toBeDisabled();
+    expect(mediumBtn).not.toHaveClass('btn-locked');
+    expect(mediumBtn).not.toBeDisabled();
 
     const hardBtn = screen.getByTestId('btn-level-hard');
-    expect(hardBtn).toHaveClass('btn-locked');
-    expect(hardBtn).toBeDisabled();
+    expect(hardBtn).not.toHaveClass('btn-locked');
+    expect(hardBtn).not.toBeDisabled();
 
-    // Clicking easy should trigger callback
+    // Clicking any level should trigger callback
     fireEvent.click(easyBtn);
     expect(onStartQuiz).toHaveBeenCalledWith('easy');
 
-    // Clicking medium or hard should not trigger callback
     onStartQuiz.mockClear();
     fireEvent.click(mediumBtn);
-    expect(onStartQuiz).not.toHaveBeenCalled();
-
-    // Rerender with Easy completed
-    rerender(
-      <LessonDrawer 
-        lesson={mockLesson} 
-        progress={{ 'lesson-1_easy': 3 }} 
-        onClose={() => {}} 
-        onStartTheory={() => {}} 
-        onStartQuiz={onStartQuiz} 
-      />
-    );
-
-    // Easy completed, Medium unlocked, Hard still locked
-    expect(screen.getByTestId('btn-level-easy')).toHaveTextContent('✅ Đã xong');
-    
-    const mediumBtnUnlocked = screen.getByTestId('btn-level-medium');
-    expect(mediumBtnUnlocked).not.toHaveClass('btn-locked');
-    expect(mediumBtnUnlocked).not.toBeDisabled();
-    
-    const hardBtnLocked = screen.getByTestId('btn-level-hard');
-    expect(hardBtnLocked).toHaveClass('btn-locked');
-    expect(hardBtnLocked).toBeDisabled();
-
-    // Clicking medium should trigger callback
-    fireEvent.click(mediumBtnUnlocked);
     expect(onStartQuiz).toHaveBeenCalledWith('medium');
 
-    // Rerender with Easy and Medium completed
-    rerender(
-      <LessonDrawer 
-        lesson={mockLesson} 
-        progress={{ 'lesson-1_easy': 3, 'lesson-1_medium': 1 }} 
-        onClose={() => {}} 
-        onStartTheory={() => {}} 
-        onStartQuiz={onStartQuiz} 
-      />
-    );
-
-    // Easy and Medium completed, Hard unlocked
-    expect(screen.getByTestId('btn-level-medium')).toHaveTextContent('✅ Đã xong');
-    
-    const hardBtnUnlocked = screen.getByTestId('btn-level-hard');
-    expect(hardBtnUnlocked).not.toHaveClass('btn-locked');
-    expect(hardBtnUnlocked).not.toBeDisabled();
-
-    // Clicking hard should trigger callback
     onStartQuiz.mockClear();
-    fireEvent.click(hardBtnUnlocked);
+    fireEvent.click(hardBtn);
     expect(onStartQuiz).toHaveBeenCalledWith('hard');
   });
 

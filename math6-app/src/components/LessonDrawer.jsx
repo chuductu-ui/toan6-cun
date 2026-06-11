@@ -63,18 +63,17 @@ export default function LessonDrawer({ lesson, progress = {}, onClose, onStartTh
               {levels.map((level, index) => {
                 const meta = levelMeta[level] || { stars: '⭐', label: `Cấp độ ${level}`, className: level };
                 const isCompleted = !!progress[`${lesson.id}_${level}`];
-                const isUnlocked = index === 0 || !!progress[`${lesson.id}_${levels[index - 1]}`];
+                const isUnlocked = true;
 
                 return (
                   <button
                     key={level}
-                    className={`btn-level ${meta.className} ${!isUnlocked ? 'btn-locked' : ''}`}
-                    onClick={() => isUnlocked && onStartQuiz && onStartQuiz(level)}
-                    disabled={!isUnlocked}
+                    className={`btn-level ${meta.className}`}
+                    onClick={() => onStartQuiz && onStartQuiz(level)}
                     data-testid={`btn-level-${level}`}
                   >
                     <span>{meta.stars} {meta.label}</span>
-                    <span>{!isUnlocked ? '🔒 Khóa' : isCompleted ? '✅ Đã xong' : 'Chơi ➔'}</span>
+                    <span>{isCompleted ? '✅ Đã xong' : 'Chơi ➔'}</span>
                   </button>
                 );
               })}
