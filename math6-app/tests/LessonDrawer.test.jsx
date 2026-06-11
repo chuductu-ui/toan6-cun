@@ -185,4 +185,34 @@ describe('LessonDrawer Component', () => {
     fireEvent.click(hardBtnUnlocked);
     expect(onStartQuiz).toHaveBeenCalledWith('hard');
   });
+
+  it('renders placeholder notice and hides theory/exercise blocks for placeholder lessons', () => {
+    const placeholderLesson = {
+      id: 'lesson-placeholder',
+      title: 'Bài 3: Placeholder Lesson',
+      description: 'Bài học đang được biên soạn.',
+      isPlaceholder: true
+    };
+
+    render(
+      <LessonDrawer 
+        lesson={placeholderLesson} 
+        progress={{}} 
+        onClose={() => {}} 
+        onStartTheory={() => {}} 
+        onStartQuiz={() => {}} 
+      />
+    );
+
+    expect(screen.getByText('Bài 3: Placeholder Lesson')).toBeInTheDocument();
+    expect(screen.getByText('Bài học đang được biên soạn.')).toBeInTheDocument();
+
+    const notice = screen.getByTestId('placeholder-notice');
+    expect(notice).toBeInTheDocument();
+    expect(notice).toHaveTextContent(/Bài học này đang được biên soạn/i);
+
+    expect(screen.queryByText('📖 Phần 1: Học Lý Thuyết')).not.toBeInTheDocument();
+    expect(screen.queryByText('🎯 Phần 2: Thử Thách Trắc Nghiệm')).not.toBeInTheDocument();
+    expect(screen.queryByText(/Xem bài giảng & Mô phỏng đồ họa/i)).not.toBeInTheDocument();
+  });
 });
