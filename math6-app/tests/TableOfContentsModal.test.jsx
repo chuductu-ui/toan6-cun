@@ -77,7 +77,7 @@ describe('TableOfContentsModal Component', () => {
     expect(screen.getByText('Chương III: Số nguyên')).toBeInTheDocument();
   });
 
-  it('correctly unlocks only the first lesson when progress is empty', () => {
+  it('unlocks all lessons by default when progress is empty', () => {
     render(
       <TableOfContentsModal 
         isOpen={true} 
@@ -93,11 +93,11 @@ describe('TableOfContentsModal Component', () => {
     const lesson3 = screen.getByTestId('toc-item-bai-3');
 
     expect(lesson1).not.toBeDisabled();
-    expect(lesson2).toBeDisabled();
-    expect(lesson3).toBeDisabled();
+    expect(lesson2).not.toBeDisabled();
+    expect(lesson3).not.toBeDisabled();
   });
 
-  it('unlocks subsequent lessons sequentially based on progress', () => {
+  it('correctly styles completed lessons based on progress while keeping all lessons unlocked', () => {
     // Complete lesson 1 (all easy, medium, hard levels cleared)
     const progress = {
       'bai-1_easy': 3,
@@ -120,11 +120,19 @@ describe('TableOfContentsModal Component', () => {
     const lesson3 = screen.getByTestId('toc-item-bai-3');
 
     expect(lesson1).not.toBeDisabled();
-    expect(lesson2).not.toBeDisabled(); // Lesson 2 is unlocked since lesson 1 is complete
-    expect(lesson3).toBeDisabled(); // Lesson 3 is locked since lesson 2 is not complete
+    expect(lesson1).toHaveClass('completed');
+    expect(lesson1.querySelector('.toc-lesson-icon')).toHaveTextContent('👑');
+
+    expect(lesson2).not.toBeDisabled();
+    expect(lesson2).not.toHaveClass('completed');
+    expect(lesson2.querySelector('.toc-lesson-icon')).toHaveTextContent('📝');
+
+    expect(lesson3).not.toBeDisabled();
+    expect(lesson3).not.toHaveClass('completed');
+    expect(lesson3.querySelector('.toc-lesson-icon')).toHaveTextContent('📝');
   });
 
-  it('skips empty chapters in unlocking path', () => {
+  it('renders all lessons as active/enabled across chapters', () => {
     // Complete lesson 1 and lesson 2
     const progress = {
       'bai-1_easy': 3,
@@ -151,7 +159,41 @@ describe('TableOfContentsModal Component', () => {
 
     expect(lesson1).not.toBeDisabled();
     expect(lesson2).not.toBeDisabled();
-    expect(lesson3).not.toBeDisabled(); // Should skip the empty Chapter II and unlock Lesson 3
+    expect(lesson3).not.toBeDisabled();
+  });
+
+  it('renders placeholder lessons correctly with placeholder class, ⏳ icon, and Sắp ra mắt badge', () => {
+    const placeholderCurriculum = {
+      chapters: [
+        {
+          id: 'chapter-1',
+          title: 'Chương I: Tập hợp các số tự nhiên',
+          lessons: [
+            {
+              id: 'bai-1',
+              title: 'Bài 1: Tập hợp',
+              isPlaceholder: true
+            }
+          ]
+        }
+      ]
+    };
+
+    render(
+      <TableOfContentsModal 
+        isOpen={true} 
+        onClose={() => {}} 
+        curriculum={placeholderCurriculum} 
+        progress={{}} 
+        onSelectLesson={() => {}} 
+      />
+    );
+
+    const lesson1 = screen.getByTestId('toc-item-bai-1');
+    expect(lesson1).not.toBeDisabled();
+    expect(lesson1).toHaveClass('placeholder');
+    expect(lesson1.querySelector('.toc-lesson-icon')).toHaveTextContent('⏳');
+    expect(screen.getByText('Sắp ra mắt')).toBeInTheDocument();
   });
 
   it('triggers onSelectLesson and onClose when active lesson is clicked', () => {
