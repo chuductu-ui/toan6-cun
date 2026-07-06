@@ -601,7 +601,13 @@ export default function App() {
           <form className="modal-content" onSubmit={handleSaveSettings}>
             <div className="modal-header">
               <h3>⚙️ Cài đặt đồng bộ GitHub & Email</h3>
+              <button type="button" className="modal-close-btn" onClick={() => setShowSettings(false)} title="Đóng">✕</button>
             </div>
+            {(token || keyDad || keyMom) && (
+              <div style={{ background: '#f0fdf4', border: '1px solid #86efac', borderRadius: 8, padding: '0.6rem 1rem', fontSize: '0.82rem', color: '#166534' }}>
+                ✅ Thông tin đã được điền tự động từ bookmark. Kiểm tra rồi bấm <strong>Lưu & Đồng bộ</strong>.
+              </div>
+            )}
             <div className="modal-body">
               <div className="form-group">
                 <label className="form-label">GitHub Personal Access Token (PAT):</label>
@@ -655,7 +661,7 @@ export default function App() {
             
             <div className="modal-footer">
               <button type="button" className="btn-action btn-reset" onClick={() => setShowSettings(false)}>
-                Hủy
+                ✖ Thoát
               </button>
               <button type="submit" className="btn-action">
                 💾 Lưu & Đồng bộ
