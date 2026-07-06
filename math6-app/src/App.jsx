@@ -319,7 +319,16 @@ export default function App() {
         });
       };
 
-      await Promise.all([sendEmail(keyDad), sendEmail(keyMom)]);
+      if (keyDad || keyMom) {
+        // Use Web3Forms if keys are available
+        await Promise.all([sendEmail(keyDad), sendEmail(keyMom)]);
+      } else {
+        // Fallback: open mailto: so the user's email client can send
+        const subject = encodeURIComponent(`[Toán Lớp 6] Bài làm của Cún: ${selectedLesson.title}`);
+        const body = encodeURIComponent(emailText.substring(0, 1800));
+        const emails = 'chu.duc.tu@gmail.com,thanhha.phth@gmail.com';
+        window.open(`mailto:${emails}?subject=${subject}&body=${body}`, '_blank');
+      }
 
       // 3. Mark lesson completed and save progress
       const updatedProgress = {
