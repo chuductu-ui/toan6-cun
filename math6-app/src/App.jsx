@@ -52,7 +52,7 @@ export default function App() {
     parseHash();
 
     // Fetch Curriculum
-    fetch('/lessons_v2.json')
+    fetch('lessons_v2.json')
       .then(res => {
         if (!res.ok) throw new Error('Không thể tải giáo trình học.');
         return res.json();
@@ -486,7 +486,7 @@ export default function App() {
                   {selectedLesson.theory.diagram && (
                     <div className="theory-diagram-container">
                       <img
-                        src={`/images/${selectedLesson.theory.diagram}`}
+                        src={`images/${selectedLesson.theory.diagram}`}
                         className="theory-diagram"
                         alt={selectedLesson.title}
                       />
