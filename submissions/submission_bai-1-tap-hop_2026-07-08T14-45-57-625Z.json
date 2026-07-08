@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-1-tap-hop",
+  "lessonTitle": "Bài 1: Tập hợp",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-08T14:45:57.625Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Cho tập hợp A = {2, 4, 6, 8}. Khẳng định nào sau đây là ĐÚNG?",
+      "selectedOption": "2 ∈ A",
+      "correctAnswer": "2 ∈ A",
+      "explanation": "Số 2 nằm trong dấu ngoặc nhọn của tập hợp A nên số 2 là một phần tử của tập hợp A, ta viết 2 ∈ A."
+    },
+    {
+      "questionNum": 2,
+      "question": "Cho tập hợp M gồm các chữ cái trong từ \"HỌC TẬP\". Phần tử nào sau đây thuộc tập hợp M?",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "H",
+      "explanation": "Tập hợp M = {H, O, C, T, Â, P} (lưu ý ta chỉ viết các chữ cái tiếng Việt dưới dạng in hoa không kèm dấu thanh và không lặp lại). Vì chữ cái trong từ \"TẬP\" là chữ Â chứ không phải chữ A, nên chữ cái A không thuộc M, còn chữ cái H thuộc tập hợp M."
+    },
+    {
+      "questionNum": 3,
+      "question": "Giao của hai tập hợp A = {1, 3, 5} và B = {3, 5, 7} là tập hợp nào?",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "{3, 5}",
+      "explanation": "Giao của hai tập hợp là tập hợp gồm các phần tử chung của cả hai tập hợp đó. A và B đều có chung hai số 3 và 5, nên giao của chúng là {3, 5}."
+    },
+    {
+      "questionNum": 4,
+      "question": "Cách viết nào sau đây biểu diễn ĐÚNG tập hợp B gồm các số tự nhiên lớn hơn 5 và nhỏ hơn 10?",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "B = {6, 7, 8, 9}",
+      "explanation": "Các số tự nhiên lớn hơn 5 và nhỏ hơn 10 là 6, 7, 8, 9. Do đó B = {6, 7, 8, 9}."
+    },
+    {
+      "questionNum": 5,
+      "question": "Cho hai tập hợp X = {x ∈ N | x < 5} và Y = {2, 4, 6}. Tập hợp các phần tử thuộc X nhưng không thuộc Y là gì?",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "{0, 1, 3}",
+      "explanation": "X gồm các số tự nhiên nhỏ hơn 5 là {0, 1, 2, 3, 4}. Y = {2, 4, 6}. Các phần tử thuộc X nhưng không thuộc Y là các phần tử trong X sau khi loại bỏ 2 và 4, còn lại {0, 1, 3}."
+    },
+    {
+      "questionNum": 6,
+      "question": "Cho tập hợp P = {x ∈ N* | x là số chẵn nhỏ hơn 10}. Số lượng phần tử của tập hợp P là bao nhiêu?",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "4",
+      "explanation": "N* là tập hợp các số tự nhiên khác 0. Các số tự nhiên khác 0, chẵn và nhỏ hơn 10 là 2, 4, 6, 8. Vậy P = {2, 4, 6, 8}, có tất cả 4 phần tử."
+    },
+    {
+      "questionNum": 7,
+      "question": "Cho tập hợp A = {x ∈ N | 5 < x < 10}. Tập hợp A viết bằng cách liệt kê phần tử là:",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "A = {6, 7, 8, 9}",
+      "explanation": "Các số tự nhiên lớn hơn 5 và nhỏ hơn 10 là 6, 7, 8, 9. Nên A = {6, 7, 8, 9}."
+    },
+    {
+      "questionNum": 8,
+      "question": "Cho từ 'TOÁN HỌC'. Tập hợp các chữ cái xuất hiện trong cụm từ này là:",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "{T, O, A, N, H, C}",
+      "explanation": "Tập hợp các chữ cái không lặp lại phần tử. Chữ cái 'O' xuất hiện hai lần chỉ viết một lần: {T, O, A, N, H, C}."
+    },
+    {
+      "questionNum": 9,
+      "question": "Ký hiệu nào dưới đây thể hiện mối quan hệ 'Không thuộc tập hợp'?",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "∉",
+      "explanation": "Ký hiệu ∉ được dùng để chỉ một phần tử không nằm trong tập hợp."
+    },
+    {
+      "questionNum": 10,
+      "question": "Cho hai tập hợp A = {1, 2} và B = {2, 3}. Tập hợp chứa phần tử chung của cả hai tập hợp A và B là:",
+      "selectedOption": "Chưa làm",
+      "correctAnswer": "{2}",
+      "explanation": "Phần tử chung của A và B là phần tử thuộc cả A và B. Ta thấy số 2 nằm ở cả hai tập hợp, nên đó là {2}."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Viết tập hợp M gồm các chữ cái trong cụm từ 'HỌC SINH LỚP SÁU'.",
+      "studentAnswer": "",
+      "solution": "Quy tắc viết tập hợp chữ cái: Viết bằng chữ in hoa, các phần tử ngăn cách bởi dấu phẩy, mỗi phần tử chỉ viết một lần duy nhất. Cụm từ 'HỌC SINH LỚP SÁU' gồm các chữ cái: H, O, C, S, I, N, H, L, O, P, S, A, U.\nLoại bỏ các chữ cái lặp lại (H, O, S lặp), ta được tập hợp:\nM = {H, O, C, S, I, N, L, P, A, U}."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Cho hai tập hợp: A = {1, 2, 3, 4, 5} và B = {x ∈ N | x là số chẵn nhỏ hơn 8}. Viết tập hợp B bằng cách liệt kê phần tử và tìm tập hợp C chứa các phần tử thuộc cả A và B.",
+      "studentAnswer": "",
+      "solution": "Tập hợp B gồm các số tự nhiên chẵn nhỏ hơn 8, là B = {0, 2, 4, 6}.\nTập hợp C chứa các phần tử thuộc cả A và B (giao của A và B). Ta so sánh phần tử của A và B:\n- A = {1, 2, 3, 4, 5}\n- B = {0, 2, 4, 6}\nPhần tử chung là 2 và 4.\nVậy C = {2, 4}."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Mô tả tập hợp D = {10, 11, 12, 13, 14, 15} bằng cách chỉ ra tính chất đặc trưng của các phần tử.",
+      "studentAnswer": "",
+      "solution": "Các số 10, 11, 12, 13, 14, 15 là các số tự nhiên liên tiếp lớn hơn hoặc bằng 10 và nhỏ hơn hoặc bằng 15 (hoặc lớn hơn 9 và nhỏ hơn 16).\nDo đó, ta có thể viết:\nCách 1: D = {x ∈ N | 10 ≤ x ≤ 15}\nCách 2: D = {x ∈ N | 9 < x < 16}."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Viết tất cả các tập hợp con có 2 phần tử của tập hợp X = {a, b, c}.",
+      "studentAnswer": "",
+      "solution": "Các tập hợp con chứa đúng 2 phần tử từ tập hợp X = {a, b, c} là:\n- Tập chứa a và b: {a, b}\n- Tập chứa a và c: {a, c}\n- Tập chứa b và c: {b, c}\nTổng cộng có 3 tập hợp con thỏa mãn."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Lớp 6A có 15 bạn thích vẽ tranh, 10 bạn thích chơi bóng đá, và có 5 bạn thích cả hai môn này. Dùng biểu đồ Venn để biểu diễn và tính tổng số bạn thích ít nhất một trong hai môn này.",
+      "studentAnswer": "",
+      "solution": "Vẽ hai vòng tròn giao nhau: Vòng tròn V (vẽ tranh) và vòng tròn B (bóng đá).\n- Số bạn thích cả hai môn là 5 (được điền ở phần giao nhau của hai vòng tròn).\n- Số bạn chỉ thích vẽ tranh: 15 - 5 = 10 bạn (điền vào phần riêng của vòng tròn V).\n- Số bạn chỉ thích chơi bóng đá: 10 - 5 = 5 bạn (điền vào phần riêng của vòng tròn B).\nTổng số bạn thích ít nhất một môn là: 10 (chỉ vẽ) + 5 (cả hai) + 5 (chỉ bóng đá) = 20 bạn."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Xác định các phần tử của tập hợp P = {x ∈ N* | x ≤ 6} và biểu diễn các phần tử này trên trục số.",
+      "studentAnswer": "",
+      "solution": "N* là tập hợp số tự nhiên khác 0, nghĩa là bắt đầu từ số 1. Điều kiện x ≤ 6 nghĩa là các số từ 1 đến 6.\nVậy P = {1, 2, 3, 4, 5, 6}.\nBiểu diễn trên tia số: Vẽ tia số gốc 0 và đánh dấu đậm các điểm 1, 2, 3, 4, 5, 6."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Cho tập hợp K = {x ∈ N | 0 × x = 0}. Tập hợp K có bao nhiêu phần tử? Hãy giải thích.",
+      "studentAnswer": "",
+      "solution": "Phép nhân bất kỳ số tự nhiên x nào với số 0 cũng đều cho kết quả bằng 0 (0 × x = 0 là luôn đúng).\nDo đó, mọi số tự nhiên x đều thỏa mãn điều kiện của tập hợp K.\nVậy K = {0, 1, 2, 3, 4, 5, ...}.\nTập hợp K có vô số phần tử (chính là tập hợp số tự nhiên N)."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Cho tập hợp H = {x ∈ N | x + 5 = 2}. Tập hợp H có bao nhiêu phần tử?",
+      "studentAnswer": "",
+      "solution": "Vì x là số tự nhiên nên x ≥ 0. Do đó x + 5 luôn lớn hơn hoặc bằng 5.\nKhông có số tự nhiên x nào thỏa mãn x + 5 = 2.\nVậy tập hợp H không chứa phần tử nào.\nTa viết H = ∅ (tập hợp rỗng). Số lượng phần tử của H là 0."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Cho tập hợp A = {x, y}. Hãy liệt kê toàn bộ các tập hợp con của tập hợp A.",
+      "studentAnswer": "",
+      "solution": "Tập hợp con của A = {x, y} gồm:\n- Tập hợp con không có phần tử nào (tập rỗng): ∅\n- Các tập hợp con có 1 phần tử: {x}, {y}\n- Tập hợp con có 2 phần tử (chính nó): {x, y}\nTổng cộng tập hợp A có 4 tập hợp con."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Trong một hộp bút có 3 cây bút xanh, 2 cây bút đỏ và 1 bút chì. Gọi T là tập hợp các cây bút xanh trong hộp bút. Mô tả tập hợp T và điền ký hiệu ∈, ∉ thích hợp vào chỗ trống:\n- Bút xanh thứ nhất ___ T\n- Bút chì ___ T",
+      "studentAnswer": "",
+      "solution": "Ký hiệu bút xanh lần lượt là X1, X2, X3. Tập hợp T = {X1, X2, X3}.\n- Bút xanh thứ nhất thuộc T nên điền ký hiệu: Bút xanh thứ nhất ∈ T.\n- Bút chì không phải là bút xanh nên không nằm trong T, ta điền ký hiệu: Bút chì ∉ T."
+    }
+  ]
+}
