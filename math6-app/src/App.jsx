@@ -29,6 +29,8 @@ export default function App() {
   const [showSettings, setShowSettings] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [showCelebrate, setShowCelebrate] = useState(false);
+  const [savingDraft, setSavingDraft] = useState(false);
+  const [draftInfo, setDraftInfo] = useState(null);
 
   // Student Answers Work State
   // { mc: { q_idx: selected_val }, written: { ex_idx: text } }
@@ -167,11 +169,147 @@ export default function App() {
     }
   };
 
+  // Helper: Load draft answers for a lesson from GitHub
+  const loadDraftFromGitHub = async (lessonId) => {
+    if (!token || !repo || !githubConnected) return;
+    setDraftInfo('⏳ Đang kiểm tra bản nháp từ GitHub...');
+    try {
+      const url = `https://api.github.com/repos/${repo}/contents/drafts/draft_${lessonId}.json`;
+      const res = await fetch(url, {
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json'
+        }
+      });
+      if (res.ok) {
+        const data = await res.json();
+        const content = decodeURIComponent(escape(atob(data.content)));
+        const parsed = JSON.parse(content);
+        
+        // Ensure the user hasn't switched to another lesson in the meantime
+        setSelectedLesson(current => {
+          if (current && current.id === lessonId) {
+            setAnswers(parsed.answers || { mc: {}, written: {} });
+            if (parsed.updatedAt) {
+              const dateStr = new Date(parsed.updatedAt).toLocaleString('vi-VN');
+              setDraftInfo(`✅ Đã tự động tải bản nháp lưu lúc ${dateStr}`);
+            }
+          }
+          return current;
+        });
+      } else {
+        setDraftInfo(null);
+      }
+    } catch (err) {
+      console.error('Failed to load draft from GitHub:', err);
+      setDraftInfo(null);
+    }
+  };
+
+  // Helper: Save current draft answers to GitHub
+  const handleSaveDraft = async () => {
+    if (!selectedLesson || !githubConnected) return;
+    setSavingDraft(true);
+    setDraftInfo('⏳ Đang lưu nháp lên GitHub...');
+    try {
+      const timestamp = new Date().toISOString();
+      const draftData = {
+        lessonId: selectedLesson.id,
+        updatedAt: timestamp,
+        answers: answers
+      };
+
+      const filename = `drafts/draft_${selectedLesson.id}.json`;
+      const url = `https://api.github.com/repos/${repo}/contents/${filename}`;
+      const contentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(draftData, null, 2))));
+
+      // Check if draft already exists to get its SHA for overwrite
+      let draftSha = null;
+      const getRes = await fetch(url, {
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json'
+        }
+      });
+      if (getRes.ok) {
+        const data = await getRes.json();
+        draftSha = data.sha;
+      }
+
+      // Upload draft to GitHub
+      const putRes = await fetch(url, {
+        method: 'PUT',
+        headers: {
+          Authorization: `token ${token}`,
+          'Content-Type': 'application/json',
+          Accept: 'application/vnd.github.v3+json'
+        },
+        body: JSON.stringify({
+          message: `Lưu nháp: ${selectedLesson.title} - Học sinh Cún ✏️`,
+          content: contentBase64,
+          sha: draftSha || undefined,
+          branch: 'main'
+        })
+      });
+
+      if (putRes.ok) {
+        const dateStr = new Date(timestamp).toLocaleString('vi-VN');
+        setDraftInfo(`✅ Đã lưu nháp thành công lúc ${dateStr}`);
+      } else {
+        throw new Error('Không nhận được phản hồi tốt từ GitHub');
+      }
+    } catch (err) {
+      console.error(err);
+      setDraftInfo(`❌ Lưu nháp thất bại: ${err.message}`);
+    } finally {
+      setSavingDraft(false);
+    }
+  };
+
+  // Helper: Clean up draft after final submission
+  const deleteDraftFromGitHub = async (lessonId) => {
+    if (!token || !repo || !githubConnected) return;
+    try {
+      const filename = `drafts/draft_${lessonId}.json`;
+      const url = `https://api.github.com/repos/${repo}/contents/${filename}`;
+      const getRes = await fetch(url, {
+        headers: {
+          Authorization: `token ${token}`,
+          Accept: 'application/vnd.github.v3+json'
+        }
+      });
+      if (getRes.ok) {
+        const data = await getRes.json();
+        await fetch(url, {
+          method: 'DELETE',
+          headers: {
+            Authorization: `token ${token}`,
+            'Content-Type': 'application/json',
+            Accept: 'application/vnd.github.v3+json'
+          },
+          body: JSON.stringify({
+            message: `Xóa nháp sau khi nộp bài: ${selectedLesson.title}`,
+            sha: data.sha,
+            branch: 'main'
+          })
+        });
+      }
+    } catch (e) {
+      console.error('Failed to delete draft file:', e);
+    }
+  };
+
   // Select a lesson & update Visited Theory
   const handleSelectLesson = async (lesson) => {
     setSelectedLesson(lesson);
     setActiveTab('theory');
     setAnswers({ mc: {}, written: {} }); // reset answer pads
+    setDraftInfo(null);
+
+    // Load draft if connected
+    if (githubConnected) {
+      loadDraftFromGitHub(lesson.id);
+    }
 
     const now = new Date().toISOString();
     const updatedProgress = {
@@ -342,6 +480,9 @@ export default function App() {
       };
       setProgress(updatedProgress);
       await saveProgressToGitHub(updatedProgress);
+
+      // Clean up temporary draft from GitHub
+      deleteDraftFromGitHub(selectedLesson.id).catch(e => console.error(e));
 
       // Show success modal
       setShowCelebrate(true);
@@ -570,12 +711,50 @@ export default function App() {
                     ))}
                   </div>
 
+                  {/* Draft Status Banner */}
+                  {draftInfo && (
+                    <div style={{
+                      backgroundColor: draftInfo.includes('❌') ? '#fef2f2' : '#f0fdf4',
+                      color: draftInfo.includes('❌') ? '#991b1b' : '#166534',
+                      padding: '0.6rem 1.2rem',
+                      borderRadius: '8px',
+                      fontSize: '0.9rem',
+                      fontWeight: 'bold',
+                      marginTop: '1.5rem',
+                      textAlign: 'center',
+                      border: `1px solid ${draftInfo.includes('❌') ? '#fca5a5' : '#86efac'}`
+                    }}>
+                      {draftInfo}
+                    </div>
+                  )}
+
                   {/* Submit Actions */}
-                  <div className="submit-actions">
+                  <div className="submit-actions" style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                    <button
+                      className="btn-action"
+                      style={{
+                        padding: '0.9rem 2.5rem',
+                        fontSize: '1.1rem',
+                        backgroundColor: '#f1f5f9',
+                        color: '#475569',
+                        border: '2px solid #cbd5e1',
+                        borderRadius: '12px',
+                        boxShadow: 'none',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.5rem'
+                      }}
+                      onClick={handleSaveDraft}
+                      disabled={submitting || savingDraft}
+                    >
+                      {savingDraft ? '⏳ Đang lưu nháp...' : '💾 Lưu nháp bài làm'}
+                    </button>
+
                     <button
                       className="btn-submit-large"
+                      style={{ margin: 0 }}
                       onClick={handleSubmitWork}
-                      disabled={submitting}
+                      disabled={submitting || savingDraft}
                     >
                       {submitting ? '⏳ Đang nộp bài...' : 'Nộp bài cho Bố Mẹ 🚀'}
                     </button>
