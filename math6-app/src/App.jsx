@@ -463,11 +463,20 @@ export default function App() {
         // Use Web3Forms if keys are available
         await Promise.all([sendEmail(keyDad), sendEmail(keyMom)]);
       } else {
-        // Fallback: open mailto: so the user's email client can send
-        const subject = encodeURIComponent(`[Toán Lớp 6] Bài làm của Cún: ${selectedLesson.title}`);
-        const body = encodeURIComponent(emailText.substring(0, 1800));
-        const emails = 'chu.duc.tu@gmail.com,thanhha.phth@gmail.com';
-        window.open(`mailto:${emails}?subject=${subject}&body=${body}`, '_blank');
+        // Fallback: Use FormSubmit.co AJAX to send automatically without user interaction!
+        await fetch('https://formsubmit.co/ajax/chu.duc.tu@gmail.com', {
+          method: 'POST',
+          headers: { 
+            'Content-Type': 'application/json',
+            'Accept': 'application/json'
+          },
+          body: JSON.stringify({
+            subject: `[Toán Lớp 6] Bài làm của Cún: ${selectedLesson.title}`,
+            from_name: 'owl-math-app',
+            message: emailText,
+            _cc: 'thanhha.phth@gmail.com'
+          })
+        });
       }
 
       // 3. Mark lesson completed and save progress
