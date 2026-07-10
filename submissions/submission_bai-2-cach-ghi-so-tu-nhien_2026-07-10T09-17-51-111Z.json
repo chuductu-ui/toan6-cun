@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-2-cach-ghi-so-tu-nhien",
+  "lessonTitle": "Bài 2: Cách ghi số tự nhiên",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-10T09:17:51.111Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Trong số tự nhiên 5284, chữ số 2 nằm ở hàng nào và có giá trị bằng bao nhiêu?",
+      "selectedOption": "Hàng trăm, giá trị 200",
+      "correctAnswer": "Hàng trăm, giá trị 200",
+      "explanation": "Số 5284 gồm 5 nghìn, 2 trăm, 8 chục, 4 đơn vị. Chữ số 2 đứng ở hàng trăm nên có giá trị là 200."
+    },
+    {
+      "questionNum": 2,
+      "question": "Số tự nhiên liền sau của số 9999 là số nào?",
+      "selectedOption": "10000",
+      "correctAnswer": "10000",
+      "explanation": "Số liền sau của số a là số a + 1. Vậy liền sau của 9999 là 9999 + 1 = 10000."
+    },
+    {
+      "questionNum": 3,
+      "question": "Viết số La Mã XXIV dưới dạng số tự nhiên trong hệ thập phân:",
+      "selectedOption": "24",
+      "correctAnswer": "24",
+      "explanation": "Số La Mã XXIV gồm XX (20) và IV (4), tổng giá trị là 20 + 4 = 24."
+    },
+    {
+      "questionNum": 4,
+      "question": "Tìm tập hợp các ước của số tự nhiên 8:",
+      "selectedOption": "{1, 2, 4, 8}",
+      "correctAnswer": "{1, 2, 4, 8}",
+      "explanation": "Ước của 8 là các số tự nhiên mà 8 chia hết cho chúng. 8 chia hết cho 1, 2, 4, 8. Nên tập hợp các ước của 8 là {1, 2, 4, 8}."
+    },
+    {
+      "questionNum": 5,
+      "question": "Cho ba chữ số 0, 3, 5. Có thể viết được bao nhiêu số tự nhiên có ba chữ số khác nhau từ ba chữ số trên?",
+      "selectedOption": "4 số",
+      "correctAnswer": "4 số",
+      "explanation": "Số có ba chữ số thì chữ số hàng trăm phải khác 0, nên chữ số hàng trăm chỉ có thể là 3 hoặc 5. Nếu trăm là 3, ta có: 305, 350. Nếu trăm là 5, ta có: 503, 530. Tổng cộng có 4 số."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm số tự nhiên x biết x vừa là bội của 5, vừa là ước của 30, và thỏa mãn 10 < x < 20.",
+      "selectedOption": "15",
+      "correctAnswer": "15",
+      "explanation": "Ước của 30 là {1, 2, 3, 5, 6, 10, 15, 30}. Bội của 5 là {0, 5, 10, 15, 20, 25, 30, ...}. Số vừa là ước của 30, vừa là bội của 5 và nằm trong khoảng từ 10 đến 20 là 15."
+    },
+    {
+      "questionNum": 7,
+      "question": "Trong số La Mã, ký hiệu XV biểu diễn số nào trong hệ thập phân?",
+      "selectedOption": "15",
+      "correctAnswer": "15",
+      "explanation": "Ký hiệu X là 10, V là 5. Do đó XV = 10 + 5 = 15."
+    },
+    {
+      "questionNum": 8,
+      "question": "Số liền sau của số tự nhiên 1234 là số nào?",
+      "selectedOption": "1235",
+      "correctAnswer": "1235",
+      "explanation": "Số liền sau của a là a + 1. Số liền sau của 1234 là 1234 + 1 = 1235."
+    },
+    {
+      "questionNum": 9,
+      "question": "Số tự nhiên 4567 gồm bao nhiêu nghìn?",
+      "selectedOption": "4 nghìn",
+      "correctAnswer": "4 nghìn",
+      "explanation": "Số 4567 có chữ số hàng nghìn là 4, nên nó gồm 4 nghìn."
+    },
+    {
+      "questionNum": 10,
+      "question": "Số tự nhiên lớn nhất có 3 chữ số khác nhau được lập từ các số 9, 8, 7 là:",
+      "selectedOption": "987",
+      "correctAnswer": "987",
+      "explanation": "Để lập số lớn nhất có 3 chữ số khác nhau, ta xếp các chữ số lớn nhất ở hàng cao nhất: hàng trăm là 9, hàng chục là 8, hàng đơn vị là 7. Vậy là 987."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Đọc số tự nhiên sau và chỉ ra giá trị của chữ số 7 đứng ở các vị trí khác nhau: 75.372",
+      "studentAnswer": "Ở vị trí thứ nhất số 7 có giá trị là 70000 ở vị trí thứ hai số 7 có giá trị là 70",
+      "solution": "Số 75.372 đọc là: Bảy mươi lăm nghìn ba trăm bảy mươi hai.\nTrong số này có hai chữ số 7 ở các vị trí khác nhau:\n- Chữ số 7 thứ nhất (từ trái qua) nằm ở hàng chục nghìn, nên có giá trị là: 7 × 10.000 = 70.000.\n- Chữ số 7 thứ hai nằm ở hàng chục, nên có giá trị là: 7 × 10 = 70."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Viết số tự nhiên gồm có: 9 triệu, 5 trăm nghìn, 2 chục và 8 đơn vị.",
+      "studentAnswer": "95028",
+      "solution": "Xác định các hàng của số:\n- Hàng triệu: 9\n- Hàng trăm nghìn: 5\n- Hàng chục nghìn: 0 (vì không nhắc tới)\n- Hàng nghìn: 0 (vì không nhắc tới)\n- Hàng trăm: 0 (vì không nhắc tới)\n- Hàng chục: 2\n- Hàng đơn vị: 8\nGhép các chữ số lại, ta được số tự nhiên: 9.500.028."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Phân tích số tự nhiên 28.305 thành tổng cấu tạo các hàng trong hệ thập phân.",
+      "studentAnswer": "20000+8000+300+5",
+      "solution": "Số 28.305 gồm 2 chục nghìn, 8 nghìn, 3 trăm, 0 chục và 5 đơn vị.\nTa viết phân tích cấu tạo số:\n28.305 = 20.000 + 8.000 + 300 + 5\nHoặc viết dưới dạng tích của chữ số với giá trị hàng:\n28.305 = 2 × 10.000 + 8 × 1.000 + 3 × 100 + 5."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Cho 4 chữ số: 0, 2, 5, 8. Hãy lập số tự nhiên lớn nhất và số tự nhiên nhỏ nhất có 4 chữ số khác nhau từ các chữ số trên.",
+      "studentAnswer": "Số lớn nhất:8520\nSố nhỏ nhất:2058",
+      "solution": "- Số lớn nhất: Xếp các chữ số lớn ở hàng cao nhất từ trái qua: hàng nghìn là 8, hàng trăm là 5, hàng chục là 2, hàng đơn vị là 0. Vậy số lớn nhất là 8520.\n- Số nhỏ nhất: Hàng nghìn phải khác 0, nên chữ số nhỏ nhất có thể chọn là 2. Xếp các chữ số nhỏ tiếp theo tăng dần từ trái qua: hàng trăm là 0, hàng chục là 5, hàng đơn vị là 8. Vậy số nhỏ nhất là 2058."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Hãy viết các số tự nhiên sau dưới dạng số La Mã: 9, 14, 19, 26, 29.",
+      "studentAnswer": "IX,XlV,XIX,XXVI,XXIX",
+      "solution": "Quy tắc viết số La Mã:\n- Số 9: Ghép I (1) trước X (10) để được 10 - 1 = 9 => IX.\n- Số 14: Ghép X (10) và IV (4) => XIV.\n- Số 19: Ghép X (10) và IX (9) => XIX.\n- Số 26: Ghép XX (20) và VI (6) => XXVI.\n- Số 29: Ghép XX (20) và IX (9) => XXIX."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Đổi các số La Mã sau sang số tự nhiên trong hệ thập phân: XI, XIV, XXII, XXVII, XXX.",
+      "studentAnswer": "11,14,22,27,30",
+      "solution": "Cách đổi giá trị số La Mã:\n- XI = 10 + 1 = 11.\n- XIV = 10 + 4 = 14.\n- XXII = 20 + 2 = 22.\n- XXVII = 20 + 7 = 27.\n- XXX = 10 + 10 + 10 = 30."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tìm số tự nhiên liền trước và liền sau của số 1.000.000 (Một triệu).",
+      "studentAnswer": "Liền trước:999999\nLiền sau:1000001",
+      "solution": "- Số liền trước của số a là số a - 1. Số liền trước của 1.000.000 là: 1.000.000 - 1 = 999.999.\n- Số liền sau của số a là số a + 1. Số liền sau của 1.000.000 là: 1.000.000 + 1 = 1.000.001."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Có bao nhiêu số tự nhiên có 2 chữ số?",
+      "studentAnswer": "90",
+      "solution": "Các số tự nhiên có 2 chữ số bắt đầu từ số 10 và kết thúc ở số 99.\nCông thức tính số lượng số trong dãy số cách đều liên tiếp: (Số cuối - Số đầu) + 1.\nSố lượng số tự nhiên có 2 chữ số là: (99 - 10) + 1 = 90 số."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Tìm một số tự nhiên có hai chữ số, biết rằng chữ số hàng chục gấp 3 lần chữ số hàng đơn vị và nếu đổi chỗ hai chữ số cho nhau thì số mới nhỏ hơn số ban đầu là 54 đơn vị.",
+      "studentAnswer": "93",
+      "solution": "Gọi số cần tìm là ab (a, b là các chữ số từ 0-9, a khác 0). Ta có a = 3 × b.\nSố ban đầu: ab = 10 × a + b.\nSố sau khi đổi chỗ: ba = 10 × b + a.\nHiệu hai số: ab - ba = (10 × a + b) - (10 × b + a) = 9 × (a - b) = 54.\nSuy ra a - b = 54 : 9 = 6.\nThay a = 3 × b vào ta được: 3 × b - b = 6 => 2 × b = 6 => b = 3.\nSuy ra a = 3 × 3 = 9.\nVậy số tự nhiên cần tìm là 93."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Một chương sách được đánh số bằng số La Mã là XXVIII. Con hãy đọc xem đó là chương thứ mấy?",
+      "studentAnswer": "28",
+      "solution": "Phân tích số La Mã XXVIII:\n- XX = 20\n- VIII = 8\nDo đó XXVIII = 20 + 8 = 28.\nVậy đó là chương sách thứ 28."
+    }
+  ]
+}
