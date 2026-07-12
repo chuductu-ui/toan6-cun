@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-3-thu-tu-trong-tap-hop-cac-so-tu-nhien",
+  "lessonTitle": "Bài 3: Thứ tự trong tập hợp các số tự nhiên",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-12T11:42:21.200Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Điền dấu so sánh thích hợp vào chỗ trống: 1200 ___ 1203.",
+      "selectedOption": "1200 < 1203",
+      "correctAnswer": "1200 < 1203",
+      "explanation": "So sánh các hàng từ trái qua phải: hàng chục hoặc hàng đơn vị của 1203 lớn hơn 1200 nên 1200 < 1203."
+    },
+    {
+      "questionNum": 2,
+      "question": "Điền dấu so sánh thích hợp vào chỗ trống: 1205 ___ 1202.",
+      "selectedOption": "1205 > 1202",
+      "correctAnswer": "1205 > 1202",
+      "explanation": "So sánh các hàng từ trái qua phải: hàng chục hoặc hàng đơn vị của 1205 lớn hơn 1202 nên 1205 > 1202."
+    },
+    {
+      "questionNum": 3,
+      "question": "Điền dấu so sánh thích hợp vào chỗ trống: 1210 ___ 1213.",
+      "selectedOption": "1210 < 1213",
+      "correctAnswer": "1210 < 1213",
+      "explanation": "So sánh các hàng từ trái qua phải: hàng chục hoặc hàng đơn vị của 1213 lớn hơn 1210 nên 1210 < 1213."
+    },
+    {
+      "questionNum": 4,
+      "question": "Điền dấu so sánh thích hợp vào chỗ trống: 1215 ___ 1212.",
+      "selectedOption": "1215 > 1212",
+      "correctAnswer": "1215 > 1212",
+      "explanation": "So sánh các hàng từ trái qua phải: hàng chục hoặc hàng đơn vị của 1215 lớn hơn 1212 nên 1215 > 1212."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm tập hợp các số tự nhiên x sao cho 5 < x ≤ 8.",
+      "selectedOption": "{6, 7, 8}",
+      "correctAnswer": "{6, 7, 8}",
+      "explanation": "x là số tự nhiên lớn hơn 5 và nhỏ hơn hoặc bằng 8, do đó x nhận các giá trị từ 6 đến 8."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm tập hợp các số tự nhiên x sao cho 6 < x ≤ 9.",
+      "selectedOption": "{7, 8, 9}",
+      "correctAnswer": "{7, 8, 9}",
+      "explanation": "x là số tự nhiên lớn hơn 6 và nhỏ hơn hoặc bằng 9, do đó x nhận các giá trị từ 7 đến 9."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tìm tập hợp các số tự nhiên x sao cho 7 < x ≤ 10.",
+      "selectedOption": "{8, 9, 10}",
+      "correctAnswer": "{8, 9, 10}",
+      "explanation": "x là số tự nhiên lớn hơn 7 và nhỏ hơn hoặc bằng 10, do đó x nhận các giá trị từ 8 đến 10."
+    },
+    {
+      "questionNum": 8,
+      "question": "Cho tập hợp A = {x ∈ N | 10 ≤ x < 15}. Tập hợp A có bao nhiêu phần tử?",
+      "selectedOption": "5 phần tử",
+      "correctAnswer": "5 phần tử",
+      "explanation": "Các phần tử của A là các số tự nhiên từ 10 đến 14. Số lượng phần tử là 15 - 10 = 5 phần tử."
+    },
+    {
+      "questionNum": 9,
+      "question": "Cho tập hợp A = {x ∈ N | 10 ≤ x < 16}. Tập hợp A có bao nhiêu phần tử?",
+      "selectedOption": "6 phần tử",
+      "correctAnswer": "6 phần tử",
+      "explanation": "Các phần tử của A là các số tự nhiên từ 10 đến 15. Số lượng phần tử là 16 - 10 = 6 phần tử."
+    },
+    {
+      "questionNum": 10,
+      "question": "Cho tập hợp A = {x ∈ N | 10 ≤ x < 17}. Tập hợp A có bao nhiêu phần tử?",
+      "selectedOption": "7 phần tử",
+      "correctAnswer": "7 phần tử",
+      "explanation": "Các phần tử của A là các số tự nhiên từ 10 đến 16. Số lượng phần tử là 17 - 10 = 7 phần tử."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "So sánh hai số tự nhiên sau và giải thích cách làm: 2.384.920 và 2.385.012.",
+      "studentAnswer": "2.384.920 < 2.385.012.\nVì khi ta so sánh đến hàng nghìn số 2.384.920 có số 4 ở hàng nghìn nhỏ hơn số 5 ở hàng nghìn số 2.385.012",
+      "solution": "Hai số đều có 7 chữ số. So sánh các cặp chữ số tương ứng từ trái qua phải:\n- Hàng triệu: 2 = 2\n- Hàng trăm nghìn: 3 = 3\n- Hàng chục nghìn: 8 = 8\n- Hàng nghìn: Chữ số 4 của số thứ nhất nhỏ hơn chữ số 5 của số thứ hai (4 < 5).\nDo đó, 2.384.920 < 2.385.012."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Sắp xếp các số tự nhiên sau theo thứ tự tăng dần: 9.384, 12.034, 9.401, 895, 12.009.",
+      "studentAnswer": "895,9.384,9.401,12.009,12.034",
+      "solution": "- Số có ít chữ số nhất là nhỏ nhất: 895 (3 chữ số).\n- Các số có 4 chữ số: 9.384 và 9.401. So sánh hàng trăm: 3 < 4 nên 9.384 < 9.401.\n- Các số có 5 chữ số: 12.034 và 12.009. So sánh hàng chục: 0 < 3 nên 12.009 < 12.034.\nSắp xếp thứ tự tăng dần: 895 < 9.384 < 9.401 < 12.009 < 12.034."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tìm tập hợp các số tự nhiên x sao cho 7 < x ≤ 11.",
+      "studentAnswer": "X:{8, 9,10, 11}",
+      "solution": "x là số tự nhiên thỏa mãn lớn hơn 7 (không lấy số 7) và nhỏ hơn hoặc bằng 11 (lấy cả số 11).\nCác số tự nhiên đó là: 8, 9, 10, 11.\nVậy tập hợp cần tìm là: {8, 9, 10, 11}."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Biểu diễn các số tự nhiên 1, 3, 5 trên một tia số nằm ngang và điền dấu <, > thích hợp giữa chúng.",
+      "studentAnswer": "",
+      "solution": "Vẽ tia số nằm ngang gốc 0, chia các đoạn bằng nhau dài 1cm tương ứng 1, 2, 3, 4, 5.\nĐánh dấu các điểm 1, 3, 5.\nNhìn trên tia số từ trái qua phải:\n- Điểm 1 nằm bên trái điểm 3 nên 1 < 3.\n- Điểm 3 nằm bên trái điểm 5 nên 3 < 5.\n- Điểm 5 nằm bên phải điểm 1 nên 5 > 1."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Viết tập hợp A các số tự nhiên x sao cho x ≤ 4.",
+      "studentAnswer": "A:{ 0,1,2,3,4}",
+      "solution": "Điều kiện x ≤ 4 nghĩa là x nhận giá trị nhỏ hơn hoặc bằng 4.\nCác số tự nhiên thỏa mãn là: 0, 1, 2, 3, 4.\nVậy A = {0, 1, 2, 3, 4}."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tìm số tự nhiên x lớn nhất biết x < 15.",
+      "studentAnswer": "X:14",
+      "solution": "Các số tự nhiên nhỏ hơn 15 là 0, 1, 2, ..., 14.\nSố lớn nhất trong các số này là 14.\nVậy x = 14."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tìm số tự nhiên x nhỏ nhất biết x > 10.",
+      "studentAnswer": "X:11",
+      "solution": "Các số tự nhiên lớn hơn 10 là 11, 12, 13, ...\nSố nhỏ nhất trong các số này là 11.\nVậy x = 11."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Viết tập hợp B các số tự nhiên x sao cho 12 ≤ x < 16 bằng cách liệt kê phần tử.",
+      "studentAnswer": "B:{12,13,14,15,16}",
+      "solution": "x là số tự nhiên từ 12 (lấy số 12) đến nhỏ hơn 16 (không lấy số 16).\nCác số tự nhiên đó là: 12, 13, 14, 15.\nVậy B = {12, 13, 14, 15}."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Chiều cao của bốn bạn học sinh lần lượt là: Nam (135 cm), Lan (132 cm), Minh (138 cm), Hoa (135 cm). Hãy viết tên các bạn theo thứ tự chiều cao giảm dần.",
+      "studentAnswer": "Minh, {Nam và Hoa}, Lan",
+      "solution": "So sánh các chiều cao:\n138 cm > 135 cm = 135 cm > 132 cm.\nTương ứng là: Minh (138 cm) > Nam, Hoa (135 cm) > Lan (132 cm).\nViết tên các bạn theo thứ tự chiều cao giảm dần: Minh, Nam (hoặc Hoa), Hoa (hoặc Nam), Lan."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tìm tập hợp các số tự nhiên lẻ x thỏa mãn 15 < x ≤ 21.",
+      "studentAnswer": "X:{17,19,21}",
+      "solution": "x là số tự nhiên lẻ lớn hơn 15 và nhỏ hơn hoặc bằng 21.\nCác số tự nhiên trong khoảng này là: 16, 17, 18, 19, 20, 21.\nTrong đó các số lẻ là: 17, 19, 21.\nTập hợp cần tìm là: {17, 19, 21}."
+    }
+  ]
+}
