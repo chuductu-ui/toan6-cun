@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-4-phep-cong-va-phep-tru-so-tu-nhien",
+  "lessonTitle": "Bài 4: Phép cộng và phép trừ số tự nhiên",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-13T02:28:36.124Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Tìm số tự nhiên x thỏa mãn: x + 15 = 30.",
+      "selectedOption": "15",
+      "correctAnswer": "15",
+      "explanation": "Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết: x = 30 - 15 = 15."
+    },
+    {
+      "questionNum": 2,
+      "question": "Tìm số tự nhiên x thỏa mãn: x + 20 = 32.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết: x = 32 - 20 = 12."
+    },
+    {
+      "questionNum": 3,
+      "question": "Tìm số tự nhiên x thỏa mãn: x + 25 = 34.",
+      "selectedOption": "9",
+      "correctAnswer": "9",
+      "explanation": "Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết: x = 34 - 25 = 9."
+    },
+    {
+      "questionNum": 4,
+      "question": "Tìm số tự nhiên x thỏa mãn: x + 30 = 36.",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết: x = 36 - 30 = 6."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tính nhanh tổng sau: 12 + 85 + 88.",
+      "selectedOption": "185",
+      "correctAnswer": "185",
+      "explanation": "Áp dụng tính chất giao hoán và kết hợp: (12 + 88) + 85 = 100 + 85 = 185."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tính nhanh tổng sau: 13 + 85 + 87.",
+      "selectedOption": "185",
+      "correctAnswer": "185",
+      "explanation": "Áp dụng tính chất giao hoán và kết hợp: (13 + 87) + 85 = 100 + 85 = 185."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tính nhanh tổng sau: 14 + 85 + 86.",
+      "selectedOption": "185",
+      "correctAnswer": "185",
+      "explanation": "Áp dụng tính chất giao hoán và kết hợp: (14 + 86) + 85 = 100 + 85 = 185."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số tự nhiên x biết: (x - 100) + 50 = 200.",
+      "selectedOption": "250",
+      "correctAnswer": "250",
+      "explanation": "Ta có: x - 100 = 200 - 50 = 150. Do đó x = 150 + 100 = 250."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số tự nhiên x biết: (x - 99) + 51 = 205.",
+      "selectedOption": "253",
+      "correctAnswer": "253",
+      "explanation": "Ta có: x - 99 = 205 - 51 = 154. Do đó x = 154 + 99 = 253."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số tự nhiên x biết: (x - 98) + 52 = 210.",
+      "selectedOption": "256",
+      "correctAnswer": "256",
+      "explanation": "Ta có: x - 98 = 210 - 52 = 158. Do đó x = 158 + 98 = 256."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Tính nhanh tổng sau bằng cách nhóm hợp lý: 43 + 125 + 57 + 75.",
+      "studentAnswer": "(43+57) +(125+75)=100+200=300",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp của phép cộng để nhóm các số hạng có tổng tròn chục, tròn trăm:\n43 + 125 + 57 + 75 = (43 + 57) + (125 + 75)\n= 100 + 200\n= 300."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Tính nhanh tổng sau: 1 + 2 + 3 + 4 + ... + 19 + 20.",
+      "studentAnswer": "210",
+      "solution": "Dãy số có 20 số hạng. Nhóm số đầu và số cuối thành từng cặp:\n1 + 20 = 21\n2 + 19 = 21\n3 + 18 = 21\n...\nSố lượng cặp là: 20 : 2 = 10 cặp.\nTổng dãy số là: 21 × 10 = 210."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tìm số tự nhiên x biết: x + 127 = 354.",
+      "studentAnswer": "X=226",
+      "solution": "Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết:\nx = 354 - 127\nx = 227.\nVậy x = 227."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tìm số tự nhiên x biết: 512 - x = 185.",
+      "studentAnswer": "X=327",
+      "solution": "Muốn tìm số trừ, ta lấy số bị trừ trừ đi hiệu:\nx = 512 - 185\nx = 327.\nVậy x = 327."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tìm số tự nhiên x biết: x - 45 = 112.",
+      "studentAnswer": "X=157",
+      "solution": "Muốn tìm số bị trừ, ta lấy hiệu cộng với số trừ:\nx = 112 + 45\nx = 157.\nVậy x = 157."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Mẹ đi siêu thị mua một hộp sữa giá 28.000đ, một gói bánh giá 35.000đ và một chai nước ngọt giá 12.000đ. Mẹ đưa cho nhân viên thu ngân tờ 100.000đ. Hỏi mẹ nhận lại bao nhiêu tiền thừa?",
+      "studentAnswer": "Mẹ nhận lại 25.000 đồng",
+      "solution": "Tổng số tiền mẹ mua hết là:\n28.000 + 35.000 + 12.000 = (28.000 + 12.000) + 35.000 (tính nhanh)\n= 40.000 + 35.000 = 75.000đ.\nSố tiền thừa mẹ nhận lại là:\n100.000 - 75.000 = 25.000đ.\nĐáp số: 25.000 đồng."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tính nhanh hiệu sau: 356 - 98.",
+      "studentAnswer": "Hiệu:258",
+      "solution": "Tách 98 thành 100 - 2 để thực hiện phép trừ tròn trăm nhanh hơn:\n356 - 98 = 356 - (100 - 2)\n= 356 - 100 + 2 (quy tắc dấu ngoặc)\n= 256 + 2\n= 258."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tìm số tự nhiên x biết: (x - 24) + 15 = 40.",
+      "studentAnswer": "X=59",
+      "solution": "Coi (x - 24) là một số hạng chưa biết:\nx - 24 = 40 - 15\nx - 24 = 25\nx = 25 + 24\nx = 49.\nVậy x = 49."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Một mảnh vườn hình chữ nhật có chiều dài 25 m, chiều rộng kém chiều dài 8 m. Tính chu vi mảnh vườn đó.",
+      "studentAnswer": "Chu vi:84 m",
+      "solution": "Chiều rộng mảnh vườn là:\n25 - 8 = 17 m.\nChu vi mảnh vườn hình chữ nhật là:\nP = (dài + rộng) × 2 = (25 + 17) × 2\n= 42 × 2 = 84 m.\nĐáp số: 84 mét."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tìm số tự nhiên x biết: 245 - (x + 12) = 135.",
+      "studentAnswer": "X:98",
+      "solution": "Coi (x + 12) là số trừ chưa biết:\nx + 12 = 245 - 135\nx + 12 = 110\nx = 110 - 12\nx = 98.\nVậy x = 98."
+    }
+  ]
+}
