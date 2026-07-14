@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-5-phep-nhan-va-phep-chia-so-tu-nhien",
+  "lessonTitle": "Bài 5: Phép nhân và phép chia số tự nhiên",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-14T11:37:29.624Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Phép chia 40 cho 6 có thương và số dư lần lượt là:",
+      "selectedOption": "Thương là 6, dư 4",
+      "correctAnswer": "Thương là 6, dư 4",
+      "explanation": "Ta có: 40 = 6 * 6 + 4. Vì số dư 4 < 6 nên thương là 6 và số dư là 4."
+    },
+    {
+      "questionNum": 2,
+      "question": "Phép chia 43 cho 6 có thương và số dư lần lượt là:",
+      "selectedOption": "Thương là 7, dư 1",
+      "correctAnswer": "Thương là 7, dư 1",
+      "explanation": "Ta có: 43 = 6 * 7 + 1. Vì số dư 1 < 6 nên thương là 7 và số dư là 1."
+    },
+    {
+      "questionNum": 3,
+      "question": "Phép chia 46 cho 6 có thương và số dư lần lượt là:",
+      "selectedOption": "Thương là 7, dư 4",
+      "correctAnswer": "Thương là 7, dư 4",
+      "explanation": "Ta có: 46 = 6 * 7 + 4. Vì số dư 4 < 6 nên thương là 7 và số dư là 4."
+    },
+    {
+      "questionNum": 4,
+      "question": "Phép chia 49 cho 6 có thương và số dư lần lượt là:",
+      "selectedOption": "Thương là 8, dư 1",
+      "correctAnswer": "Thương là 8, dư 1",
+      "explanation": "Ta có: 49 = 6 * 8 + 1. Vì số dư 1 < 6 nên thương là 8 và số dư là 1."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tính nhẩm nhanh bằng tính chất phân phối: 15 * 99.",
+      "selectedOption": "1485",
+      "correctAnswer": "1485",
+      "explanation": "Áp dụng tính chất phân phối: 15 * 99 = 15 * (100 - 1) = 15 * 100 - 15 = 1500 - 15 = 1485."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tính nhẩm nhanh bằng tính chất phân phối: 17 * 99.",
+      "selectedOption": "1683",
+      "correctAnswer": "1683",
+      "explanation": "Áp dụng tính chất phân phối: 17 * 99 = 17 * (100 - 1) = 17 * 100 - 17 = 1700 - 17 = 1683."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tính nhẩm nhanh bằng tính chất phân phối: 19 * 99.",
+      "selectedOption": "1881",
+      "correctAnswer": "1881",
+      "explanation": "Áp dụng tính chất phân phối: 19 * 99 = 19 * (100 - 1) = 19 * 100 - 19 = 1900 - 19 = 1881."
+    },
+    {
+      "questionNum": 8,
+      "question": "Trong một phép chia có dư, số chia là 12, thương là 8 và số dư là số dư lớn nhất có thể. Tìm số bị chia.",
+      "selectedOption": "107",
+      "correctAnswer": "107",
+      "explanation": "Vì số chia là 12 nên số dư lớn nhất có thể là 11. Số bị chia là: 12 * 8 + 11 = 107."
+    },
+    {
+      "questionNum": 9,
+      "question": "Trong một phép chia có dư, số chia là 13, thương là 9 và số dư là số dư lớn nhất có thể. Tìm số bị chia.",
+      "selectedOption": "129",
+      "correctAnswer": "129",
+      "explanation": "Vì số chia là 13 nên số dư lớn nhất có thể là 12. Số bị chia là: 13 * 9 + 12 = 129."
+    },
+    {
+      "questionNum": 10,
+      "question": "Trong một phép chia có dư, số chia là 14, thương là 10 và số dư là số dư lớn nhất có thể. Tìm số bị chia.",
+      "selectedOption": "153",
+      "correctAnswer": "153",
+      "explanation": "Vì số chia là 14 nên số dư lớn nhất có thể là 13. Số bị chia là: 14 * 10 + 13 = 153."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Tính nhanh tích sau: 25 × 36 × 4.",
+      "studentAnswer": "3600",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp của phép nhân để ghép các cặp thừa số tròn trăm:\n25 × 36 × 4 = (25 × 4) × 36\n= 100 × 36\n= 3.600."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Tính nhanh tích sau bằng tính chất phân phối: 32 × 99.",
+      "studentAnswer": "3.168",
+      "solution": "Tách 99 thành (100 - 1) và áp dụng tính chất phân phối của phép nhân đối với phép trừ:\n32 × 99 = 32 × (100 - 1)\n= 32 × 100 - 32 × 1\n= 3200 - 32\n= 3168."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tính nhanh tích sau: 15 × 102.",
+      "studentAnswer": "1530",
+      "solution": "Tách 102 thành (100 + 2) và áp dụng tính chất phân phối:\n15 × 102 = 15 × (100 + 2)\n= 15 × 100 + 15 × 2\n= 1500 + 30\n= 1530."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tìm số tự nhiên x biết: 12 × x = 144.",
+      "studentAnswer": "12",
+      "solution": "Muốn tìm thừa số chưa biết, ta lấy tích chia cho thừa số đã biết:\nx = 144 : 12\nx = 12.\nVậy x = 12."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Thực hiện phép chia và viết kết quả dưới dạng biểu thức a = b × q + r: 157 chia cho 12.",
+      "studentAnswer": "157=13.12+1",
+      "solution": "Đặt phép chia: 157 : 12\n- 15 chia 12 được 1, dư 3, hạ 7 được 37.\n- 37 chia 12 được 3 (3 × 12 = 36), dư 1.\nVậy thương q = 13 và số dư r = 1.\nViết dưới dạng biểu thức: 157 = 12 × 13 + 1."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Trong một phép chia có dư, số chia là 15, thương là 8 và số dư là số dư lớn nhất có thể. Tìm số bị chia.",
+      "studentAnswer": "134",
+      "solution": "Vì số chia là 15 nên số dư lớn nhất có thể có là số dư bằng: 15 - 1 = 14.\nSố bị chia cần tìm là:\nSố bị chia = Số chia × Thương + Số dư\n= 15 × 8 + 14\n= 120 + 14 = 134.\nĐáp số: 134."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Một trường học có 385 học sinh đi tham quan. Mỗi xe ô tô chở được nhiều nhất 45 học sinh. Hỏi nhà trường cần thuê ít nhất bao nhiêu xe ô tô như vậy?",
+      "studentAnswer": "9 xe ",
+      "solution": "Thực hiện phép chia số học sinh cho số ghế trên một xe:\n385 : 45 = 8 (dư 25).\nThương bằng 8 nghĩa là 8 xe chở đầy học sinh. Phần dư 25 học sinh vẫn cần thêm 1 xe nữa để chở hết.\nSố xe ô tô ít nhất nhà trường cần thuê là:\n8 + 1 = 9 xe.\nĐáp số: 9 xe."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tìm số tự nhiên x biết: 5 × (x - 3) = 60.",
+      "studentAnswer": "X=15",
+      "solution": "Coi (x - 3) là thừa số chưa biết:\nx - 3 = 60 : 5\nx - 3 = 12\nx = 12 + 3\nx = 15.\nVậy x = 15."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Một cửa hàng nhập về 15 thùng bút chì, mỗi thùng có 12 hộp, mỗi hộp có 10 cây bút. Hỏi cửa hàng nhập về tổng cộng bao nhiêu cây bút chì?",
+      "studentAnswer": "1800 cái bút chì ✏️ ",
+      "solution": "Tổng số cây bút chì nhập về là:\n15 × 12 × 10\n= (15 × 12) × 10\n= 180 × 10 = 1.800 cây bút.\nĐáp số: 1.800 cây bút."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tính nhanh biểu thức sau: 125 × 7 × 8.",
+      "studentAnswer": "7000",
+      "solution": "Nhóm 125 và 8 để được 1.000:\n125 × 7 × 8 = (125 × 8) × 7\n= 1000 × 7\n= 7.000."
+    }
+  ]
+}
