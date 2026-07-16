@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-6-luy-thua-voi-so-mu-tu-nhien",
+  "lessonTitle": "Bài 6: Lũy thừa với số mũ tự nhiên",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-16T08:31:21.352Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Trong lũy thừa 2^3, cơ số và số mũ lần lượt là:",
+      "selectedOption": "Cơ số là 2, số mũ là 3",
+      "correctAnswer": "Cơ số là 2, số mũ là 3",
+      "explanation": "Ở lũy thừa x^y, số đứng dưới x là cơ số và số đứng trên y là số mũ. Vậy cơ số là 2, số mũ là 3."
+    },
+    {
+      "questionNum": 2,
+      "question": "Trong lũy thừa 3^3, cơ số và số mũ lần lượt là:",
+      "selectedOption": "Cơ số là 3, số mũ là 3",
+      "correctAnswer": "Cơ số là 3, số mũ là 3",
+      "explanation": "Ở lũy thừa x^y, số đứng dưới x là cơ số và số đứng trên y là số mũ. Vậy cơ số là 3, số mũ là 3."
+    },
+    {
+      "questionNum": 3,
+      "question": "Trong lũy thừa 4^3, cơ số và số mũ lần lượt là:",
+      "selectedOption": "Cơ số là 4, số mũ là 3",
+      "correctAnswer": "Cơ số là 4, số mũ là 3",
+      "explanation": "Ở lũy thừa x^y, số đứng dưới x là cơ số và số đứng trên y là số mũ. Vậy cơ số là 4, số mũ là 3."
+    },
+    {
+      "questionNum": 4,
+      "question": "Trong lũy thừa 5^3, cơ số và số mũ lần lượt là:",
+      "selectedOption": "Cơ số là 5, số mũ là 3",
+      "correctAnswer": "Cơ số là 5, số mũ là 3",
+      "explanation": "Ở lũy thừa x^y, số đứng dưới x là cơ số và số đứng trên y là số mũ. Vậy cơ số là 5, số mũ là 3."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tính tích của hai lũy thừa cùng cơ số: 2^2 * 2^3.",
+      "selectedOption": "2^5",
+      "correctAnswer": "2^5",
+      "explanation": "Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng các số mũ: 2^2 * 2^3 = 2^(2+3) = 2^5."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tính tích của hai lũy thừa cùng cơ số: 3^2 * 3^3.",
+      "selectedOption": "3^5",
+      "correctAnswer": "3^5",
+      "explanation": "Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng các số mũ: 3^2 * 3^3 = 3^(2+3) = 3^5."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tính tích của hai lũy thừa cùng cơ số: 4^2 * 4^3.",
+      "selectedOption": "4^5",
+      "correctAnswer": "4^5",
+      "explanation": "Khi nhân hai lũy thừa cùng cơ số, ta giữ nguyên cơ số và cộng các số mũ: 4^2 * 4^3 = 4^(2+3) = 4^5."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số tự nhiên x biết rằng: 2^x = 16.",
+      "selectedOption": "4",
+      "correctAnswer": "4",
+      "explanation": "Ta có 16 = 2^4 (tích của 4 thừa số 2). Do đó x = 4."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số tự nhiên x biết rằng: 3^x = 81.",
+      "selectedOption": "4",
+      "correctAnswer": "4",
+      "explanation": "Ta có 81 = 3^4 (tích của 4 thừa số 3). Do đó x = 4."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số tự nhiên x biết rằng: 2^x = 32.",
+      "selectedOption": "6",
+      "correctAnswer": "5",
+      "explanation": "Ta có 32 = 2^5 (tích của 5 thừa số 2). Do đó x = 5."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Viết các tích sau dưới dạng lũy thừa và tính giá trị của chúng: 2 × 2 × 2 × 2 × 2 và 3 × 3 × 3.",
+      "studentAnswer": "2 mũ 4 và 3 mũ 3",
+      "solution": "- Tích 2 × 2 × 2 × 2 × 2 có 5 thừa số 2 nên được viết dưới dạng lũy thừa là: 2^5.\nGiá trị: 2^5 = 32.\n- Tích 3 × 3 × 3 có 3 thừa số 3 nên được viết dưới dạng lũy thừa là: 3^3.\nGiá trị: 3^3 = 27."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Rút gọn biểu thức sau dưới dạng một lũy thừa: A = 3^4 × 3^3.",
+      "studentAnswer": "3 mũ 7",
+      "solution": "Áp dụng quy tắc nhân hai lũy thừa cùng cơ số (giữ nguyên cơ số, cộng số mũ):\nA = 3^4 × 3^3 = 3^(4 + 3) = 3^7."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Rút gọn biểu thức sau dưới dạng một lũy thừa: B = 5^8 : 5^5.",
+      "studentAnswer": "5 mũ 3",
+      "solution": "Áp dụng quy tắc chia hai lũy thừa cùng cơ số (giữ nguyên cơ số, trừ số mũ):\nB = 5^8 : 5^5 = 5^(8 - 5) = 5^3."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "So sánh hai lũy thừa sau: 3^4 và 4^3.",
+      "studentAnswer": "3 mũ 4> 4 mũ 3",
+      "solution": "Tính giá trị của từng lũy thừa:\n- 3^4 = 3 × 3 × 3 × 3 = 81.\n- 4^3 = 4 × 4 × 4 = 64.\nVì 81 > 64 nên 3^4 > 4^3."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tìm số tự nhiên x biết: 2^x = 64.",
+      "studentAnswer": "X=32",
+      "solution": "Ta phân tích số 64 thành lũy thừa cơ số 2:\n64 = 2 × 32 = 2 × 2 × 16 = 2 × 2 × 2 × 2 × 2 × 2 = 2^6.\nĐẳng thức tương đương: 2^x = 2^6.\nDo đó x = 6.\nVậy x = 6."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tìm số tự nhiên x biết: x^3 = 125.",
+      "studentAnswer": "X=5",
+      "solution": "Ta tìm số tự nhiên mà lũy thừa bậc 3 bằng 125:\nNhẩm: 5 × 5 × 5 = 125, nên 5^3 = 125.\nĐẳng thức tương đương: x^3 = 5^3.\nDo đó x = 5.\nVậy x = 5."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Viết số tự nhiên 5.483 thành tổng các lũy thừa của 10.",
+      "studentAnswer": "5.10 mũ 3+ 4.10 mũ 2+8.10 mũ 1+ 3.10 mũ 0",
+      "solution": "Phân tích cấu tạo hàng thập phân:\n5.483 = 5 × 1.000 + 4 × 100 + 8 × 10 + 3\nViết các số 1.000, 100, 10 dưới dạng lũy thừa của 10:\n- 1.000 = 10^3\n- 100 = 10^2\n- 10 = 10^1\nVậy ta được:\n5.483 = 5 × 10^3 + 4 × 10^2 + 8 × 10^1 + 3 × 10^0 (hoặc đơn giản là + 3)."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tính giá trị biểu thức: C = 2^3 × 5 - 3^2.",
+      "studentAnswer": "23",
+      "solution": "Theo thứ tự ưu tiên, ta tính lũy thừa trước:\n- 2^3 = 8\n- 3^2 = 9\nThay vào biểu thức:\nC = 8 × 5 - 9\nC = 40 - 9 = 31.\nVậy C = 31."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Một loài vi khuẩn cứ sau 1 giờ lại tự nhân đôi một lần. Ban đầu chỉ có 1 con vi khuẩn. Hỏi sau 6 giờ sẽ có bao nhiêu con vi khuẩn?",
+      "studentAnswer": "64 con",
+      "solution": "- Ban đầu: 1 con\n- Sau 1 giờ: 1 × 2 = 2 = 2^1 con\n- Sau 2 giờ: 2 × 2 = 4 = 2^2 con\n- Sau 3 giờ: 4 × 2 = 8 = 2^3 con\n...\n- Sau 6 giờ: Số lượng vi khuẩn sẽ là 2^6 con.\nTính giá trị: 2^6 = 64 con vi khuẩn.\nĐáp số: 64 con vi khuẩn."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Rút gọn biểu thức sau: D = (2^5 × 2^3) : 2^6.",
+      "studentAnswer": "2 mũ 2",
+      "solution": "Tính tích trước, sau đó tính chia:\n- Tử số/ngoặc: 2^5 × 2^3 = 2^(5+3) = 2^8.\n- Phép chia: 2^8 : 2^6 = 2^(8-6) = 2^2 = 4.\nVậy D = 4."
+    }
+  ]
+}
