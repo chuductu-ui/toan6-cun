@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-7-thu-tu-thuc-hien-cac-phep-tinh",
+  "lessonTitle": "Bài 7: Thứ tự thực hiện các phép tính",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-17T02:43:47.526Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Tính giá trị của biểu thức: 15 - 2 * 3.",
+      "selectedOption": "9",
+      "correctAnswer": "9",
+      "explanation": "Thực hiện phép nhân trước: 2 * 3 = 6. Sau đó thực hiện phép trừ: 15 - 6 = 9."
+    },
+    {
+      "questionNum": 2,
+      "question": "Tính giá trị của biểu thức: 16 - 2 * 3.",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Thực hiện phép nhân trước: 2 * 3 = 6. Sau đó thực hiện phép trừ: 16 - 6 = 10."
+    },
+    {
+      "questionNum": 3,
+      "question": "Tính giá trị của biểu thức: 17 - 2 * 3.",
+      "selectedOption": "11",
+      "correctAnswer": "11",
+      "explanation": "Thực hiện phép nhân trước: 2 * 3 = 6. Sau đó thực hiện phép trừ: 17 - 6 = 11."
+    },
+    {
+      "questionNum": 4,
+      "question": "Tính giá trị của biểu thức: 18 - 2 * 3.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Thực hiện phép nhân trước: 2 * 3 = 6. Sau đó thực hiện phép trừ: 18 - 6 = 12."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tính giá trị biểu thức: 2^3 * 10 - 4.",
+      "selectedOption": "76",
+      "correctAnswer": "76",
+      "explanation": "Lũy thừa trước: 2^3 = 8. Nhân tiếp theo: 8 * 10 = 80. Trừ cuối cùng: 80 - 4 = 76."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tính giá trị biểu thức: 3^3 * 11 - 4.",
+      "selectedOption": "293",
+      "correctAnswer": "293",
+      "explanation": "Lũy thừa trước: 3^3 = 27. Nhân tiếp theo: 27 * 11 = 297. Trừ cuối cùng: 297 - 4 = 293."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tính giá trị biểu thức: 2^3 * 12 - 4.",
+      "selectedOption": "92",
+      "correctAnswer": "92",
+      "explanation": "Lũy thừa trước: 2^3 = 8. Nhân tiếp theo: 8 * 12 = 96. Trừ cuối cùng: 96 - 4 = 92."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số tự nhiên x biết: 3 * (x - 2) + 4 = 13.",
+      "selectedOption": "5",
+      "correctAnswer": "5",
+      "explanation": "Ta có: 3 * (x - 2) = 13 - 4 = 9. Suy ra x - 2 = 9 / 3 = 3. Vậy x = 3 + 2 = 5."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số tự nhiên x biết: 3 * (x - 2) + 4 = 16.",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Ta có: 3 * (x - 2) = 16 - 4 = 12. Suy ra x - 2 = 12 / 3 = 4. Vậy x = 4 + 2 = 6."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số tự nhiên x biết: 3 * (x - 2) + 4 = 19.",
+      "selectedOption": "7",
+      "correctAnswer": "7",
+      "explanation": "Ta có: 3 * (x - 2) = 19 - 4 = 15. Suy ra x - 2 = 15 / 3 = 5. Vậy x = 5 + 2 = 7."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Tính giá trị biểu thức sau: 180 - 75 : 5 + 3^2 × 4.",
+      "studentAnswer": "180 -15 +36=201",
+      "solution": "Thứ tự thực hiện: Lũy thừa -> Nhân chia -> Cộng trừ.\n1. Tính lũy thừa: 3^2 = 9.\nThay vào biểu thức: 180 - 75 : 5 + 9 × 4.\n2. Thực hiện nhân chia từ trái sang phải:\n- 75 : 5 = 15.\n- 9 × 4 = 36.\nThay vào biểu thức: 180 - 15 + 36.\n3. Thực hiện cộng trừ từ trái sang phải:\n- 180 - 15 = 165.\n- 165 + 36 = 201.\nKết quả là 201."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Tính giá trị biểu thức chứa ngoặc: 100 : { 2 × [52 - (35 - 8)] }.",
+      "studentAnswer": "2",
+      "solution": "Thứ tự ưu tiên: Tính trong ngoặc tròn ( ) -> ngoặc vuông [ ] -> ngoặc nhọn { }.\n1. Trong ngoặc tròn: 35 - 8 = 27.\nThay vào biểu thức: 100 : { 2 × [52 - 27] }.\n2. Trong ngoặc vuông: 52 - 27 = 25.\nThay vào biểu thức: 100 : { 2 × 25 }.\n3. Trong ngoặc nhọn: 2 × 25 = 50.\nThay vào biểu thức: 100 : 50 = 2.\nKết quả là 2."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tìm số tự nhiên x biết: 3 × x - 8 = 2^3 × 2.",
+      "studentAnswer": "X=8",
+      "solution": "Tính giá trị vế phải trước:\n- 2^3 × 2 = 8 × 2 = 16.\nPhương trình trở thành:\n3 × x - 8 = 16\n3 × x = 16 + 8\n3 × x = 24\nx = 24 : 3\nx = 8.\nVậy x = 8."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tìm số tự nhiên x biết: 15 + 5 × (x - 4) = 120 : 3.",
+      "studentAnswer": "X=9",
+      "solution": "Tính vế phải trước:\n- 120 : 3 = 40.\nPhương trình trở thành:\n15 + 5 × (x - 4) = 40\n5 × (x - 4) = 40 - 15\n5 × (x - 4) = 25\nx - 4 = 25 : 5\nx - 4 = 5\nx = 5 + 4\nx = 9.\nVậy x = 9."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tính giá trị biểu thức: A = 5 × 2^3 - 18 : 3^2.",
+      "studentAnswer": "A=38",
+      "solution": "Tính lũy thừa trước:\n- 2^3 = 8\n- 3^2 = 9\nBiểu thức trở thành:\nA = 5 × 8 - 18 : 9\nTính nhân chia:\n- 5 × 8 = 40\n- 18 : 9 = 2\nTính trừ:\nA = 40 - 2 = 38.\nKết quả là 38."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tìm số tự nhiên x biết: 24 - [2 × (x - 1) + 4] = 10.",
+      "studentAnswer": "X=6",
+      "solution": "Coi phần trong ngoặc vuông là số trừ chưa biết:\n2 × (x - 1) + 4 = 24 - 10\n2 × (x - 1) + 4 = 14\n2 × (x - 1) = 14 - 4\n2 × (x - 1) = 10\nx - 1 = 10 : 2\nx - 1 = 5\nx = 5 + 1\nx = 6.\nVậy x = 6."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tính nhanh giá trị biểu thức: B = 25 × 12 - 25 × 2 + 50.",
+      "studentAnswer": "B=200",
+      "solution": "Áp dụng tính chất phân phối cho hai hạng tử đầu:\n25 × 12 - 25 × 2 = 25 × (12 - 2) = 25 × 10 = 250.\nCộng tiếp với số hạng cuối:\nB = 250 + 50 = 300.\nKết quả là 300."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Biết x = 5, tính giá trị của biểu thức: H = 2 × x^2 + 3 × x - 10.",
+      "studentAnswer": "H=25",
+      "solution": "Thay x = 5 vào biểu thức:\nH = 2 × 5^2 + 3 × 5 - 10\nTính toán theo thứ tự ưu tiên:\n- 5^2 = 25\n- 2 × 25 = 50\n- 3 × 5 = 15\nThay lại: H = 50 + 15 - 10\nH = 65 - 10 = 55.\nKết quả là 55."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Để khuyến khích học tập, bố mẹ thưởng cho Hoa: 5 cuốn vở giá 10.000đ/cuốn, 2 cây bút giá 5.000đ/cây và 1 ba lô giá 120.000đ. Viết biểu thức toán học tính tổng số tiền phần thưởng của Hoa và tính giá trị biểu thức đó.",
+      "studentAnswer": "10000.5 + 5000.2 +120000\n=50000 +10000 +120000\n=60000 + 120000\n= 180000",
+      "solution": "Biểu thức tính tổng số tiền là:\nT = 5 × 10.000 + 2 × 5.000 + 120.000\nTính giá trị:\n- 5 × 10.000 = 50.000\n- 2 × 5.000 = 10.000\nT = 50.000 + 10.000 + 120.000\nT = 60.000 + 120.000 = 180.000đ.\nĐáp số: 180.000 đồng."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tìm số tự nhiên x biết: { [ (2x + 14) : 4 ] - 3 } × 5 = 20.",
+      "studentAnswer": "X=7",
+      "solution": "[ (2x + 14) : 4 ] - 3 = 20 : 5\n[ (2x + 14) : 4 ] - 3 = 4\n(2x + 14) : 4 = 4 + 3\n(2x + 14) : 4 = 7\n2x + 14 = 7 × 4\n2x + 14 = 28\n2x = 28 - 14\n2x = 14\nx = 14 : 2\nx = 7.\nVậy x = 7."
+    }
+  ]
+}
