@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-tap-cuoi-chuong-1",
+  "lessonTitle": "Bài tập cuối chương I",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-18T14:29:44.546Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Kết quả của phép tính cộng tự nhiên: 10 + 15 là bao nhiêu?",
+      "selectedOption": "25",
+      "correctAnswer": "25",
+      "explanation": "Thực hiện phép cộng đơn giản: 10 + 15 = 25."
+    },
+    {
+      "questionNum": 2,
+      "question": "Kết quả của phép tính cộng tự nhiên: 12 + 14 là bao nhiêu?",
+      "selectedOption": "26",
+      "correctAnswer": "26",
+      "explanation": "Thực hiện phép cộng đơn giản: 12 + 14 = 26."
+    },
+    {
+      "questionNum": 3,
+      "question": "Kết quả của phép tính cộng tự nhiên: 14 + 13 là bao nhiêu?",
+      "selectedOption": "27",
+      "correctAnswer": "27",
+      "explanation": "Thực hiện phép cộng đơn giản: 14 + 13 = 27."
+    },
+    {
+      "questionNum": 4,
+      "question": "Kết quả của phép tính cộng tự nhiên: 16 + 12 là bao nhiêu?",
+      "selectedOption": "28",
+      "correctAnswer": "28",
+      "explanation": "Thực hiện phép cộng đơn giản: 16 + 12 = 28."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm số tự nhiên x biết rằng: x / 2 = 3.",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 2 = 6."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm số tự nhiên x biết rằng: x / 3 = 3.",
+      "selectedOption": "9",
+      "correctAnswer": "9",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 3 = 9."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tìm số tự nhiên x biết rằng: x / 4 = 3.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 4 = 12."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 10.",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 10 chính là BCNN(2, 10). Kết quả là 10."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 11.",
+      "selectedOption": "22",
+      "correctAnswer": "22",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 11 chính là BCNN(2, 11). Kết quả là 22."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 12.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 12 chính là BCNN(2, 12). Kết quả là 12."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 15 + 30 - 10.",
+      "studentAnswer": "A= 35",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n15 + 30 = 45.\nSau đó trừ đi 10: Kết quả là 35."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 20 + 29 - 11.",
+      "studentAnswer": "A= 38",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n20 + 29 = 49.\nSau đó trừ đi 11: Kết quả là 38."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 25 + 28 - 10.",
+      "studentAnswer": "A= 43",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n25 + 28 = 53.\nSau đó trừ đi 10: Kết quả là 43."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 30 + 27 - 11.",
+      "studentAnswer": "A= 46",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n30 + 27 = 57.\nSau đó trừ đi 11: Kết quả là 46."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 35 + 26 - 10.",
+      "studentAnswer": "A= 51",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n35 + 26 = 61.\nSau đó trừ đi 10: Kết quả là 51."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 40 + 25 - 11.",
+      "studentAnswer": "A= 54",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n40 + 25 = 65.\nSau đó trừ đi 11: Kết quả là 54."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 45 + 24 - 10.",
+      "studentAnswer": "A= 59",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n45 + 24 = 69.\nSau đó trừ đi 10: Kết quả là 59."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 50 + 23 - 11.",
+      "studentAnswer": "A= 62",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n50 + 23 = 73.\nSau đó trừ đi 11: Kết quả là 62."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 55 + 22 - 10.",
+      "studentAnswer": "A= 67",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n55 + 22 = 77.\nSau đó trừ đi 10: Kết quả là 67."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tính giá trị của biểu thức ôn tập tập hợp số tự nhiên: A = 60 + 21 - 11.",
+      "studentAnswer": "A= 70",
+      "solution": "Thực hiện phép tính từ trái sang phải:\n60 + 21 = 81.\nSau đó trừ đi 11: Kết quả là 70."
+    }
+  ]
+}
