@@ -1,0 +1,140 @@
+{
+  "lessonId": "luyen-tap-chung-trang-27",
+  "lessonTitle": "Luyện tập chung trang 27",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-18T02:06:49.009Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Kết quả của phép tính cộng tự nhiên: 10 + 15 là bao nhiêu?",
+      "selectedOption": "25",
+      "correctAnswer": "25",
+      "explanation": "Thực hiện phép cộng đơn giản: 10 + 15 = 25."
+    },
+    {
+      "questionNum": 2,
+      "question": "Kết quả của phép tính cộng tự nhiên: 12 + 14 là bao nhiêu?",
+      "selectedOption": "26",
+      "correctAnswer": "26",
+      "explanation": "Thực hiện phép cộng đơn giản: 12 + 14 = 26."
+    },
+    {
+      "questionNum": 3,
+      "question": "Kết quả của phép tính cộng tự nhiên: 14 + 13 là bao nhiêu?",
+      "selectedOption": "27",
+      "correctAnswer": "27",
+      "explanation": "Thực hiện phép cộng đơn giản: 14 + 13 = 27."
+    },
+    {
+      "questionNum": 4,
+      "question": "Kết quả của phép tính cộng tự nhiên: 16 + 12 là bao nhiêu?",
+      "selectedOption": "28",
+      "correctAnswer": "28",
+      "explanation": "Thực hiện phép cộng đơn giản: 16 + 12 = 28."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm số tự nhiên x biết rằng: x / 2 = 3.",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 2 = 6."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm số tự nhiên x biết rằng: x / 3 = 3.",
+      "selectedOption": "9",
+      "correctAnswer": "9",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 3 = 9."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tìm số tự nhiên x biết rằng: x / 4 = 3.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 4 = 12."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 10.",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 10 chính là BCNN(2, 10). Kết quả là 10."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 11.",
+      "selectedOption": "22",
+      "correctAnswer": "22",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 11 chính là BCNN(2, 11). Kết quả là 22."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 12.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 12 chính là BCNN(2, 12). Kết quả là 12."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 10 + 95 + 90.",
+      "studentAnswer": "S=95 + 10 + 90= 95 + 100 =195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (10 + 90) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 11 + 95 + 89.",
+      "studentAnswer": "S=89 + 11 + 95 = 100 + 95=195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (11 + 89) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 12 + 95 + 88.",
+      "studentAnswer": "S= 12 + 88 + 95 = 100 + 95= 195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (12 + 88) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 13 + 95 + 87.",
+      "studentAnswer": "S= 13 + 87 + 95 = 100 + 95 = 195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (13 + 87) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 14 + 95 + 86.",
+      "studentAnswer": "S= 14 + 86 + 95 = 100 + 95 = 195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (14 + 86) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 15 + 95 + 85.",
+      "studentAnswer": "S = 15 + 85 + 95 = 100 + 95 = 195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (15 + 85) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 16 + 95 + 84.",
+      "studentAnswer": "S= 16 + 84 + 95 = 100 + 95 = 195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (16 + 84) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 17 + 95 + 83.",
+      "studentAnswer": "S = 17 + 83 + 95 = 100 + 95 = 195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (17 + 83) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 18 + 95 + 82.",
+      "studentAnswer": "S = 18 + 82 + 95 = 100 + 95 = 195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (18 + 82) + 95 = 100 + 95 = 195."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tính nhanh tổng ôn tập lũy thừa và phép tính: S = 19 + 95 + 81.",
+      "studentAnswer": "S= 19 + 81 + 95 = 100 + 95 = 195",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số tròn trăm:\nS = (19 + 81) + 95 = 100 + 95 = 195."
+    }
+  ]
+}
