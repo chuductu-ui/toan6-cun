@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-8-quan-he-chia-het-va-tinh-chat",
+  "lessonTitle": "Bài 8: Quan hệ chia hết và tính chất",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-19T11:30:14.560Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Trong các khẳng định sau, khẳng định nào ĐÚNG?",
+      "selectedOption": "15 là bội của 5",
+      "correctAnswer": "15 là bội của 5",
+      "explanation": "Vì 15 chia hết cho 5 (15 = 5 * 3) nên 15 là bội của 5 và 5 là ước của 15."
+    },
+    {
+      "questionNum": 2,
+      "question": "Trong các khẳng định sau, khẳng định nào ĐÚNG?",
+      "selectedOption": "20 là bội của 5",
+      "correctAnswer": "20 là bội của 5",
+      "explanation": "Vì 20 chia hết cho 5 (20 = 5 * 4) nên 20 là bội của 5 và 5 là ước của 20."
+    },
+    {
+      "questionNum": 3,
+      "question": "Trong các khẳng định sau, khẳng định nào ĐÚNG?",
+      "selectedOption": "25 là bội của 5",
+      "correctAnswer": "25 là bội của 5",
+      "explanation": "Vì 25 chia hết cho 5 (25 = 5 * 5) nên 25 là bội của 5 và 5 là ước của 25."
+    },
+    {
+      "questionNum": 4,
+      "question": "Trong các khẳng định sau, khẳng định nào ĐÚNG?",
+      "selectedOption": "30 là bội của 5",
+      "correctAnswer": "30 là bội của 5",
+      "explanation": "Vì 30 chia hết cho 5 (30 = 5 * 6) nên 30 là bội của 5 và 5 là ước của 30."
+    },
+    {
+      "questionNum": 5,
+      "question": "Nếu a chia hết cho 6 và b chia hết cho 6 thì tổng (a + b) chắc chắn chia hết cho số nào dưới đây?",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Theo tính chất chia hết của một tổng, nếu tất cả các số hạng đều chia hết cho 6 thì tổng (a + b) cũng chia hết cho 6."
+    },
+    {
+      "questionNum": 6,
+      "question": "Nếu a chia hết cho 6 và b chia hết cho 6 thì tổng (a + b) chắc chắn chia hết cho số nào dưới đây?",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Theo tính chất chia hết của một tổng, nếu tất cả các số hạng đều chia hết cho 6 thì tổng (a + b) cũng chia hết cho 6."
+    },
+    {
+      "questionNum": 7,
+      "question": "Nếu a chia hết cho 6 và b chia hết cho 6 thì tổng (a + b) chắc chắn chia hết cho số nào dưới đây?",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Theo tính chất chia hết của một tổng, nếu tất cả các số hạng đều chia hết cho 6 thì tổng (a + b) cũng chia hết cho 6."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm tất cả các số tự nhiên x sao cho (x + 4) chia hết cho x.",
+      "selectedOption": "x ∈ {1, 2, 4}",
+      "correctAnswer": "x ∈ {1, 2, 4}",
+      "explanation": "Vì x chia hết cho x, để (x + 4) chia hết cho x thì 4 phải chia hết cho x. Do đó, x là ước của 4. Ước tự nhiên của 4 là: [1, 2, 4]."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm tất cả các số tự nhiên x sao cho (x + 5) chia hết cho x.",
+      "selectedOption": "x ∈ {1, 5}",
+      "correctAnswer": "x ∈ {1, 5}",
+      "explanation": "Vì x chia hết cho x, để (x + 5) chia hết cho x thì 5 phải chia hết cho x. Do đó, x là ước của 5. Ước tự nhiên của 5 là: [1, 5]."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm tất cả các số tự nhiên x sao cho (x + 6) chia hết cho x.",
+      "selectedOption": "x ∈ {1, 2, 3, 6}",
+      "correctAnswer": "x ∈ {1, 2, 3, 6}",
+      "explanation": "Vì x chia hết cho x, để (x + 6) chia hết cho x thì 6 phải chia hết cho x. Do đó, x là ước của 6. Ước tự nhiên của 6 là: [1, 2, 3, 6]."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Tìm tất cả các ước tự nhiên của số 20.",
+      "studentAnswer": "1, 2, 4, 5,10, 20",
+      "solution": "Lấy 20 chia cho các số tự nhiên từ 1 đến 20. Các phép chia hết là chia cho: 1, 2, 4, 5, 10, 20.\nVậy tập hợp ước của 20 là: Ư(20) = {1, 2, 4, 5, 10, 20}."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Viết tập hợp các bội của 6 nhỏ hơn 40.",
+      "studentAnswer": "0, 6, 12, 18, 24, 30, 36, 38",
+      "solution": "Nhân 6 lần lượt với 0, 1, 2, 3, 4, 5, 6, 7...\nCác bội của 6 là: 0, 6, 12, 18, 24, 30, 36, 42...\nLọc ra các số nhỏ hơn 40, ta được tập hợp:\nB = {0, 6, 12, 18, 24, 30, 36}."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Không tính giá trị, hãy giải thích xem tổng A = 24 + 56 + 80 có chia hết cho 8 không.",
+      "studentAnswer": "Có chia hết được cho 8 \nVì khi các số trong biểu thức ấy đều chia được cho số 8 nên dù không tính kết quả thì kết quả thì vẫn chia được cho 8",
+      "solution": "Xét tính chia hết cho 8 của từng số hạng:\n- 24 = 8 × 3 nên 24 ⋮ 8.\n- 56 = 8 × 7 nên 56 ⋮ 8.\n- 80 = 8 × 10 nên 80 ⋮ 8.\nVì tất cả các số hạng đều chia hết cho 8 nên theo tính chất chia hết của một tổng, tổng A chắc chắn chia hết cho 8."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Không tính giá trị, hãy giải thích xem tổng B = 15 + 30 + 44 có chia hết cho 5 không.",
+      "studentAnswer": "Không chia cho 5 được \nVì trong biểu thức ấy có một số không chia được cho 5 vì số đấy nên dẫn đến kết quả không chia được cho 5",
+      "solution": "Xét tính chia hết cho 5 của từng số hạng:\n- 15 = 5 × 3 nên 15 ⋮ 5.\n- 30 = 5 × 6 nên 30 ⋮ 5.\n- 44 không chia hết cho 5 (44 % 5 = 8 dư 4).\nVì trong tổng có một số hạng không chia hết cho 5 và các số hạng còn lại đều chia hết cho 5, nên tổng B không chia hết cho 5."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tìm số tự nhiên x sao cho x vừa là ước của 36, vừa là bội của 3.",
+      "studentAnswer": "X= 3, 6, 9, 12, 18, 36",
+      "solution": "- Ước của 36 là: Ư(36) = {1, 2, 3, 4, 6, 9, 12, 18, 36}.\n- Bội của 3 là các số chia hết cho 3. Lọc từ tập ước của 36 các số chia hết cho 3, ta được các số: 3, 6, 9, 12, 18, 36.\nVậy x nhận các giá trị: {3, 6, 9, 12, 18, 36}."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tìm tất cả các số tự nhiên x sao cho 15 chia hết cho x (15 ⋮ x).",
+      "studentAnswer": "X= 1, 3, 5, 15",
+      "solution": "15 chia hết cho x nghĩa là x là một ước tự nhiên của 15.\nCác ước tự nhiên của 15 là: 1, 3, 5, 15.\nVậy x ∈ {1, 3, 5, 15}."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tìm các số tự nhiên x là bội của 7 và thỏa mãn 20 < x < 50.",
+      "studentAnswer": "X= 21, 28, 35, 42, 49",
+      "solution": "Nhân 7 lần lượt với các số tự nhiên:\n- 7 × 3 = 21 (lớn hơn 20, thỏa mãn)\n- 7 × 4 = 28\n- 7 × 5 = 35\n- 7 × 6 = 42\n- 7 × 7 = 49 (nhỏ hơn 50, thỏa mãn)\n- 7 × 8 = 56 (lớn hơn 50, loại)\nVậy các giá trị x thỏa mãn là: {21, 28, 35, 42, 49}."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Chứng minh rằng tổng S = 3 + 3^2 + 3^3 + 3^4 chia hết cho 4.",
+      "studentAnswer": "S= 3 + 9 + 27 + 81\nS= 3 + 27 + 9 + 81\nS= 30 +90 \nMà chắc chắn là kết quả là 120 mà 120 chia hết cho 4",
+      "solution": "Nhóm các số hạng thành từng cặp:\nS = (3 + 3^2) + (3^3 + 3^4)\nS = 3 × (1 + 3) + 3^3 × (1 + 3)\nS = 3 × 4 + 3^3 × 4\nS = 4 × (3 + 3^3).\nVì tổng S viết được dưới dạng tích chứa thừa số 4 nên S chia hết cho 4."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Một đội thanh niên tình nguyện có 36 người. Đội trưởng muốn chia đội thành các nhóm sao cho mỗi nhóm có từ 4 đến 10 người và số người ở các nhóm bằng nhau. Hỏi có những cách chia nhóm nào?",
+      "studentAnswer": "Lấy số người trong đội chia cho 4 người chung 1 nhóm , lấy số người trong đội chia cho 6 người trong nhóm, lấy số người trong 1 đội chia cho 9 người cùng 1 nhóm.",
+      "solution": "Số người trong mỗi nhóm phải là ước của 36.\nCác ước của 36 là: 1, 2, 3, 4, 6, 9, 12, 18, 36.\nTheo yêu cầu, số người mỗi nhóm (x) phải thỏa mãn: 4 ≤ x ≤ 10.\nLọc các ước của 36 trong khoảng này, ta được: x = 4, x = 6, x = 9.\nVậy có 3 cách chia:\n- Chia thành các nhóm 4 người (được 9 nhóm).\n- Chia thành các nhóm 6 người (được 6 nhóm).\n- Chia thành các nhóm 9 người (được 4 nhóm)."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tìm số tự nhiên x sao cho (x + 8) chia hết cho x.",
+      "studentAnswer": "X= 1, 2, 4, 8",
+      "solution": "Ta có biểu thức: (x + 8) ⋮ x.\nVì x luôn chia hết cho x (x ⋮ x), nên để tổng (x + 8) chia hết cho x thì số hạng còn lại là 8 phải chia hết cho x (8 ⋮ x).\nSuy ra x là ước tự nhiên của 8.\nCác ước tự nhiên của 8 là: 1, 2, 4, 8.\nVậy x ∈ {1, 2, 4, 8}."
+    }
+  ]
+}
