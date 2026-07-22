@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-9-dau-hieu-chia-het",
+  "lessonTitle": "Bài 9: Dấu hiệu chia hết",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-22T01:38:55.510Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Trong các số sau: 120, 123, 127, 129, số nào chia hết cho cả 2 và 5?",
+      "selectedOption": "120",
+      "correctAnswer": "120",
+      "explanation": "Số chia hết cho cả 2 và 5 phải có chữ số tận cùng là 0. Trong các số trên, chỉ có số kết thúc bằng 0 chia hết cho cả 2 và 5."
+    },
+    {
+      "questionNum": 2,
+      "question": "Trong các số sau: 130, 133, 137, 139, số nào chia hết cho cả 2 và 5?",
+      "selectedOption": "130",
+      "correctAnswer": "130",
+      "explanation": "Số chia hết cho cả 2 và 5 phải có chữ số tận cùng là 0. Trong các số trên, chỉ có số kết thúc bằng 0 chia hết cho cả 2 và 5."
+    },
+    {
+      "questionNum": 3,
+      "question": "Trong các số sau: 140, 143, 147, 149, số nào chia hết cho cả 2 và 5?",
+      "selectedOption": "140",
+      "correctAnswer": "140",
+      "explanation": "Số chia hết cho cả 2 và 5 phải có chữ số tận cùng là 0. Trong các số trên, chỉ có số kết thúc bằng 0 chia hết cho cả 2 và 5."
+    },
+    {
+      "questionNum": 4,
+      "question": "Trong các số sau: 150, 153, 157, 159, số nào chia hết cho cả 2 và 5?",
+      "selectedOption": "150",
+      "correctAnswer": "150",
+      "explanation": "Số chia hết cho cả 2 và 5 phải có chữ số tận cùng là 0. Trong các số trên, chỉ có số kết thúc bằng 0 chia hết cho cả 2 và 5."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm các chữ số x sao cho số 35x chia hết cho 3.",
+      "selectedOption": "x ∈ {1, 4, 7}",
+      "correctAnswer": "x ∈ {1, 4, 7}",
+      "explanation": "Tổng các chữ số của 35x là 3 + 5 + x = 8 + x. Để 35x chia hết cho 3 thì (8 + x) phải chia hết cho 3. Suy ra x nhận các giá trị: [1, 4, 7]."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm các chữ số x sao cho số 35x chia hết cho 3.",
+      "selectedOption": "x ∈ {1, 4, 7}",
+      "correctAnswer": "x ∈ {1, 4, 7}",
+      "explanation": "Tổng các chữ số của 35x là 3 + 5 + x = 8 + x. Để 35x chia hết cho 3 thì (8 + x) phải chia hết cho 3. Suy ra x nhận các giá trị: [1, 4, 7]."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tìm các chữ số x sao cho số 35x chia hết cho 3.",
+      "selectedOption": "x ∈ {1, 4, 7}",
+      "correctAnswer": "x ∈ {1, 4, 7}",
+      "explanation": "Tổng các chữ số của 35x là 3 + 5 + x = 8 + x. Để 35x chia hết cho 3 thì (8 + x) phải chia hết cho 3. Suy ra x nhận các giá trị: [1, 4, 7]."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm các chữ số x và y để số 1x2y chia hết cho cả 2, 5 và 9.",
+      "selectedOption": "x = 6, y = 0",
+      "correctAnswer": "x = 6, y = 0",
+      "explanation": "Vì số chia hết cho cả 2 và 5 nên chữ số tận cùng y = 0. Để số 1x20 chia hết cho 9 thì tổng các chữ số (1 + x + 2) = 3 + x phải chia hết cho 9. Suy ra x = 6."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm các chữ số x và y để số 2x2y chia hết cho cả 2, 5 và 9.",
+      "selectedOption": "x = 5, y = 0",
+      "correctAnswer": "x = 5, y = 0",
+      "explanation": "Vì số chia hết cho cả 2 và 5 nên chữ số tận cùng y = 0. Để số 2x20 chia hết cho 9 thì tổng các chữ số (2 + x + 2) = 4 + x phải chia hết cho 9. Suy ra x = 5."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm các chữ số x và y để số 3x2y chia hết cho cả 2, 5 và 9.",
+      "selectedOption": "x = 4, y = 0",
+      "correctAnswer": "x = 4, y = 0",
+      "explanation": "Vì số chia hết cho cả 2 và 5 nên chữ số tận cùng y = 0. Để số 3x20 chia hết cho 9 thì tổng các chữ số (3 + x + 2) = 5 + x phải chia hết cho 9. Suy ra x = 4."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Trong các số sau: 234, 455, 1.290, 3.487, số nào chia hết cho 2? Số nào chia hết cho 5? Số nào chia hết cho cả 2 và 5?",
+      "studentAnswer": "Các số chia hết cho 2 : 234, 1290\nsố chia hết cho 5 : 1290\nSoos chia hết cho cả 2 và 5 : 1290",
+      "solution": "- Số chia hết cho 2 phải có tận cùng là chẵn: 234 và 1.290.\n- Số chia hết cho 5 phải có tận cùng là 0 hoặc 5: 455 và 1.290.\n- Số chia hết cho cả 2 và 5 phải có tận cùng là 0: 1.290."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Trong các số sau: 135, 279, 452, 1.234, số nào chia hết cho 3? Số nào chia hết cho 9? Số nào chia hết cho 3 mà không chia hết cho 9?",
+      "studentAnswer": "Các số chia hết cho 3: 135, 279\nCác số chia hết cho 9: 135, 279\nKhông có số nào, vì số 135, 279 đều chia hết cho 9 rồi ",
+      "solution": "Tính tổng các chữ số của từng số:\n- 135: 1 + 3 + 5 = 9. Vì 9 ⋮ 9 và 9 ⋮ 3 nên 135 chia hết cho cả 3 và 9.\n- 279: 2 + 7 + 9 = 18. Vì 18 ⋮ 9 và 18 ⋮ 3 nên 279 chia hết cho cả 3 và 9.\n- 452: 4 + 5 + 2 = 11. Không chia hết cho 3 và 9.\n- 1.234: 1 + 2 + 3 + 4 = 10. Không chia hết cho 3 và 9.\nKhông có số nào chỉ chia hết cho 3 mà không chia hết cho 9 trong các số trên."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tìm chữ số thích hợp điền vào dấu sao (*) để số 25* chia hết cho cả 2 và 3.",
+      "studentAnswer": "Số 252, 258",
+      "solution": "- Để số 25* chia hết cho 2 thì chữ số tận cùng * phải là số chẵn: * ∈ {0, 2, 4, 6, 8}.\n- Để số 25* chia hết cho 3 thì tổng các chữ số phải chia hết cho 3: (2 + 5 + *) = (7 + *) ⋮ 3.\nTa thử các giá trị chẵn của *:\n* = 0: 7 + 0 = 7 (loại)\n* = 2: 7 + 2 = 9 (chia hết cho 3, thỏa mãn)\n* = 4: 7 + 4 = 11 (loại)\n* = 6: 7 + 6 = 13 (loại)\n* = 8: 7 + 8 = 15 (chia hết cho 3, thỏa mãn)\nVậy * ∈ {2, 8}. Ta có hai số: 252 và 258."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tìm chữ số thích hợp điền vào dấu sao (*) để số 1*8 chia hết cho 9.",
+      "studentAnswer": "0, 9",
+      "solution": "Để số 1*8 chia hết cho 9 thì tổng các chữ số phải chia hết cho 9:\n(1 + * + 8) = (9 + *) ⋮ 9.\nVì * là chữ số từ 0 đến 9, nên (9 + *) chia hết cho 9 khi * = 0 hoặc * = 9.\nVậy ta có hai số thỏa mãn: 108 và 198."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tìm các chữ số x và y để số 7x5y chia hết cho cả 2, 5 và 9.",
+      "studentAnswer": "X= 6, y= 0",
+      "solution": "- Vì số 7x5y chia hết cho cả 2 và 5 nên chữ số tận cùng phải là 0: y = 0. Số có dạng 7x50.\n- Để số 7x50 chia hết cho 9 thì tổng các chữ số phải chia hết cho 9:\n(7 + x + 5 + 0) = (12 + x) ⋮ 9.\nVì x là chữ số (0 ≤ x ≤ 9) nên để 12 + x chia hết cho 9 thì x chỉ có thể bằng 6 (12 + 6 = 18).\nVậy x = 6 và y = 0. Số cần tìm là 7650."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Từ các chữ số 0, 3, 5, hãy viết tất cả các số tự nhiên có 3 chữ số khác nhau chia hết cho 5.",
+      "studentAnswer": "305, 350, 530",
+      "solution": "Số chia hết cho 5 phải có tận cùng là 0 hoặc 5.\n- Trường hợp chữ số hàng đơn vị là 0: Hàng trăm chỉ có thể là 3 hoặc 5. Ta được các số: 350, 530.\n- Trường hợp chữ số hàng đơn vị là 5: Hàng trăm không được bằng 0, nên hàng trăm bắt buộc là 3. Ta được số: 305.\nVậy các số thỏa mãn là: 350, 530, 305."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Cho số A = 2.026. Chứng minh A chia cho 3 dư 1 và chia cho 9 dư 1.",
+      "studentAnswer": "Vì tổng các chữ số bằng 10 nên khi 10 chia cho 3 mà dư 1 mà 10 chia cho 9 cũng dư 1",
+      "solution": "Tính tổng các chữ số của A:\nTổng = 2 + 0 + 2 + 6 = 10.\n- Xét chia cho 3: 10 = 3 × 3 + 1. Số dư của tổng các chữ số khi chia cho 3 chính là số dư của số đó khi chia cho 3. Vậy 2.026 chia 3 dư 1.\n- Xét chia cho 9: 10 = 9 × 1 + 1. Vậy 2.026 chia 9 dư 1."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Điền vào dấu * một chữ số để số *84 chia hết cho 3 nhưng không chia hết cho 9.",
+      "studentAnswer": "3",
+      "solution": "- Chữ số đầu tiên * phải khác 0 (1 ≤ * ≤ 9).\n- Để số *84 chia hết cho 3 thì tổng các chữ số phải chia hết cho 3: (* + 8 + 4) = (* + 12) ⋮ 3.\nVì 12 ⋮ 3 nên * phải chia hết cho 3 => * ∈ {3, 6, 9}.\n- Thử từng giá trị để kiểm tra điều kiện không chia hết cho 9:\n* = 3: Tổng chữ số 3 + 8 + 4 = 15. Vì 15 không chia hết cho 9, thỏa mãn.\n* = 6: Tổng chữ số 6 + 8 + 4 = 18. Vì 18 ⋮ 9, loại.\n* = 9: Tổng chữ số 9 + 8 + 4 = 21. Vì 21 không chia hết cho 9, thỏa mãn.\nVậy ta điền * ∈ {3, 9}."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Không thực hiện phép tính, xét xem hiệu H = 1 × 2 × 3 × 4 × 5 - 45 có chia hết cho 9 không? Giải thích.",
+      "studentAnswer": "Không chia được cho 9 vì khi ta nhìn qua 1.2.3.4.5 ta có thể biết số đó là bằng 120 mà số 45 chia hết cho 9 nhưng chỉ cần một số không chia hết cho 9 thì hiệu không chia hết cho 9",
+      "solution": "- Số hạng thứ nhất: Tích 1 × 2 × 3 × 4 × 5 chứa thừa số 3. Tuy nhiên, 9 = 3 × 3. Tích này chỉ chứa một thừa số 3 (ở số 3) nên không chia hết cho 9 (chỉ chia hết cho 3).\n- Số hạng thứ hai: 45 = 9 × 5 nên 45 ⋮ 9.\nVì số hạng thứ nhất không chia hết cho 9 còn số hạng thứ hai chia hết cho 9, nên hiệu H không chia hết cho 9."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tìm tất cả các số tự nhiên có 3 chữ số giống nhau và chia hết cho 3. Có bao nhiêu số như vậy?",
+      "studentAnswer": "111, 222, 333, 444, 555, 666, 777, 888, 999.\nCó 9 số như vậy.",
+      "solution": "Số có 3 chữ số giống nhau có dạng aaa = 111 × a (với a là chữ số từ 1 đến 9).\nTổng các chữ số của aaa là: a + a + a = 3 × a.\nVì 3 × a luôn chia hết cho 3 với mọi chữ số a, nên mọi số có 3 chữ số giống nhau đều chia hết cho 3.\nCác số đó là: 111, 222, 333, 444, 555, 666, 777, 888, 999.\nCó tất cả 9 số."
+    }
+  ]
+}
