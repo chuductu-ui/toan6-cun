@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-10-so-nguyen-to",
+  "lessonTitle": "Bài 10: Số nguyên tố",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-23T06:54:51.812Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Số nào sau đây là số nguyên tố?",
+      "selectedOption": "2",
+      "correctAnswer": "2",
+      "explanation": "Số 2 chỉ có hai ước tự nhiên là 1 và 2 nên là số nguyên tố. Các số còn lại có nhiều hơn hai ước hoặc là số 1."
+    },
+    {
+      "questionNum": 2,
+      "question": "Số nào sau đây là số nguyên tố?",
+      "selectedOption": "3",
+      "correctAnswer": "3",
+      "explanation": "Số 3 chỉ có hai ước tự nhiên là 1 và 3 nên là số nguyên tố. Các số còn lại có nhiều hơn hai ước hoặc là số 1."
+    },
+    {
+      "questionNum": 3,
+      "question": "Số nào sau đây là số nguyên tố?",
+      "selectedOption": "5",
+      "correctAnswer": "5",
+      "explanation": "Số 5 chỉ có hai ước tự nhiên là 1 và 5 nên là số nguyên tố. Các số còn lại có nhiều hơn hai ước hoặc là số 1."
+    },
+    {
+      "questionNum": 4,
+      "question": "Số nào sau đây là số nguyên tố?",
+      "selectedOption": "7",
+      "correctAnswer": "7",
+      "explanation": "Số 7 chỉ có hai ước tự nhiên là 1 và 7 nên là số nguyên tố. Các số còn lại có nhiều hơn hai ước hoặc là số 1."
+    },
+    {
+      "questionNum": 5,
+      "question": "Phân tích số 6 ra thừa số nguyên tố ta được kết quả:",
+      "selectedOption": "2 * 3",
+      "correctAnswer": "2 * 3",
+      "explanation": "Ta có 6 chia hết cho các thừa số nguyên tố 2 và 3. Phân tích ra thừa số nguyên tố là viết dưới dạng tích các lũy thừa của các số nguyên tố: 2 * 3."
+    },
+    {
+      "questionNum": 6,
+      "question": "Phân tích số 12 ra thừa số nguyên tố ta được kết quả:",
+      "selectedOption": "2^2 * 3",
+      "correctAnswer": "2^2 * 3",
+      "explanation": "Ta có 12 chia hết cho các thừa số nguyên tố 2 và 3. Phân tích ra thừa số nguyên tố là viết dưới dạng tích các lũy thừa của các số nguyên tố: 2^2 * 3."
+    },
+    {
+      "questionNum": 7,
+      "question": "Phân tích số 24 ra thừa số nguyên tố ta được kết quả:",
+      "selectedOption": "2^3 * 3",
+      "correctAnswer": "2^3 * 3",
+      "explanation": "Ta có 24 chia hết cho các thừa số nguyên tố 2 và 3. Phân tích ra thừa số nguyên tố là viết dưới dạng tích các lũy thừa của các số nguyên tố: 2^3 * 3."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tích của hai số nguyên tố khác nhau là 2 và 3 là số gì?",
+      "selectedOption": "Hợp số",
+      "correctAnswer": "Hợp số",
+      "explanation": "Tích 2 * 3 = 6 chia hết cho 1, 2, 3 và 6. Vì tích này có nhiều hơn 2 ước nên nó chắc chắn là hợp số."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tích của hai số nguyên tố khác nhau là 3 và 5 là số gì?",
+      "selectedOption": "Hợp số",
+      "correctAnswer": "Hợp số",
+      "explanation": "Tích 3 * 5 = 15 chia hết cho 1, 3, 5 và 15. Vì tích này có nhiều hơn 2 ước nên nó chắc chắn là hợp số."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tích của hai số nguyên tố khác nhau là 5 và 7 là số gì?",
+      "selectedOption": "Hợp số",
+      "correctAnswer": "Hợp số",
+      "explanation": "Tích 5 * 7 = 35 chia hết cho 1, 5, 7 và 35. Vì tích này có nhiều hơn 2 ước nên nó chắc chắn là hợp số."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Phân tích các số sau ra thừa số nguyên tố bằng phương pháp cột dọc: 60, 84, 100.",
+      "studentAnswer": "60 : 2 = 30\n30 : 2 = 15\n15 : 3 = 5\n5 : 5 = 1\n\n84 : 2 = 42\n42 : 2 = 21\n21 : 3 = 7\n7: 7 = 1\n\n100 : 2 = 50\n50 : 2 = 25\n25 : 5 = 5\n5 : 5 = 1",
+      "solution": "- Phân tích 60:\n60 : 2 = 30\n30 : 2 = 15\n15 : 3 = 5\n5 : 5 = 1\nVậy 60 = 2^2 × 3 × 5.\n- Phân tích 84:\n84 : 2 = 42\n42 : 2 = 21\n21 : 3 = 7\n7 : 7 = 1\nVậy 84 = 2^2 × 3 × 7.\n- Phân tích 100:\n100 = 10^2 = (2 × 5)^2 = 2^2 × 5^2."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Hãy giải thích tại sao số 2 là số nguyên tố chẵn duy nhất.",
+      "studentAnswer": "Tại vì các số chẵn khác đều là số hợp số\nCác số như 4, 6, 8, 10… không chỉ chia hết cho chính nó và một mà còn chia được cho số khác nữa",
+      "solution": "Số nguyên tố là số tự nhiên lớn hơn 1 và chỉ có hai ước là 1 và chính nó.\n- Số 2 chỉ có hai ước là 1 và 2 nên 2 là số nguyên tố.\n- Mọi số chẵn lớn hơn 2 đều chia hết cho 2 (ngoài 1 và chính nó, chúng còn có thêm ước là 2).\nDo đó, tất cả các số chẵn lớn hơn 2 đều là hợp số.\nVậy 2 là số nguyên tố chẵn duy nhất."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Điền chữ số thích hợp vào dấu * để số 3* là một số nguyên tố.",
+      "studentAnswer": "Để điền vào chỗ chấm có số : 1;7",
+      "solution": "Ta xét các số từ 30 đến 39:\n- Số chẵn (30, 32, 34, 36, 38) và số tận cùng bằng 5 (35) đều là hợp số vì chia hết cho 2 hoặc 5.\n- Còn lại các số lẻ: 31, 33, 37, 39.\n* 31 chỉ chia hết cho 1 và 31 (số nguyên tố).\n* 33 chia hết cho 3 (hợp số).\n* 37 chỉ chia hết cho 1 và 37 (số nguyên tố).\n* 39 chia hết cho 3 (hợp số).\nVậy * ∈ {1, 7} để 3* là số nguyên tố (ta được số 31 và 37)."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Xét xem tổng T = 3 × 5 × 7 × 11 + 135 là số nguyên tố hay hợp số. Giải thích.",
+      "studentAnswer": "Là hợp số\nVì khi ta thấy 3*5 thì sẽ được số chắc chắn chia hết cho 3 và 5\nCòn 7*11 thì chắc chắn sẽ chia hết cho 7 và 11\nMà số 135 chắn chắc chia cho 3, 9, 5\nNên tổng T là hợp số",
+      "solution": "Xét tính chia hết của từng số hạng:\n- Tích thứ nhất: 3 × 5 × 7 × 11 chứa thừa số 5 nên chia hết cho 5.\n- Hạng tử thứ hai: 135 tận cùng là 5 nên chia hết cho 5.\nVì cả hai số hạng đều chia hết cho 5 nên tổng T chia hết cho 5. Mặt khác, T chắc chắn lớn hơn 5.\nDo đó, ngoài 1 và chính nó, T còn chia hết cho 5.\nVậy T là hợp số."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tìm tất cả các ước nguyên tố của số 120.",
+      "studentAnswer": "Các ước nguyên tố của số 120 là 2,3,5",
+      "solution": "Trước tiên, phân tích 120 ra thừa số nguyên tố:\n120 = 12 × 10 = (2^2 × 3) × (2 × 5) = 2^3 × 3 × 5.\nCác thừa số nguyên tố xuất hiện trong phân tích là: 2, 3, 5.\nVậy các ước nguyên tố của 120 là: {2, 3, 5}."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tìm hai số nguyên tố có tổng bằng 99.",
+      "studentAnswer": "2 + 97",
+      "solution": "Tổng của hai số là 99, là một số lẻ.\nĐể tổng của hai số tự nhiên là số lẻ thì bắt buộc phải có một số chẵn và một số lẻ.\nVì hai số đều là số nguyên tố, nên bắt buộc số nguyên tố chẵn phải là số 2.\nSố nguyên tố còn lại là:\n99 - 2 = 97.\nTa kiểm tra 97: 97 chỉ chia hết cho 1 và 97 nên 97 là số nguyên tố.\nVậy hai số nguyên tố cần tìm là 2 và 97."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Phân tích số 150 ra thừa số nguyên tố rồi tìm số lượng các ước tự nhiên của nó.",
+      "studentAnswer": "150 : 3 = 50\n50 : 2 = 25\n25 : 5 = 5\n5 : 5 = 1\nVà có 12 ước tự nhiên \n",
+      "solution": "- Phân tích 150:\n150 = 15 × 10 = (3 × 5) × (2 × 5) = 2^1 × 3^1 × 5^2.\n- Công thức tính số lượng ước tự nhiên từ dạng phân tích nguyên tố a^p × b^q × c^r là: (p+1)(q+1)(r+1).\nSố lượng ước tự nhiên của 150 là:\n(1 + 1) × (1 + 1) × (2 + 1) = 2 × 2 × 3 = 12 ước."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tìm số tự nhiên n sao cho n, n + 2, n + 4 đều là các số nguyên tố.",
+      "studentAnswer": "N= 3",
+      "solution": "- Nếu n = 2: n = 2 (nguyên tố), n+2 = 4 (hợp số, loại).\n- Nếu n = 3: n = 3, n+2 = 5, n+4 = 7. Cả 3 số 3, 5, 7 đều là số nguyên tố (thỏa mãn).\n- Nếu n > 3: n là số nguyên tố nên n không chia hết cho 3. Do đó n chia cho 3 có số dư là 1 hoặc 2.\n* Nếu n chia 3 dư 1: n = 3k + 1 => n+2 = 3k + 3 = 3(k+1) ⋮ 3. Vì n+2 > 3 nên n+2 là hợp số (loại).\n* Nếu n chia 3 dư 2: n = 3k + 2 => n+4 = 3k + 6 = 3(k+2) ⋮ 3. Vì n+4 > 3 nên n+4 là hợp số (loại).\nVậy số tự nhiên duy nhất thỏa mãn là n = 3."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Một số tự nhiên được gọi là số hoàn hảo nếu tổng tất cả các ước của nó (trừ chính nó) bằng chính nó. Xét xem số 6 và số 28 có phải là số hoàn hảo không?",
+      "studentAnswer": "Số 6 không số 8 có",
+      "solution": "- Xét số 6:\nCác ước của 6 (trừ 6) là: 1, 2, 3.\nTổng các ước: 1 + 2 + 3 = 6.\nVì tổng bằng chính nó nên 6 là số hoàn hảo.\n- Xét số 28:\nCác ước của 28 (trừ 28) là: 1, 2, 4, 7, 14.\nTổng các ước: 1 + 2 + 4 + 7 + 14 = 28.\nVì tổng bằng chính nó nên 28 là số hoàn hảo."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Phân tích số 180 ra thừa số nguyên tố và chỉ ra sơ đồ cây biểu diễn phép phân tích này.",
+      "studentAnswer": "Con sẽ vẽ vào nháp",
+      "solution": "- Phân tích:\n180 = 10 × 18\n- Số 10 tách thành: 2 × 5 (nhánh kết thúc vì 2 và 5 nguyên tố).\n- Số 18 tách thành: 2 × 9 (2 kết thúc, 9 tách tiếp).\n- Số 9 tách thành: 3 × 3 (kết thúc).\nThu thập các nhánh kết thúc: 2, 5, 2, 3, 3.\nTa được: 180 = 2^2 × 3^2 × 5."
+    }
+  ]
+}
