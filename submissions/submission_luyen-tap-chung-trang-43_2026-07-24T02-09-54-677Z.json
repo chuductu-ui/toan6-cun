@@ -1,0 +1,140 @@
+{
+  "lessonId": "luyen-tap-chung-trang-43",
+  "lessonTitle": "Luyện tập chung trang 43",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-24T02:09:54.677Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Kết quả của phép tính cộng tự nhiên: 10 + 15 là bao nhiêu?",
+      "selectedOption": "25",
+      "correctAnswer": "25",
+      "explanation": "Thực hiện phép cộng đơn giản: 10 + 15 = 25."
+    },
+    {
+      "questionNum": 2,
+      "question": "Kết quả của phép tính cộng tự nhiên: 12 + 14 là bao nhiêu?",
+      "selectedOption": "26",
+      "correctAnswer": "26",
+      "explanation": "Thực hiện phép cộng đơn giản: 12 + 14 = 26."
+    },
+    {
+      "questionNum": 3,
+      "question": "Kết quả của phép tính cộng tự nhiên: 14 + 13 là bao nhiêu?",
+      "selectedOption": "27",
+      "correctAnswer": "27",
+      "explanation": "Thực hiện phép cộng đơn giản: 14 + 13 = 27."
+    },
+    {
+      "questionNum": 4,
+      "question": "Kết quả của phép tính cộng tự nhiên: 16 + 12 là bao nhiêu?",
+      "selectedOption": "28",
+      "correctAnswer": "28",
+      "explanation": "Thực hiện phép cộng đơn giản: 16 + 12 = 28."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm số tự nhiên x biết rằng: x / 2 = 3.",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 2 = 6."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm số tự nhiên x biết rằng: x / 3 = 3.",
+      "selectedOption": "9",
+      "correctAnswer": "9",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 3 = 9."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tìm số tự nhiên x biết rằng: x / 4 = 3.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 4 = 12."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 10.",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 10 chính là BCNN(2, 10). Kết quả là 10."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 11.",
+      "selectedOption": "22",
+      "correctAnswer": "22",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 11 chính là BCNN(2, 11). Kết quả là 22."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 12.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 12 chính là BCNN(2, 12). Kết quả là 12."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Xét tính chia hết của hiệu H = 40 - 16 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết cho 4",
+      "solution": "Ta có:\n- 40 chia hết cho 4 vì 40 chia hết cho 4 và 0 chia hết cho 4.\n- 16 chia hết cho 4 vì 16 chia hết cho 4 và 0 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Xét tính chia hết của hiệu H = 48 - 20 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết hết cho 4",
+      "solution": "Ta có:\n- 48 chia hết cho 4 vì 40 chia hết cho 4 và 8 chia hết cho 4.\n- 20 chia hết cho 4 vì 16 chia hết cho 4 và 4 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Xét tính chia hết của hiệu H = 56 - 24 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết cho 4",
+      "solution": "Ta có:\n- 56 chia hết cho 4 vì 40 chia hết cho 4 và 16 chia hết cho 4.\n- 24 chia hết cho 4 vì 16 chia hết cho 4 và 8 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Xét tính chia hết của hiệu H = 64 - 28 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết cho 4",
+      "solution": "Ta có:\n- 64 chia hết cho 4 vì 40 chia hết cho 4 và 24 chia hết cho 4.\n- 28 chia hết cho 4 vì 16 chia hết cho 4 và 12 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Xét tính chia hết của hiệu H = 72 - 32 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết cho 4",
+      "solution": "Ta có:\n- 72 chia hết cho 4 vì 40 chia hết cho 4 và 32 chia hết cho 4.\n- 32 chia hết cho 4 vì 16 chia hết cho 4 và 16 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Xét tính chia hết của hiệu H = 80 - 36 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết cho 4",
+      "solution": "Ta có:\n- 80 chia hết cho 4 vì 40 chia hết cho 4 và 40 chia hết cho 4.\n- 36 chia hết cho 4 vì 16 chia hết cho 4 và 20 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Xét tính chia hết của hiệu H = 88 - 40 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết cho 4",
+      "solution": "Ta có:\n- 88 chia hết cho 4 vì 40 chia hết cho 4 và 48 chia hết cho 4.\n- 40 chia hết cho 4 vì 16 chia hết cho 4 và 24 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Xét tính chia hết của hiệu H = 96 - 44 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết cho 4",
+      "solution": "Ta có:\n- 96 chia hết cho 4 vì 40 chia hết cho 4 và 56 chia hết cho 4.\n- 44 chia hết cho 4 vì 16 chia hết cho 4 và 28 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Xét tính chia hết của hiệu H = 104 - 48 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia cho hết cho 4",
+      "solution": "Ta có:\n- 104 chia hết cho 4 vì 40 chia hết cho 4 và 64 chia hết cho 4.\n- 48 chia hết cho 4 vì 16 chia hết cho 4 và 32 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Xét tính chia hết của hiệu H = 112 - 52 cho số 4 mà không tính giá trị hiệu.",
+      "studentAnswer": "Hiệu H chia hết cho 4",
+      "solution": "Ta có:\n- 112 chia hết cho 4 vì 40 chia hết cho 4 và 72 chia hết cho 4.\n- 52 chia hết cho 4 vì 16 chia hết cho 4 và 36 chia hết cho 4.\nTheo tính chất chia hết của một hiệu, vì cả số bị trừ và số trừ đều chia hết cho 4 nên hiệu H chia hết cho 4."
+    }
+  ]
+}
