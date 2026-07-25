@@ -1,6 +1,6 @@
 {
   "lessonId": "bai-11-uoc-chung-uoc-chung-lon-nhat",
-  "updatedAt": "2026-07-24T11:31:27.750Z",
+  "updatedAt": "2026-07-25T01:33:21.004Z",
   "answers": {
     "mc": {
       "0": "{1, 2, 3, 6}",
@@ -10,7 +10,9 @@
       "4": "6 và 25 là hai số nguyên tố cùng nhau",
       "5": "9 và 25 là hai số nguyên tố cùng nhau",
       "6": "8 và 25 là hai số nguyên tố cùng nhau",
-      "7": "4 nhóm"
+      "7": "4 nhóm",
+      "8": "2 nhóm",
+      "9": "4 nhóm"
     },
     "written": {}
   }
