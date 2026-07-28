@@ -1,6 +1,6 @@
 {
   "lessonId": "bai-12-boi-chung-boi-chung-nho-nhat",
-  "updatedAt": "2026-07-28T06:01:10.054Z",
+  "updatedAt": "2026-07-28T06:09:37.929Z",
   "answers": {
     "mc": {
       "0": "12",
@@ -16,7 +16,9 @@
     },
     "written": {
       "0": " Bội chung nhỏ nhất sẽ là 72",
-      "1": "Lúc này thì bội chung nhỏ nhất sẽ là 180"
+      "1": "Lúc này thì bội chung nhỏ nhất sẽ là 180",
+      "2": "Lúc đó thì hai phân số sẽ là 15/36 và 14/36",
+      "3": "120 và 160 là các bội nhỏ hơn 300"
     }
   }
 }
