@@ -1,6 +1,6 @@
 {
   "lessonId": "bai-12-boi-chung-boi-chung-nho-nhat",
-  "updatedAt": "2026-07-28T05:51:40.074Z",
+  "updatedAt": "2026-07-28T06:01:10.054Z",
   "answers": {
     "mc": {
       "0": "12",
@@ -14,6 +14,9 @@
       "8": "99 ngày",
       "9": "60 ngày"
     },
-    "written": {}
+    "written": {
+      "0": " Bội chung nhỏ nhất sẽ là 72",
+      "1": "Lúc này thì bội chung nhỏ nhất sẽ là 180"
+    }
   }
 }
