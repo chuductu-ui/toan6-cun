@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-12-boi-chung-boi-chung-nho-nhat",
+  "lessonTitle": "Bài 12: Bội chung. Bội chung nhỏ nhất",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-28T06:29:04.059Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Bội chung nhỏ nhất (BCNN) của hai số 3 và 4 là:",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Ta tìm số nhỏ nhất khác 0 chia hết cho cả 3 and 4. Kết quả là 12."
+    },
+    {
+      "questionNum": 2,
+      "question": "Bội chung nhỏ nhất (BCNN) của hai số 4 và 4 là:",
+      "selectedOption": "16",
+      "correctAnswer": "4",
+      "explanation": "Ta tìm số nhỏ nhất khác 0 chia hết cho cả 4 and 4. Kết quả là 4."
+    },
+    {
+      "questionNum": 3,
+      "question": "Bội chung nhỏ nhất (BCNN) của hai số 5 và 4 là:",
+      "selectedOption": "20",
+      "correctAnswer": "20",
+      "explanation": "Ta tìm số nhỏ nhất khác 0 chia hết cho cả 5 and 4. Kết quả là 20."
+    },
+    {
+      "questionNum": 4,
+      "question": "Bội chung nhỏ nhất (BCNN) của hai số 3 và 5 là:",
+      "selectedOption": "15",
+      "correctAnswer": "15",
+      "explanation": "Ta tìm số nhỏ nhất khác 0 chia hết cho cả 3 and 5. Kết quả là 15."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm tập hợp các bội chung nhỏ hơn 53 của hai số 8 và 12.",
+      "selectedOption": "{0, 24, 48}",
+      "correctAnswer": "{0, 24, 48}",
+      "explanation": "BCNN(8, 12) = 24. Bội chung là các bội của 24. Tập hợp các bội chung nhỏ hơn 53 gồm: {0, 24, 48}."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm tập hợp các bội chung nhỏ hơn 239 của hai số 9 và 13.",
+      "selectedOption": "{0, 117, 234}",
+      "correctAnswer": "{0, 117, 234}",
+      "explanation": "BCNN(9, 13) = 117. Bội chung là các bội của 117. Tập hợp các bội chung nhỏ hơn 239 gồm: {0, 117, 234}."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tìm tập hợp các bội chung nhỏ hơn 145 của hai số 10 và 14.",
+      "selectedOption": "{0, 70, 140}",
+      "correctAnswer": "{0, 70, 140}",
+      "explanation": "BCNN(10, 14) = 70. Bội chung là các bội của 70. Tập hợp các bội chung nhỏ hơn 145 gồm: {0, 70, 140}."
+    },
+    {
+      "questionNum": 8,
+      "question": "An cứ 8 ngày đi bơi một lần, Bình cứ 10 ngày đi bơi một lần. Hôm nay hai bạn cùng đi bơi chung. Hỏi sau ít nhất bao nhiêu ngày hai bạn lại cùng đi bơi chung?",
+      "selectedOption": "40 ngày",
+      "correctAnswer": "40 ngày",
+      "explanation": "Số ngày ít nhất để hai bạn gặp lại nhau là bội chung nhỏ nhất của 8 và 10. BCNN(8, 10) = 40 ngày."
+    },
+    {
+      "questionNum": 9,
+      "question": "An cứ 9 ngày đi bơi một lần, Bình cứ 11 ngày đi bơi một lần. Hôm nay hai bạn cùng đi bơi chung. Hỏi sau ít nhất bao nhiêu ngày hai bạn lại cùng đi bơi chung?",
+      "selectedOption": "99 ngày",
+      "correctAnswer": "99 ngày",
+      "explanation": "Số ngày ít nhất để hai bạn gặp lại nhau là bội chung nhỏ nhất của 9 và 11. BCNN(9, 11) = 99 ngày."
+    },
+    {
+      "questionNum": 10,
+      "question": "An cứ 10 ngày đi bơi một lần, Bình cứ 12 ngày đi bơi một lần. Hôm nay hai bạn cùng đi bơi chung. Hỏi sau ít nhất bao nhiêu ngày hai bạn lại cùng đi bơi chung?",
+      "selectedOption": "60 ngày",
+      "correctAnswer": "60 ngày",
+      "explanation": "Số ngày ít nhất để hai bạn gặp lại nhau là bội chung nhỏ nhất của 10 và 12. BCNN(10, 12) = 60 ngày."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Tìm BCNN của hai số 18 and 24 bằng cách phân tích ra thừa số nguyên tố.",
+      "studentAnswer": " Bội chung nhỏ nhất sẽ là 72",
+      "solution": "1. Phân tích ra thừa số nguyên tố:\n- 18 = 2 × 9 = 2 × 3^2\n- 24 = 8 × 3 = 2^3 × 3\n2. Các thừa số nguyên tố chung và riêng là: 2 và 3.\n3. Lấy số mũ lớn nhất của mỗi thừa số:\n- Lũy thừa của 2: chọn 2^3\n- Lũy thừa của 3: chọn 3^2\nBCNN(18, 24) = 2^3 × 3^2 = 8 × 9 = 72."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Tìm BCNN của 12, 15 và 18.",
+      "studentAnswer": "Lúc này thì bội chung nhỏ nhất sẽ là 180",
+      "solution": "1. Phân tích ra thừa số nguyên tố:\n- 12 = 2^2 × 3\n- 15 = 3 × 5\n- 18 = 2 × 3^2\n2. Thừa số chung và riêng: 2, 3, 5.\n3. Số mũ lớn nhất: chọn 2^2, 3^2, 5^1.\nBCNN(12, 15, 18) = 2^2 × 3^2 × 5 = 4 × 9 × 5 = 180."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Dùng BCNN để quy đồng mẫu số các phân số sau: 5/12 và 7/18.",
+      "studentAnswer": "Lúc đó thì hai phân số sẽ là 15/36 và 14/36",
+      "solution": "1. Mẫu số chung nhỏ nhất chính là BCNN(12, 18).\n- 12 = 2^2 × 3\n- 18 = 2 × 3^2\nBCNN(12, 18) = 2^2 × 3^2 = 36.\n2. Tìm thừa số phụ cho từng phân số:\n- Phân số thứ nhất: 36 : 12 = 3.\n- Phân số thứ hai: 36 : 18 = 2.\n3. Quy đồng:\n- 5/12 = (5 × 3)/(12 × 3) = 15/36.\n- 7/18 = (7 × 2)/(18 × 2) = 14/36."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tìm tập hợp bội chung nhỏ hơn 300 của hai số 40 và 60.",
+      "studentAnswer": "120 và 160 là các bội nhỏ hơn 300",
+      "solution": "1. Tìm BCNN(40, 60):\n- 40 = 2^3 × 5\n- 60 = 2^2 × 3 × 5\nBCNN(40, 60) = 2^3 × 3 × 5 = 8 × 3 × 5 = 120.\n2. Bội chung của 40 và 60 là các bội của 120:\nBC(40, 60) = {0, 120, 240, 360, 480...}.\n3. Lọc ra các bội nhỏ hơn 300, ta được tập hợp:\n{0, 120, 240}."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tìm số tự nhiên x nhỏ nhất khác 0 biết x chia hết cho 15 và x chia hết cho 20.",
+      "studentAnswer": "X= 60",
+      "solution": "x là bội chung nhỏ nhất khác 0 của 15 và 20, tức là BCNN(15, 20).\n- 15 = 3 × 5\n- 20 = 2^2 × 5\nBCNN(15, 20) = 2^2 × 3 × 5 = 4 × 3 × 5 = 60.\nVậy x = 60."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Một nhóm học sinh khi xếp hàng 10, hàng 12, hàng 15 đều vừa đủ không thừa bạn nào. Biết số học sinh trong khoảng từ 100 đến 150 bạn. Tính số học sinh của nhóm đó.",
+      "studentAnswer": "Vậy trong nhóm ấy có 120 bạn ",
+      "solution": "Gọi số học sinh cần tìm là x (học sinh).\nVì xếp hàng 10, 12, 15 đều vừa đủ nên x là bội chung của 10, 12, 15.\n1. Tìm BCNN(10, 12, 15):\n- 10 = 2 × 5\n- 12 = 2^2 × 3\n- 15 = 3 × 5\nBCNN(10, 12, 15) = 2^2 × 3 × 5 = 60.\n2. Bội chung của 10, 12, 15 là các bội của 60:\nBC = {0, 60, 120, 180, 240...}.\n3. Vì số học sinh nằm trong khoảng từ 100 đến 150 nên giá trị thỏa mãn duy nhất là x = 120.\nĐáp số: 120 học sinh."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Ba chiếc xe buýt xuất phát cùng một lúc từ bến xe lúc 6 giờ sáng. Xe thứ nhất cứ 15 phút chạy một chuyến, xe thứ hai cứ 20 phút chạy một chuyến, xe thứ ba cứ 30 phút chạy một chuyến. Hỏi sau ít nhất bao nhiêu lâu cả ba xe lại cùng xuất phát một lúc?",
+      "studentAnswer": "Vậy sau 60 phút nữa cả hai xe sẽ xuất phát cùng lúc",
+      "solution": "Thời gian ít nhất để cả ba xe cùng xuất phát lại một lúc chính là BCNN của các chu kỳ chạy xe: BCNN(15, 20, 30).\n- 15 = 3 × 5\n- 20 = 2^2 × 5\n- 30 = 2 × 3 × 5\nBCNN(15, 20, 30) = 2^2 × 3 × 5 = 60 phút.\n60 phút = 1 giờ.\nVậy sau ít nhất 1 giờ nữa cả ba xe lại xuất phát cùng lúc (vào lúc 7 giờ sáng)."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tìm số tự nhiên x biết x ⋮ 8, x ⋮ 12, x ⋮ 15 và 200 < x < 300.",
+      "studentAnswer": "X= 240 vì số đó thỏa mãn các yêu cầu ",
+      "solution": "x là bội chung của 8, 12, 15.\n1. Tìm BCNN(8, 12, 15):\n- 8 = 2^3\n- 12 = 2^2 × 3\n- 15 = 3 × 5\nBCNN(8, 12, 15) = 2^3 × 3 × 5 = 120.\n2. Bội chung là bội của 120:\nBC = {0, 120, 240, 360...}.\n3. Vì 200 < x < 300 nên giá trị thỏa mãn duy nhất là x = 240.\nVậy x = 240."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Tìm số tự nhiên nhỏ nhất khi chia cho 5, 6, 8 đều dư 3.",
+      "studentAnswer": "Số đó là 123 vì chúng thỏa mãn các điều kiện trên ",
+      "solution": "Gọi số cần tìm là x.\nVì x chia cho 5, 6, 8 dư 3 nên (x - 3) chia hết cho cả 5, 6, 8.\nĐể x là nhỏ nhất thì (x - 3) phải là BCNN(5, 6, 8).\n- 5 = 5\n- 6 = 2 × 3\n- 8 = 2^3\nBCNN(5, 6, 8) = 2^3 × 3 × 5 = 120.\nTa có: x - 3 = 120 => x = 123.\nVậy số tự nhiên cần tìm là 123."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Hai bóng đèn nhấp nháy theo chu kỳ: Đèn màu xanh cứ 6 giây nháy một lần. Đèn màu đỏ cứ 8 giây nháy một lần. Cả hai đèn cùng nháy lúc 20 giờ 00 phút. Hỏi trong vòng 2 phút tiếp theo, có bao nhiêu lần cả hai đèn cùng nháy một lúc?",
+      "studentAnswer": "Sẽ có 5 lần cả hai đèn cùng nháy một lúc",
+      "solution": "Chu kỳ cả hai đèn cùng nháy một lúc là BCNN(6, 8) = 24 giây.\n- Đổi 2 phút = 120 giây.\n- Số lần cả hai đèn cùng nháy trong 120 giây (không tính lần đầu tiên lúc xuất phát) là:\n120 : 24 = 5 lần.\n(Vào các giây thứ: 24, 48, 72, 96, 120)."
+    }
+  ]
+}
