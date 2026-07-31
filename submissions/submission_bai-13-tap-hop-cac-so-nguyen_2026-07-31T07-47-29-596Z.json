@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-13-tap-hop-cac-so-nguyen",
+  "lessonTitle": "Bài 13: Tập hợp các số nguyên",
+  "studentName": "Cún",
+  "submittedAt": "2026-07-31T07:47:29.596Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Nhiệt độ 5 độ dưới 0 độ C được biểu diễn bằng số nguyên nào?",
+      "selectedOption": "-5 °C",
+      "correctAnswer": "-5 °C",
+      "explanation": "Nhiệt độ dưới 0 độ C được biểu diễn bằng số nguyên âm. Vì vậy, 5 độ dưới 0 độ C là -5 °C."
+    },
+    {
+      "questionNum": 2,
+      "question": "Số nguyên nào sau đây là số nguyên âm?",
+      "selectedOption": "-12",
+      "correctAnswer": "-12",
+      "explanation": "Số nguyên âm có dấu trừ (-) ở đằng trước một số tự nhiên khác 0. Do đó -12 là số nguyên âm."
+    },
+    {
+      "questionNum": 3,
+      "question": "Sắp xếp các số nguyên sau theo thứ tự tăng dần (từ bé đến lớn): -3, 0, 2, -5, 1.",
+      "selectedOption": "-5; -3; 0; 1; 2",
+      "correctAnswer": "-5; -3; 0; 1; 2",
+      "explanation": "Trên trục số, số nằm bên trái bé hơn số nằm bên phải. Số âm có giá trị tuyệt đối càng lớn thì càng bé. Do đó -5 < -3 < 0 < 1 < 2."
+    },
+    {
+      "questionNum": 4,
+      "question": "Trên trục số nằm ngang, điểm biểu diễn số -3 cách điểm biểu diễn số 2 bao nhiêu đơn vị?",
+      "selectedOption": "5 đơn vị",
+      "correctAnswer": "5 đơn vị",
+      "explanation": "Khoảng cách từ -3 đến 0 là 3 đơn vị, từ 0 đến 2 là 2 đơn vị. Vậy tổng khoảng cách từ -3 đến 2 là 3 + 2 = 5 đơn vị."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm tập hợp tất cả các số nguyên x thỏa mãn: -3 < x ≤ 2.",
+      "selectedOption": "{-2, -1, 0, 1, 2}",
+      "correctAnswer": "{-2, -1, 0, 1, 2}",
+      "explanation": "x là số nguyên lớn hơn -3 (tức là từ -2) và nhỏ hơn hoặc bằng 2 (tức là đến 2). Vậy các số nguyên thỏa mãn là -2, -1, 0, 1, 2."
+    },
+    {
+      "questionNum": 6,
+      "question": "Trong các khẳng định sau, khẳng định nào SAI?",
+      "selectedOption": "Số 0 là số nguyên dương lớn nhất",
+      "correctAnswer": "Số 0 là số nguyên dương lớn nhất",
+      "explanation": "Số 0 không phải là số nguyên dương và cũng không phải là số nguyên âm. Do đó khẳng định 'Số 0 là số nguyên dương lớn nhất' là sai."
+    },
+    {
+      "questionNum": 7,
+      "question": "Số đối của số nguyên -15 là số nào?",
+      "selectedOption": "15",
+      "correctAnswer": "15",
+      "explanation": "Số đối của một số nguyên âm -a là số nguyên dương a. Vậy số đối của -15 là 15."
+    },
+    {
+      "questionNum": 8,
+      "question": "Khẳng định so sánh nào sau đây là ĐÚNG?",
+      "selectedOption": "-8 > -12",
+      "correctAnswer": "-8 > -12",
+      "explanation": "Trên trục số nguyên nằm ngang, điểm -8 nằm bên phải điểm -12 nên -8 > -12. Trong số âm, số nào có phần tự nhiên nhỏ hơn thì lớn hơn."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tập hợp số nguyên Z gồm các loại số nào?",
+      "selectedOption": "Số nguyên âm, số 0 và số nguyên dương",
+      "correctAnswer": "Số nguyên âm, số 0 và số nguyên dương",
+      "explanation": "Tập hợp số nguyên Z bao gồm các số nguyên âm, số 0 và các số nguyên dương."
+    },
+    {
+      "questionNum": 10,
+      "question": "Nhiệt độ dự báo tại thành phố Sa Pa là -5°C. Điều này có ý nghĩa gì?",
+      "selectedOption": "Nhiệt độ dưới 0°C là 5 độ",
+      "correctAnswer": "Nhiệt độ dưới 0°C là 5 độ",
+      "explanation": "Số nguyên âm biểu thị các giá trị dưới mức chuẩn 0. Nhiệt độ -5°C có nghĩa là nhiệt độ lạnh dưới 0°C là 5 độ."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Biểu diễn các số nguyên sau trên cùng một trục số nằm ngang: -3, -1, 0, 2, 4.",
+      "studentAnswer": "Con không thể vẽ được ở đây ",
+      "solution": "Vẽ trục số nằm ngang:\n- Vẽ một đường thẳng nằm ngang có mũi tên hướng sang phải.\n- Chọn điểm ở giữa làm điểm gốc 0.\n- Chia các vạch bằng nhau dài 1cm sang cả hai bên.\n- Đánh dấu các số nguyên dương ở bên phải: 1, 2, 3, 4...\n- Đánh dấu các số nguyên âm ở bên trái: -1, -2, -3...\n- Đánh dấu đậm các điểm yêu cầu: -3, -1, 0, 2, 4."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Sắp xếp các số nguyên sau theo thứ tự tăng dần: -15, 8, -3, 0, 5, -8.",
+      "studentAnswer": "-15, -8, -3, 0, 5, 8",
+      "solution": "- Các số nguyên âm: -15, -8, -3. So sánh số âm: -15 < -8 < -3.\n- Số 0 ở giữa.\n- Các số nguyên dương: 5, 8. So sánh: 5 < 8.\nThứ tự tăng dần từ nhỏ đến lớn là:\n-15 < -8 < -3 < 0 < 5 < 8."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tìm số đối của mỗi số nguyên sau: 12, -7, 0, -100.",
+      "studentAnswer": "Các số lần lượt là -12, 7, 0, 100",
+      "solution": "Số đối của một số là số có giá trị tuyệt đối bằng nó nhưng trái dấu:\n- Số đối của 12 là -12.\n- Số đối của -7 là 7.\n- Số đối của 0 là 0.\n- Số đối của -100 là 100."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Viết tập hợp A gồm các số nguyên x sao cho -4 < x ≤ 2.",
+      "studentAnswer": "A= { -3, -2, -1, 0, 1, 2}",
+      "solution": "x là số nguyên thỏa mãn lớn hơn -4 (không lấy số -4) và nhỏ hơn hoặc bằng 2 (lấy cả số 2).\nCác số nguyên đó là: -3, -2, -1, 0, 1, 2.\nVậy A = {-3, -2, -1, 0, 1, 2}."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Một chiếc tàu ngầm đang ở độ sâu 50m dưới mực nước biển. Sau đó tàu lặn xuống thêm 30m nữa. Hãy dùng số nguyên âm để biểu diễn độ cao của tàu ngầm ở hai thời điểm trên.",
+      "studentAnswer": "Lúc tàu nằm ở độ sâu 50m dưới mực nước biển thì lúc đấy số nguyên âm phù hợp là -50\nLúc tàu nằm dưới mực nước biển 30m thì số nguyên âm là -30\nLúc tàu đang nắm ở độ sâu 50m và đi xuống thêm 30m thì số nguyên âm phù hợp là -80m",
+      "solution": "Quy ước mực nước biển là mốc 0. Độ sâu dưới mực nước biển được biểu diễn bằng số nguyên âm:\n- Thời điểm đầu: Tàu ở độ sâu 50m dưới mực nước biển, biểu diễn là: -50 m.\n- Thời điểm sau: Tàu lặn thêm 30m, độ sâu mới là 50 + 30 = 80m dưới mực nước biển, biểu diễn là: -80 m."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "So sánh các cặp số nguyên sau:\na) -25 và -30\nb) -15 và 2\nc) -100 và 0",
+      "studentAnswer": "a) -25 > -30\nb) -15 < 2\nc) -100 < 0",
+      "solution": "a) Phần tự nhiên 25 < 30 nên trong số âm: -25 > -30.\nb) Mọi số nguyên âm đều nhỏ hơn số nguyên dương: -15 < 2.\nc) Mọi số nguyên âm đều nhỏ hơn 0: -100 < 0."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tìm khoảng cách (đơn vị đoạn chia) giữa hai điểm -4 và 3 trên trục số.",
+      "studentAnswer": "Khoảng cách là 7",
+      "solution": "Khoảng cách giữa hai điểm a và b trên trục số bằng trị tuyệt đối của hiệu hai số đó:\nKhoảng cách = |3 - (-4)| = |3 + 4| = 7 đơn vị.\nHoặc đếm trực quan trên trục số từ -4 đến 3 có đúng 7 bước chia."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tìm số nguyên x biết rằng số đối của x là -8.",
+      "studentAnswer": "X= 8",
+      "solution": "Ta biết số đối của x là -x.\nTheo bài ra: -x = -8.\nDo đó x = 8.\nVậy x = 8."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Biểu diễn nhiệt độ đông đặc của ba chất bằng số nguyên:\n- Chất A đông đặc ở 5°C dưới 0°C.\n- Chất B đông đặc ở 12°C trên 0°C.\n- Nước đông đặc ở 0°C.",
+      "studentAnswer": "Chất A -5 độ C chất B 12 độ C chất C 0 độ C",
+      "solution": "- Chất A: Đông đặc ở 5°C dưới 0°C, biểu diễn bằng số nguyên âm: -5°C.\n- Chất B: Đông đặc ở 12°C trên 0°C, biểu diễn bằng số nguyên dương: +12°C (hoặc 12°C).\n- Nước: Đông đặc ở 0°C, biểu diễn là: 0°C."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tìm số nguyên x thỏa mãn |x| = 5.",
+      "studentAnswer": "X= -5",
+      "solution": "Giá trị tuyệt đối của một số nguyên x biểu thị khoảng cách từ điểm x đến gốc 0 trên trục số.\nCó hai điểm cách gốc 0 một khoảng bằng 5 là điểm 5 và điểm -5.\nVậy x = 5 hoặc x = -5 (ta viết x ∈ {5, -5})."
+    }
+  ]
+}
