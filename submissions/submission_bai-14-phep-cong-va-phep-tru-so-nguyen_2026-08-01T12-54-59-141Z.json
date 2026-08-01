@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-14-phep-cong-va-phep-tru-so-nguyen",
+  "lessonTitle": "Bài 14: Phép cộng và phép trừ số nguyên",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-01T12:54:59.141Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Kết quả của phép tính (-5) + (-3) là bao nhiêu?",
+      "selectedOption": "-8",
+      "correctAnswer": "-8",
+      "explanation": "Cộng hai số nguyên âm, ta cộng hai phần tự nhiên của chúng rồi đặt dấu trừ trước kết quả: -5 + -3 = -(5 + 3) = -8."
+    },
+    {
+      "questionNum": 2,
+      "question": "Kết quả của phép tính (-6) + (-4) là bao nhiêu?",
+      "selectedOption": "-10",
+      "correctAnswer": "-10",
+      "explanation": "Cộng hai số nguyên âm, ta cộng hai phần tự nhiên của chúng rồi đặt dấu trừ trước kết quả: -6 + -4 = -(6 + 4) = -10."
+    },
+    {
+      "questionNum": 3,
+      "question": "Kết quả của phép tính (-7) + (-5) là bao nhiêu?",
+      "selectedOption": "-12",
+      "correctAnswer": "-12",
+      "explanation": "Cộng hai số nguyên âm, ta cộng hai phần tự nhiên của chúng rồi đặt dấu trừ trước kết quả: -7 + -5 = -(7 + 5) = -12."
+    },
+    {
+      "questionNum": 4,
+      "question": "Kết quả của phép tính (-8) + (-6) là bao nhiêu?",
+      "selectedOption": "-14",
+      "correctAnswer": "-14",
+      "explanation": "Cộng hai số nguyên âm, ta cộng hai phần tự nhiên của chúng rồi đặt dấu trừ trước kết quả: -8 + -6 = -(8 + 6) = -14."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tính kết quả của phép trừ số nguyên: 10 - (-15).",
+      "selectedOption": "25",
+      "correctAnswer": "25",
+      "explanation": "Trừ một số nguyên âm bằng cách cộng với số đối của nó: 10 - (-15) = 10 + 15 = 25."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tính kết quả của phép trừ số nguyên: 11 - (-16).",
+      "selectedOption": "27",
+      "correctAnswer": "27",
+      "explanation": "Trừ một số nguyên âm bằng cách cộng với số đối của nó: 11 - (-16) = 11 + 16 = 27."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tính kết quả của phép trừ số nguyên: 12 - (-17).",
+      "selectedOption": "29",
+      "correctAnswer": "29",
+      "explanation": "Trừ một số nguyên âm bằng cách cộng với số đối của nó: 12 - (-17) = 12 + 17 = 29."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số nguyên x biết: x - 5 = -10.",
+      "selectedOption": "-15",
+      "correctAnswer": "-5",
+      "explanation": "Ta có: x = -10 + 5. Cộng hai số nguyên khác dấu, ta được x = -5."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số nguyên x biết: x - 6 = -11.",
+      "selectedOption": "-17",
+      "correctAnswer": "-5",
+      "explanation": "Ta có: x = -11 + 6. Cộng hai số nguyên khác dấu, ta được x = -5."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số nguyên x biết: x - 7 = -12.",
+      "selectedOption": "-19",
+      "correctAnswer": "-5",
+      "explanation": "Ta có: x = -12 + 7. Cộng hai số nguyên khác dấu, ta được x = -5."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Thực hiện phép tính sau: (-12) + (-18).",
+      "studentAnswer": "Bằng âm 30",
+      "solution": "Đây là phép cộng hai số nguyên âm (cùng dấu):\n(-12) + (-18) = -(12 + 18)\n= -30."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Thực hiện phép tính sau: 15 + (-27).",
+      "studentAnswer": "Bằng 42",
+      "solution": "Đây là phép cộng hai số nguyên khác dấu. Số -27 có phần tự nhiên lớn hơn 15 (27 > 15):\n15 + (-27) = -(27 - 15)\n= -12."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Thực hiện phép tính trừ sau: (-8) - 12.",
+      "studentAnswer": "Bằng âm 20",
+      "solution": "Chuyển phép trừ thành phép cộng với số đối của số trừ:\n(-8) - 12 = (-8) + (-12)\n= -(8 + 12)\n= -20."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Thực hiện phép trừ sau: 15 - (-7).",
+      "studentAnswer": "Bằng 22",
+      "solution": "Trừ một số âm bằng cách cộng với số đối của nó (cộng số dương):\n15 - (-7) = 15 + 7\n= 22."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tính nhanh tổng sau: A = 45 + (-72) + (-45) + 72.",
+      "studentAnswer": "A= 0",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các số đối nhau:\nA = [45 + (-45)] + [(-72) + 72]\n= 0 + 0\n= 0."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tìm số nguyên x biết: x + (-15) = -40.",
+      "studentAnswer": "X= -55",
+      "solution": "Muốn tìm số hạng chưa biết, ta lấy tổng trừ đi số hạng đã biết:\nx = -40 - (-15)\nx = -40 + 15\nx = -(40 - 15) = -25.\nVậy x = -25."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Nhiệt độ Sa Pa lúc 6 giờ sáng là -2°C. Đến trưa nhiệt độ tăng thêm 5°C. Đến đêm nhiệt độ lại giảm đi 6°C. Tính nhiệt độ Sa Pa lúc đêm.",
+      "studentAnswer": "-3 độ C",
+      "solution": "- Lúc sáng: -2°C.\n- Đến trưa tăng thêm 5°C: (-2) + 5 = 3°C.\n- Đến đêm giảm đi 6°C: 3 - 6 = 3 + (-6) = -3°C.\nĐáp số: -3°C."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tính tổng của tất cả các số nguyên x thỏa mãn: -3 ≤ x < 4.",
+      "studentAnswer": "Tổng là 0",
+      "solution": "Tập hợp các số nguyên x thỏa mãn là: {-3, -2, -1, 0, 1, 2, 3}.\nTính tổng của chúng:\nS = (-3) + (-2) + (-1) + 0 + 1 + 2 + 3\nNhóm các cặp số đối nhau:\nS = [(-3) + 3] + [(-2) + 2] + [(-1) + 1] + 0\nS = 0 + 0 + 0 + 0 = 0.\nKết quả bằng 0."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Một cửa hàng kinh doanh trong 3 tháng như sau: Tháng 1 lãi 15 triệu đồng, Tháng 2 lỗ 8 triệu đồng, Tháng 3 lỗ 5 triệu đồng. Hãy dùng số nguyên để biểu diễn và tính tổng kết quả kinh doanh của cửa hàng sau 3 tháng.",
+      "studentAnswer": "Lãi 2 triệu đồng ",
+      "solution": "Biểu diễn bằng số nguyên (lãi là dương, lỗ là âm):\n- Tháng 1: +15 triệu đồng\n- Tháng 2: -8 triệu đồng\n- Tháng 3: -5 triệu đồng\nTổng kết quả kinh doanh sau 3 tháng là:\n15 + (-8) + (-5)\n= 7 + (-5) = 2 triệu đồng.\nVì kết quả là số dương (+2) nên tổng kết sau 3 tháng cửa hàng vẫn lãi 2 triệu đồng."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tìm số nguyên x biết: 12 - x = -18.",
+      "studentAnswer": "X= 30",
+      "solution": "Muốn tìm số trừ, ta lấy số bị trừ trừ đi hiệu:\nx = 12 - (-18)\nx = 12 + 18\nx = 30.\nVậy x = 30."
+    }
+  ]
+}
