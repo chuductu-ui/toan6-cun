@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-15-quy-tac-dau-ngoac",
+  "lessonTitle": "Bài 15: Quy tắc dấu ngoặc",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-03T05:21:57.295Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Bỏ dấu ngoặc của biểu thức A = -(x - y + 5) ta được:",
+      "selectedOption": "-x + y - 5",
+      "correctAnswer": "-x + y - 5",
+      "explanation": "Vì trước dấu ngoặc có dấu trừ nên ta đổi dấu toàn bộ số hạng bên trong: x thành -x, -y thành +y, và 5 thành -5."
+    },
+    {
+      "questionNum": 2,
+      "question": "Bỏ dấu ngoặc của biểu thức A = -(x - y + 6) ta được:",
+      "selectedOption": "-x + y - 6",
+      "correctAnswer": "-x + y - 6",
+      "explanation": "Vì trước dấu ngoặc có dấu trừ nên ta đổi dấu toàn bộ số hạng bên trong: x thành -x, -y thành +y, và 6 thành -6."
+    },
+    {
+      "questionNum": 3,
+      "question": "Bỏ dấu ngoặc của biểu thức A = -(x - y + 7) ta được:",
+      "selectedOption": "-x + y - 7",
+      "correctAnswer": "-x + y - 7",
+      "explanation": "Vì trước dấu ngoặc có dấu trừ nên ta đổi dấu toàn bộ số hạng bên trong: x thành -x, -y thành +y, và 7 thành -7."
+    },
+    {
+      "questionNum": 4,
+      "question": "Bỏ dấu ngoặc của biểu thức A = -(x - y + 8) ta được:",
+      "selectedOption": "-x + y - 8",
+      "correctAnswer": "-x + y - 8",
+      "explanation": "Vì trước dấu ngoặc có dấu trừ nên ta đổi dấu toàn bộ số hạng bên trong: x thành -x, -y thành +y, và 8 thành -8."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tính nhanh giá trị biểu thức: (100 - 20) - (100 - 20 - 10).",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Bỏ dấu ngoặc: 100 - 20 - 100 + 20 + 10 = (100 - 100) + (-20 + 20) + 10 = 10."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tính nhanh giá trị biểu thức: (101 - 21) - (101 - 21 - 10).",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Bỏ dấu ngoặc: 101 - 21 - 101 + 21 + 10 = (101 - 101) + (-21 + 21) + 10 = 10."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tính nhanh giá trị biểu thức: (102 - 22) - (102 - 22 - 10).",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Bỏ dấu ngoặc: 102 - 22 - 102 + 22 + 10 = (102 - 102) + (-22 + 22) + 10 = 10."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số nguyên x biết: (x - 10) - (15 - x) = -15.",
+      "selectedOption": "5",
+      "correctAnswer": "5",
+      "explanation": "Phá ngoặc ta được: x - 10 - 15 + x = -15 => 2x - 25 = -15 => 2x = 10 = 10 => x = 5."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số nguyên x biết: (x - 11) - (14 - x) = -13.",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Phá ngoặc ta được: x - 11 - 14 + x = -13 => 2x - 25 = -13 => 2x = 12 = 12 => x = 6."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số nguyên x biết: (x - 12) - (13 - x) = -11.",
+      "selectedOption": "7",
+      "correctAnswer": "7",
+      "explanation": "Phá ngoặc ta được: x - 12 - 13 + x = -11 => 2x - 25 = -11 => 2x = 14 = 14 => x = 7."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Bỏ dấu ngoặc rồi tính giá trị biểu thức: A = (48 - 75) - (48 - 75 - 12).",
+      "studentAnswer": "Sau khi phá ngoặc kết quả là 12. A= 12",
+      "solution": "Bỏ dấu ngoặc:\n- Trước ngoặc thứ nhất không có dấu (hiểu là dấu cộng): giữ nguyên dấu các số hạng bên trong => 48 - 75.\n- Trước ngoặc thứ hai có dấu trừ (-): đổi dấu toàn bộ số hạng bên trong => -48 + 75 + 12.\nGhép lại:\nA = 48 - 75 - 48 + 75 + 12\nNhóm các số hạng thích hợp:\nA = (48 - 48) + (-75 + 75) + 12\nA = 0 + 0 + 12 = 12.\nKết quả là 12."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Rút gọn biểu thức sau: B = (x - y + 5) - (x + 2 - y).",
+      "studentAnswer": "Vạy biểu thức sau khi rút gọn sẽ là 3",
+      "solution": "Áp dụng quy tắc bỏ dấu ngoặc:\nB = x - y + 5 - x - 2 + y\nNhóm các hạng tử đồng dạng:\nB = (x - x) + (-y + y) + (5 - 2)\nB = 0 + 0 + 3 = 3.\nKết quả rút gọn là 3 (không phụ thuộc vào x và y)."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tính nhanh giá trị biểu thức: C = 125 - (125 - 45) + (-55).",
+      "studentAnswer": "Bằng âm 10",
+      "solution": "Bỏ dấu ngoặc trước:\nC = 125 - 125 + 45 - 55\nC = (125 - 125) + (45 - 55)\nC = 0 + (-10) = -10.\nKết quả là -10."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tìm số nguyên x biết: (x - 5) - (12 - x) = 15.",
+      "studentAnswer": "X= 16",
+      "solution": "Bỏ dấu ngoặc vế trái:\nx - 5 - 12 + x = 15\nThu gọn:\n2x - 17 = 15\n2x = 15 + 17\n2x = 32\nx = 32 : 2\nx = 16.\nVậy x = 16."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tính nhanh biểu thức: D = -245 - (15 - 245) + 20.",
+      "studentAnswer": "Vậy biểu thức này là có kết quả là 5",
+      "solution": "Bỏ ngoặc:\nD = -245 - 15 + 245 + 20\nNhóm các số hạng đối nhau:\nD = (-245 + 245) + (-15 + 20)\nD = 0 + 5 = 5.\nKết quả là 5."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tính nhanh tổng sau: S = (13 - 135 + 49) - (13 + 49).",
+      "studentAnswer": "Bằng âm 135",
+      "solution": "Bỏ ngoặc:\nS = 13 - 135 + 49 - 13 - 49\nNhóm các số hạng đối nhau:\nS = (13 - 13) + (49 - 49) - 135\nS = 0 + 0 - 135 = -135.\nKết quả là -135."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tìm số nguyên x biết: 45 - (x - 8) = -12.",
+      "studentAnswer": "X= 65",
+      "solution": "Bỏ ngoặc:\n45 - x + 8 = -12\n53 - x = -12\nx = 53 - (-12)\nx = 53 + 12\nx = 65.\nVậy x = 65."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Đơn giản biểu thức: E = a + (b - c - d) - (a + b - c).",
+      "studentAnswer": "E =âm d",
+      "solution": "Bỏ ngoặc:\nE = a + b - c - d - a - b + c\nNhóm các số hạng:\nE = (a - a) + (b - b) + (-c + c) - d\nE = 0 + 0 + 0 - d = -d.\nKết quả rút gọn là -d."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Tính giá trị biểu thức F = -(12 + 85) - [ 45 - (12 + 85) ] bằng cách bỏ ngoặc.",
+      "studentAnswer": "F= -45",
+      "solution": "Coi cụm (12 + 85) là một biến X:\nF = -X - [ 45 - X ]\nBỏ ngoặc vuông có dấu trừ đằng trước:\nF = -X - 45 + X\nNhóm các số hạng:\nF = (-X + X) - 45\nF = 0 - 45 = -45.\nKết quả là -45."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tính nhanh biểu thức: G = -2026 + (15 - 2026) - (15 - 2026 × 2).",
+      "studentAnswer": "G = 0",
+      "solution": "Bỏ ngoặc:\nG = -2026 + 15 - 2026 - 15 + 2026 × 2\nThu gọn các số:\nG = (15 - 15) + (-2026 - 2026) + 2026 × 2\nG = 0 - (2026 × 2) + 2026 × 2\nG = 0.\nKết quả bằng 0."
+    }
+  ]
+}
