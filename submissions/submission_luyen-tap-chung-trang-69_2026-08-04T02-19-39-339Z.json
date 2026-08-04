@@ -1,0 +1,140 @@
+{
+  "lessonId": "luyen-tap-chung-trang-69",
+  "lessonTitle": "Luyện tập chung trang 69",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-04T02:19:39.339Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Kết quả của phép tính cộng tự nhiên: 10 + 15 là bao nhiêu?",
+      "selectedOption": "25",
+      "correctAnswer": "25",
+      "explanation": "Thực hiện phép cộng đơn giản: 10 + 15 = 25."
+    },
+    {
+      "questionNum": 2,
+      "question": "Kết quả của phép tính cộng tự nhiên: 12 + 14 là bao nhiêu?",
+      "selectedOption": "26",
+      "correctAnswer": "26",
+      "explanation": "Thực hiện phép cộng đơn giản: 12 + 14 = 26."
+    },
+    {
+      "questionNum": 3,
+      "question": "Kết quả của phép tính cộng tự nhiên: 14 + 13 là bao nhiêu?",
+      "selectedOption": "27",
+      "correctAnswer": "27",
+      "explanation": "Thực hiện phép cộng đơn giản: 14 + 13 = 27."
+    },
+    {
+      "questionNum": 4,
+      "question": "Kết quả của phép tính cộng tự nhiên: 16 + 12 là bao nhiêu?",
+      "selectedOption": "28",
+      "correctAnswer": "28",
+      "explanation": "Thực hiện phép cộng đơn giản: 16 + 12 = 28."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm số tự nhiên x biết rằng: x / 2 = 3.",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 2 = 6."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm số tự nhiên x biết rằng: x / 3 = 3.",
+      "selectedOption": "9",
+      "correctAnswer": "9",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 3 = 9."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tìm số tự nhiên x biết rằng: x / 4 = 3.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 4 = 12."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 10.",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 10 chính là BCNN(2, 10). Kết quả là 10."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 11.",
+      "selectedOption": "22",
+      "correctAnswer": "22",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 11 chính là BCNN(2, 11). Kết quả là 22."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 12.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 12 chính là BCNN(2, 12). Kết quả là 12."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-10) + (-15) - (-5).",
+      "studentAnswer": "A= -20",
+      "solution": "Đơn giản hóa biểu thức:\nA = -10 - 15 + 5\nA = -25 + 5\nA = -20."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-11) + (-16) - (-6).",
+      "studentAnswer": "A= -21",
+      "solution": "Đơn giản hóa biểu thức:\nA = -11 - 16 + 6\nA = -27 + 6\nA = -21."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-12) + (-17) - (-7).",
+      "studentAnswer": "A= -22",
+      "solution": "Đơn giản hóa biểu thức:\nA = -12 - 17 + 7\nA = -29 + 7\nA = -22."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-13) + (-18) - (-8).",
+      "studentAnswer": "A= -23",
+      "solution": "Đơn giản hóa biểu thức:\nA = -13 - 18 + 8\nA = -31 + 8\nA = -23."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-14) + (-19) - (-9).",
+      "studentAnswer": "A= -24",
+      "solution": "Đơn giản hóa biểu thức:\nA = -14 - 19 + 9\nA = -33 + 9\nA = -24."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-15) + (-20) - (-10).",
+      "studentAnswer": "A= -25",
+      "solution": "Đơn giản hóa biểu thức:\nA = -15 - 20 + 10\nA = -35 + 10\nA = -25."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-16) + (-21) - (-11).",
+      "studentAnswer": "A= -26",
+      "solution": "Đơn giản hóa biểu thức:\nA = -16 - 21 + 11\nA = -37 + 11\nA = -26."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-17) + (-22) - (-12).",
+      "studentAnswer": "A= -27",
+      "solution": "Đơn giản hóa biểu thức:\nA = -17 - 22 + 12\nA = -39 + 12\nA = -27."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-18) + (-23) - (-13).",
+      "studentAnswer": "A= -28",
+      "solution": "Đơn giản hóa biểu thức:\nA = -18 - 23 + 13\nA = -41 + 13\nA = -28."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Thực hiện phép tính cộng trừ số nguyên: A = (-19) + (-24) - (-14).",
+      "studentAnswer": "A= -29",
+      "solution": "Đơn giản hóa biểu thức:\nA = -19 - 24 + 14\nA = -43 + 14\nA = -29."
+    }
+  ]
+}
