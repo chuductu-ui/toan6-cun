@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-16-phep-nhan-so-nguyen",
+  "lessonTitle": "Bài 16: Phép nhân số nguyên",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-05T07:45:24.789Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Kết quả của phép tính (-3) * 4 là:",
+      "selectedOption": "-12",
+      "correctAnswer": "-12",
+      "explanation": "Nhân hai số nguyên khác dấu ta được kết quả âm: (-3) * 4 = -(3 * 4) = -12."
+    },
+    {
+      "questionNum": 2,
+      "question": "Kết quả của phép tính (-4) * 5 là:",
+      "selectedOption": "-20",
+      "correctAnswer": "-20",
+      "explanation": "Nhân hai số nguyên khác dấu ta được kết quả âm: (-4) * 5 = -(4 * 5) = -20."
+    },
+    {
+      "questionNum": 3,
+      "question": "Kết quả của phép tính (-5) * 6 là:",
+      "selectedOption": "-30",
+      "correctAnswer": "-30",
+      "explanation": "Nhân hai số nguyên khác dấu ta được kết quả âm: (-5) * 6 = -(5 * 6) = -30."
+    },
+    {
+      "questionNum": 4,
+      "question": "Kết quả của phép tính (-6) * 7 là:",
+      "selectedOption": "-42",
+      "correctAnswer": "-42",
+      "explanation": "Nhân hai số nguyên khác dấu ta được kết quả âm: (-6) * 7 = -(6 * 7) = -42."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tính nhanh giá trị biểu thức: (-10) * 45 + (-10) * 55.",
+      "selectedOption": "-1000",
+      "correctAnswer": "-1000",
+      "explanation": "Áp dụng tính chất phân phối: (-10) * (45 + 55) = (-10) * 100 = -1000."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tính nhanh giá trị biểu thức: (-11) * 45 + (-11) * 55.",
+      "selectedOption": "-1100",
+      "correctAnswer": "-1100",
+      "explanation": "Áp dụng tính chất phân phối: (-11) * (45 + 55) = (-11) * 100 = -1100."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tính nhanh giá trị biểu thức: (-12) * 45 + (-12) * 55.",
+      "selectedOption": "-1200",
+      "correctAnswer": "-1200",
+      "explanation": "Áp dụng tính chất phân phối: (-12) * (45 + 55) = (-12) * 100 = -1200."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tính giá trị của biểu thức lũy thừa số nguyên: (-2)^3.",
+      "selectedOption": "-8",
+      "correctAnswer": "-8",
+      "explanation": "Với số mũ lẻ, lũy thừa số âm cho kết quả âm. Với số mũ chẵn, cho kết quả dương. (-2)^3 = -8."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tính giá trị của biểu thức lũy thừa số nguyên: (-3)^3.",
+      "selectedOption": "-27",
+      "correctAnswer": "-27",
+      "explanation": "Với số mũ lẻ, lũy thừa số âm cho kết quả âm. Với số mũ chẵn, cho kết quả dương. (-3)^3 = -27."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tính giá trị của biểu thức lũy thừa số nguyên: (-2)^3.",
+      "selectedOption": "-8",
+      "correctAnswer": "-8",
+      "explanation": "Với số mũ lẻ, lũy thừa số âm cho kết quả âm. Với số mũ chẵn, cho kết quả dương. (-2)^3 = -8."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Thực hiện phép tính sau: (-8) × (-12).",
+      "studentAnswer": "Bằng 96",
+      "solution": "Nhân hai số nguyên cùng dấu âm cho kết quả dương:\n(-8) × (-12) = 8 × 12 = 96."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Thực hiện phép tính sau: 15 × (-6).",
+      "studentAnswer": "Bằng âm 90",
+      "solution": "Nhân hai số nguyên khác dấu cho kết quả âm:\n15 × (-6) = -(15 × 6) = -90."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tính nhanh tích sau: A = (-25) × 17 × (-4).",
+      "studentAnswer": "Bằng 1700",
+      "solution": "Áp dụng tính chất giao hoán và kết hợp để nhóm các thừa số thích hợp:\nA = [(-25) × (-4)] × 17\n= 100 × 17\n= 1.700."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tính lũy thừa của số nguyên âm sau: (-2)^5 và (-3)^4.",
+      "studentAnswer": "Đáp án lần lượt là âm 32 và 81",
+      "solution": "- Lũy thừa số mũ lẻ của số nguyên âm cho kết quả âm:\n(-2)^5 = - (2^5) = -32.\n- Lũy thừa số mũ chẵn của số nguyên âm cho kết quả dương:\n(-3)^4 = 3^4 = 81."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Không thực hiện phép tính, hãy xét xem tích sau là số âm hay số dương và giải thích: T = (-1) × (-2) × (-3) × 4 × 5 × (-6) × (-7).",
+      "studentAnswer": "Kết quả sẽ là số âm vì khi 2 số âm nhân với nhau thì sẽ thành số dương . Mà có tổng cộng 5 số âm vậy khi nhân 4 số âm và 2 số dương thì kết quả là số dương và nhân thêm một số âm nữa thì kết quả đó sẽ là số âm",
+      "solution": "Trong tích T, ta đếm số lượng các thừa số nguyên âm:\nCác thừa số âm là: -1, -2, -3, -6, -7 (tổng cộng có 5 thừa số âm).\nVì số lượng thừa số âm là 5 (số lẻ) nên tích T có kết quả mang dấu âm (-)."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tìm số nguyên x biết: -5 × x = 35.",
+      "studentAnswer": "X= -7",
+      "solution": "x = 35 : (-5)\nx = -7.\nVậy x = -7."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Tính nhanh giá trị biểu thức: B = (-18) × 45 + (-18) × 55.",
+      "studentAnswer": "B= -1800",
+      "solution": "Áp dụng tính chất phân phối để đặt thừa số chung (-18) ra ngoài:\nB = (-18) × (45 + 55)\n= (-18) × 100\n= -1.800."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "So sánh tích sau với số 0: H = (-12) × (-5) × 0 × (-7).",
+      "studentAnswer": "H = 0",
+      "solution": "Trong tích H có chứa thừa số 0.\nBất kỳ số nào nhân với 0 cũng bằng 0.\nVậy H = 0."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Tính giá trị biểu thức: C = 3 × (-2)^3 - 2 × (-5) + (-8).",
+      "studentAnswer": "C=-22",
+      "solution": "Tính lũy thừa trước:\n- (-2)^3 = -8.\nBiểu thức trở thành:\nC = 3 × (-8) - 2 × (-5) - 8\nThực hiện phép nhân:\n- 3 × (-8) = -24.\n- 2 × (-5) = -10.\nThay vào: C = -24 - (-10) - 8\nC = -24 + 10 - 8\nC = -14 - 8 = -22.\nKết quả là -22."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Trong một trò chơi điện tử, mỗi lần vượt qua chướng ngại vật được cộng 10 điểm (+10), mỗi lần va chạm chướng ngại vật bị trừ 5 điểm (-5). An chơi game vượt qua được 8 chướng ngại vật và va chạm 4 lần. Tính tổng số điểm An đạt được.",
+      "studentAnswer": "An được 60 điểm",
+      "solution": "Tổng số điểm An đạt được là:\nT = 8 × (+10) + 4 × (-5)\nT = 80 + (-20)\nT = 60 điểm.\nĐáp số: 60 điểm."
+    }
+  ]
+}
