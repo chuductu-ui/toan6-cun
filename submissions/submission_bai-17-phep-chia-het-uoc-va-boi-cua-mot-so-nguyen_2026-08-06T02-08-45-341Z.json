@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-17-phep-chia-het-uoc-va-boi-cua-mot-so-nguyen",
+  "lessonTitle": "Bài 17: Phép chia hết. Ước và bội của một số nguyên",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-06T02:08:45.341Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Tập hợp các ước nguyên của số nguyên 2 là:",
+      "selectedOption": "{-2, -1, 1, 2}",
+      "correctAnswer": "{-2, -1, 1, 2}",
+      "explanation": "Ước nguyên của 2 gồm cả các ước nguyên dương và ước nguyên âm tương ứng: {-2, -1, 1, 2}."
+    },
+    {
+      "questionNum": 2,
+      "question": "Tập hợp các ước nguyên của số nguyên 3 là:",
+      "selectedOption": "{-3, -1, 1, 3}",
+      "correctAnswer": "{-3, -1, 1, 3}",
+      "explanation": "Ước nguyên của 3 gồm cả các ước nguyên dương và ước nguyên âm tương ứng: {-3, -1, 1, 3}."
+    },
+    {
+      "questionNum": 3,
+      "question": "Tập hợp các ước nguyên của số nguyên 4 là:",
+      "selectedOption": "{-4, -1, 1, 4}",
+      "correctAnswer": "{-4, -1, 1, 4}",
+      "explanation": "Ước nguyên của 4 gồm cả các ước nguyên dương và ước nguyên âm tương ứng: {-4, -1, 1, 4}."
+    },
+    {
+      "questionNum": 4,
+      "question": "Tập hợp các ước nguyên của số nguyên 5 là:",
+      "selectedOption": "{-5, -1, 1, 5}",
+      "correctAnswer": "{-5, -1, 1, 5}",
+      "explanation": "Ước nguyên của 5 gồm cả các ước nguyên dương và ước nguyên âm tương ứng: {-5, -1, 1, 5}."
+    },
+    {
+      "questionNum": 5,
+      "question": "Trong các số sau, số nào là bội của 12?",
+      "selectedOption": "-12",
+      "correctAnswer": "-12",
+      "explanation": "Vì -12 chia hết cho 12 (thương là -1) nên -12 là bội của 12."
+    },
+    {
+      "questionNum": 6,
+      "question": "Trong các số sau, số nào là bội của 13?",
+      "selectedOption": "-13",
+      "correctAnswer": "-13",
+      "explanation": "Vì -13 chia hết cho 13 (thương là -1) nên -13 là bội của 13."
+    },
+    {
+      "questionNum": 7,
+      "question": "Trong các số sau, số nào là bội của 14?",
+      "selectedOption": "-14",
+      "correctAnswer": "-14",
+      "explanation": "Vì -14 chia hết cho 14 (thương là -1) nên -14 là bội của 14."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm tất cả các số nguyên x sao cho (x + 2) là ước của 2.",
+      "selectedOption": "x ∈ {-4, -3, -1, 0}",
+      "correctAnswer": "x ∈ {-4, -3, -1, 0}",
+      "explanation": "Để (x + 2) là ước của 2 thì (x + 2) phải nhận các giá trị ước nguyên của 2. Các ước nguyên của 2 là [-2, -1, 1, 2]. Giải ra ta được x ∈ {-4, -3, -1, 0}."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm tất cả các số nguyên x sao cho (x + 3) là ước của 3.",
+      "selectedOption": "x ∈ {-6, -4, -2, 0}",
+      "correctAnswer": "x ∈ {-6, -4, -2, 0}",
+      "explanation": "Để (x + 3) là ước của 3 thì (x + 3) phải nhận các giá trị ước nguyên của 3. Các ước nguyên của 3 là [-3, -1, 1, 3]. Giải ra ta được x ∈ {-6, -4, -2, 0}."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm tất cả các số nguyên x sao cho (x + 4) là ước của 4.",
+      "selectedOption": "x ∈ {-8, -6, -5, -3, -2, 0}",
+      "correctAnswer": "x ∈ {-8, -6, -5, -3, -2, 0}",
+      "explanation": "Để (x + 4) là ước của 4 thì (x + 4) phải nhận các giá trị ước nguyên của 4. Các ước nguyên của 4 là [-4, -2, -1, 1, 2, 4]. Giải ra ta được x ∈ {-8, -6, -5, -3, -2, 0}."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Thực hiện các phép chia sau:\na) (-48) : (-6)\nb) 72 : (-8)",
+      "studentAnswer": "A) 8 , b) -9",
+      "solution": "a) Chia hai số cùng dấu âm ra kết quả dương:\n(-48) : (-6) = 8.\nb) Chia hai số khác dấu ra kết quả âm:\n72 : (-8) = -9."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Tìm tất cả các ước nguyên của số 8.",
+      "studentAnswer": " -8 , -4, -2, -1, 1, 2, 4, 8",
+      "solution": "Các ước tự nhiên của 8 là: 1, 2, 4, 8.\nTập hợp các ước nguyên bao gồm cả các ước âm tương ứng:\nƯ(8) = {1, -1, 2, -2, 4, -4, 8, -8}."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Tìm 5 bội nguyên của số -6.",
+      "studentAnswer": "Âm 6, âm 12, âm 18, âm 24 , âm 30",
+      "solution": "Nhân -6 lần lượt với các số nguyên 0, 1, -1, 2, -2...\nTa được các bội nguyên ví dụ là: 0, -6, 6, -12, 12."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Tìm tất cả các số nguyên x sao cho 12 chia hết cho x.",
+      "studentAnswer": "Âm 12, âm 6, âm 4, âm 3, âm 2, âm 1, 1, 2, 3, 4, 6, 12.",
+      "solution": "12 chia hết cho x nghĩa là x là ước nguyên của 12.\nCác ước nguyên của 12 là:\nx ∈ {1, -1, 2, -2, 3, -3, 4, -4, 6, -6, 12, -12}."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tìm tất cả các số nguyên x sao cho x + 3 là ước của 6.",
+      "studentAnswer": "Âm 9, âm 6, âm 5, âm 4, âm 2 , âm 1,0,3",
+      "solution": "Các ước nguyên của 6 là: {1, -1, 2, -2, 3, -3, 6, -6}.\nTa lập bảng tìm x:\n- x + 3 = 1 => x = -2\n- x + 3 = -1 => x = -4\n- x + 3 = 2 => x = -1\n- x + 3 = -2 => x = -5\n- x + 3 = 3 => x = 0\n- x + 3 = -3 => x = -6\n- x + 3 = 6 => x = 3\n- x + 3 = -6 => x = -9\nVậy x ∈ {-2, -4, -1, -5, 0, -6, 3, -9}."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Chứng minh rằng tích của hai số nguyên liên tiếp luôn chia hết cho 2.",
+      "studentAnswer": "Tôi sẽ chứng minh chúng bằng cách 2 số số liên tiếp sẽ là số chẵn và số lẽ lúc đó khi nhân 2 số liên tiếp ấy lại với nhau thì tôi được một số chẵn và số chẵn nào cũng chia hết cho 2",
+      "solution": "Gọi hai số nguyên liên tiếp là n và n + 1 (với n ∈ Z).\n- Nếu n là số chẵn thì n chia hết cho 2. Do đó tích n(n + 1) chia hết cho 2.\n- Nếu n là số lẻ thì n + 1 là số chẵn, nên n + 1 chia hết cho 2. Do đó tích n(n + 1) chia hết cho 2.\nVậy trong mọi trường hợp, tích hai số nguyên liên tiếp luôn chia hết cho 2."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Chứng minh rằng tổng của ba số nguyên liên tiếp luôn chia hết cho 3.",
+      "studentAnswer": "Vì 3 số liên tiếp khi cộng lại luôn chia hết cho 3. tôi có thể ví dụ rằng 2 cộng 3 cộng 4 thì sẽ được 9 thì 9 cũng chia hết cho 3 mà dù là dù 3 cộng 4 cộng 5 thì được 12 thì vẫn chia cho 3",
+      "solution": "Gọi ba số nguyên liên tiếp là: n - 1, n, n + 1 (với n ∈ Z).\nTổng của chúng là:\nT = (n - 1) + n + (n + 1)\nF = n - 1 + n + n + 1 (áp dụng quy tắc phá ngoặc)\nT = (n + n + n) + (-1 + 1)\nT = 3n + 0 = 3n.\nVì tổng T = 3n luôn chia hết cho 3 nên tổng ba số nguyên liên tiếp luôn chia hết cho 3."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Tìm số nguyên x sao cho (2x + 5) chia hết cho (x + 1).",
+      "studentAnswer": "Số là âm 4, âm 2, 0, 2",
+      "solution": "Ta biến đổi biểu thức bị chia để xuất hiện thừa số (x + 1):\n2x + 5 = 2x + 2 + 3 = 2(x + 1) + 3.\nĐể (2x + 5) ⋮ (x + 1) thì [2(x + 1) + 3] ⋮ (x + 1).\nVì 2(x + 1) luôn chia hết cho (x + 1), nên bắt buộc số hạng còn lại là 3 phải chia hết cho (x + 1).\nSuy ra (x + 1) là ước nguyên của 3.\nCác ước nguyên của 3 là: {1, -1, 3, -3}.\nTa giải tìm x:\n- x + 1 = 1 => x = 0\n- x + 1 = -1 => x = -2\n- x + 1 = 3 => x = 2\n- x + 1 = -3 => x = -4\nVậy x ∈ {0, -2, 2, -4}."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Một công ty báo cáo kết quả tài chính quý 1 bị lỗ 24 triệu đồng. Ban giám đốc quyết định phân bổ khoản lỗ này đều cho 4 chi nhánh. Dùng số nguyên âm để biểu diễn số tiền lỗ phân bổ cho mỗi chi nhánh.",
+      "studentAnswer": "Mỗi chi nhánh sẽ lỗ -6 triệu ",
+      "solution": "Khoản lỗ của công ty được biểu diễn bằng số nguyên âm: -24 triệu đồng.\nSố tiền lỗ phân bổ cho mỗi chi nhánh là:\n(-24) : 4 = -6 triệu đồng.\nVậy mỗi chi nhánh chịu khoản phân bổ kết quả kinh doanh là -6 triệu đồng (tương ứng lỗ 6 triệu đồng)."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Tìm tập hợp các số nguyên x vừa là bội của -4, vừa là ước của 24.",
+      "studentAnswer": "Âm 12, âm 8, âm 4, 4, 8, 12",
+      "solution": "- Ước nguyên của 24 là: {±1, ±2, ±3, ±4, ±6, ±8, ±12, ±24}.\n- Bội nguyên của -4 là các số chia hết cho 4: {0, ±4, ±8, ±12, ±16, ±20, ±24, ±28...}.\nLọc các số thuộc cả hai tập hợp trên, ta được:\nx ∈ {4, -4, 8, -8, 12, -12, 24, -24}."
+    }
+  ]
+}
