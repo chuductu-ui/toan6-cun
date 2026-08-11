@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-18-hinh-tam-giac-deu-hinh-vuong-hinh-luc-giac-deu",
+  "lessonTitle": "Bài 18: Hình tam giác đều. Hình vuông. Hình lục giác đều",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-11T08:17:40.910Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Mỗi góc của hình tam giác đều có số đo bằng bao nhiêu độ?",
+      "selectedOption": "60°",
+      "correctAnswer": "60°",
+      "explanation": "Hình tam giác đều có 3 góc bằng nhau, tổng 3 góc bằng 180° nên số đo mỗi góc là 180° / 3 = 60°."
+    },
+    {
+      "questionNum": 2,
+      "question": "Mỗi góc của hình tam giác đều có số đo bằng bao nhiêu độ?",
+      "selectedOption": "60°",
+      "correctAnswer": "60°",
+      "explanation": "Hình tam giác đều có 3 góc bằng nhau, tổng 3 góc bằng 180° nên số đo mỗi góc là 180° / 3 = 60°."
+    },
+    {
+      "questionNum": 3,
+      "question": "Mỗi góc của hình tam giác đều có số đo bằng bao nhiêu độ?",
+      "selectedOption": "60°",
+      "correctAnswer": "60°",
+      "explanation": "Hình tam giác đều có 3 góc bằng nhau, tổng 3 góc bằng 180° nên số đo mỗi góc là 180° / 3 = 60°."
+    },
+    {
+      "questionNum": 4,
+      "question": "Mỗi góc của hình tam giác đều có số đo bằng bao nhiêu độ?",
+      "selectedOption": "60°",
+      "correctAnswer": "60°",
+      "explanation": "Hình tam giác đều có 3 góc bằng nhau, tổng 3 góc bằng 180° nên số đo mỗi góc là 180° / 3 = 60°."
+    },
+    {
+      "questionNum": 5,
+      "question": "Một hình tam giác đều có chu vi là 12 cm. Độ dài mỗi cạnh của tam giác đó là:",
+      "selectedOption": "4 cm",
+      "correctAnswer": "4 cm",
+      "explanation": "Vì tam giác đều có 3 cạnh bằng nhau nên độ dài mỗi cạnh bằng chu vi chia cho 3: 12 / 3 = 4 cm."
+    },
+    {
+      "questionNum": 6,
+      "question": "Một hình tam giác đều có chu vi là 15 cm. Độ dài mỗi cạnh của tam giác đó là:",
+      "selectedOption": "5 cm",
+      "correctAnswer": "5 cm",
+      "explanation": "Vì tam giác đều có 3 cạnh bằng nhau nên độ dài mỗi cạnh bằng chu vi chia cho 3: 15 / 3 = 5 cm."
+    },
+    {
+      "questionNum": 7,
+      "question": "Một hình tam giác đều có chu vi là 18 cm. Độ dài mỗi cạnh của tam giác đó là:",
+      "selectedOption": "6 cm",
+      "correctAnswer": "6 cm",
+      "explanation": "Vì tam giác đều có 3 cạnh bằng nhau nên độ dài mỗi cạnh bằng chu vi chia cho 3: 18 / 3 = 6 cm."
+    },
+    {
+      "questionNum": 8,
+      "question": "Người ta ghép 6 hình tam giác đều có cạnh 3 cm thành một hình lục giác đều. Chu vi của hình lục giác đều đó là bao nhiêu?",
+      "selectedOption": "15 cm",
+      "correctAnswer": "18 cm",
+      "explanation": "Lục giác đều được ghép từ 6 tam giác đều cạnh 3 cm sẽ có độ dài cạnh là 3 cm. Chu vi lục giác đều là 6 * 3 = 18 cm."
+    },
+    {
+      "questionNum": 9,
+      "question": "Người ta ghép 6 hình tam giác đều có cạnh 4 cm thành một hình lục giác đều. Chu vi của hình lục giác đều đó là bao nhiêu?",
+      "selectedOption": "20 cm",
+      "correctAnswer": "24 cm",
+      "explanation": "Lục giác đều được ghép từ 6 tam giác đều cạnh 4 cm sẽ có độ dài cạnh là 4 cm. Chu vi lục giác đều là 6 * 4 = 24 cm."
+    },
+    {
+      "questionNum": 10,
+      "question": "Người ta ghép 6 hình tam giác đều có cạnh 5 cm thành một hình lục giác đều. Chu vi của hình lục giác đều đó là bao nhiêu?",
+      "selectedOption": "25 cm",
+      "correctAnswer": "30 cm",
+      "explanation": "Lục giác đều được ghép từ 6 tam giác đều cạnh 5 cm sẽ có độ dài cạnh là 5 cm. Chu vi lục giác đều là 6 * 5 = 30 cm."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Cho tam giác đều ABC có cạnh AB = 6 cm. Nêu các đặc điểm về góc của tam giác này và tính độ dài cạnh BC, AC.",
+      "studentAnswer": "Cả 3 góc đều có cạnh bằng nhau \nMỗi góc của tam giác đều sẽ luôn là 60 độ \nHình tam giác luôn có 3 cạnh bằng nhau nên AB= 6 cm và AC= 6 cm thì BC cũng bằng 6 cm",
+      "solution": "- Trong tam giác đều ABC, cả ba cạnh đều có độ dài bằng nhau: BC = AC = AB = 6 cm.\n- Cả ba góc ở các đỉnh A, B, C đều bằng nhau và có số đo bằng 60°."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Cho hình vuông ABCD có đường chéo AC = 8 cm. Hãy cho biết độ dài đường chéo BD và nêu tính chất giao điểm hai đường chéo.",
+      "studentAnswer": "Vì AC= 8 cm nên BD cũng bằng 8 cm \nChúng cũng là đường chéo của hình vuông và giao điểm của chúng là tâm dối xứng ",
+      "solution": "- Trong hình vuông, hai đường chéo có độ dài bằng nhau nên BD = AC = 8 cm.\n- Hai đường chéo AC và BD vuông góc với nhau tại trung điểm của mỗi đường."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Ghép 6 hình tam giác đều có cùng cạnh là 4 cm để tạo thành một hình lục giác đều. Hãy tính chu vi của hình lục giác đều đó.",
+      "studentAnswer": "Chu vi hình lục giác đó là: 20 cm ",
+      "solution": "- Khi ghép 6 tam giác đều cạnh 4 cm quanh một tâm chung, ta được hình lục giác đều có độ dài cạnh đúng bằng cạnh của tam giác đều, tức là bằng 4 cm.\n- Hình lục giác đều có 6 cạnh bằng nhau. Chu vi của hình lục giác đều là:\nP = 6 × cạnh = 6 × 4 = 24 cm.\nĐáp số: 24 cm."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Vẽ hình vuông ABCD có cạnh bằng 5 cm bằng êke và thước thẳng. Nêu các bước vẽ.",
+      "studentAnswer": "Bước 1: kẻ một đoạn AB dài 5 cm bằng thước thẳng \nBước 2 : Đặt một cạch góc vuông của êke trùng với đoạn AB sao cho đỉnh góc vuông trùng với điểm B. Sau đó kẻ một đoạn 5 cm từ điểm B sang điểm C \nBước 3: Đặt một cạnh góc vuông của êke trùng với đoạn BC sao cho đỉnh góc vuông trùng với điểm C và từ đó kẻ một đường thẳng 5 cm từ điểm C đến điểm Đ\nBước 4: kẻ một đoạn thẳng nối liền từ điểm A đến điểm D",
+      "solution": "Các bước vẽ hình vuông cạnh 5 cm:\n1. Vẽ đoạn thẳng AB dài 5 cm bằng thước thẳng.\n2. Dùng êke đặt góc vuông tại A, vẽ đường thẳng vuông góc với AB. Trên đường thẳng này lấy điểm D sao cho AD = 5 cm.\n3. Dùng êke đặt góc vuông tại B, vẽ đường thẳng vuông góc với AB. Trên đường thẳng này lấy điểm C sao cho BC = 5 cm.\n4. Nối C với D. Ta được hình vuông ABCD có cạnh đúng bằng 5 cm."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Vẽ tam giác đều MNP có cạnh bằng 4 cm bằng thước thẳng và compa. Nêu các bước vẽ.",
+      "studentAnswer": "Bước 1 vẽ 1 đoạn thẳng 4 cm và 2 điểm ở 2 bên sẽ làm mờ và N\nBước 2 mở rộng compa với độ rộng 4 cm, chúng ta sẽ đặt đầu nhọn ở điểm M và vẽ 1 đường vòng cung phía phía trên và tiếp tục như thế đặt đỉnh nhọn của com per vào điểm N và vẽ 1 đường vòng cung lên phía trên\nBước cuối cùng bạn có thấy giao điểm giữa vòng cung của M điểm M và vòng cung của điểm N0 thì cái chỗ chỗ rau đấy bạn hãy chấm 1 đường và đó chính là điểm P. Và sau khi được điểm M bạn hãy nối điểm P với điểm M và nối điểm P với điểm N thấy là chúng ta được 1 hình tam giác đều đều từ thẳng và từ com per rồi đấy",
+      "solution": "Các bước vẽ tam giác đều cạnh 4 cm:\n1. Vẽ đoạn thẳng MN dài 4 cm bằng thước thẳng.\n2. Dùng compa mở khẩu độ bằng 4 cm. Đặt tâm tại M vẽ một cung tròn. Giữ nguyên khẩu độ đặt tâm tại N vẽ một cung tròn khác cắt cung trước tại P.\n3. Nối P với M và P với N. Ta được tam giác đều MNP có cạnh bằng 4 cm."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Cho một hình lục giác đều ABCDEF. Hãy kể tên 3 đường chéo chính của lục giác này và chỉ ra các tam giác đều tạo nên nó.",
+      "studentAnswer": "Hình lục giác này có 3 đường chéo chính là AD, BE, CF\nTrước hết tâm của hình lục giác đấy được gọi là O\nVậy các hình tam giác đó sẽ là AOF, AOB, BOC, COD, DOE, EOF",
+      "solution": "- 3 đường chéo chính nối các đỉnh đối diện nhau qua tâm là: AD, BE, CF.\n- Gọi O là giao điểm của 3 đường chéo chính. 6 tam giác đều tạo nên lục giác đều là: OAB, OBC, OCD, ODE, OEF, OFA."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Một hình vuông có chu vi là 36 cm. Hãy tính diện tích của hình vuông đó.",
+      "studentAnswer": "Diện tích hình vuông đó là : 81 cm vuông ",
+      "solution": "- Chu vi hình vuông P = 4 × cạnh = 36 cm. Độ dài cạnh hình vuông là:\ncạnh = 36 : 4 = 9 cm.\n- Diện tích hình vuông là:\nS = cạnh × cạnh = 9 × 9 = 81 cm2.\nĐáp số: 81 cm2."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Nêu số trục đối xứng và tâm đối xứng của mỗi hình sau: tam giác đều, hình vuông, hình lục giác đều.",
+      "studentAnswer": "Hình tam giác đều có 3 trục đối xứng\nHình vuông có 4 trục đối xứng\nHình lục giác có 6 trục đối xứng\n",
+      "solution": "- Tam giác đều: Có 3 trục đối xứng; không có tâm đối xứng.\n- Hình vuông: Có 4 trục đối xứng; có 1 tâm đối xứng (giao điểm 2 đường chéo).\n- Hình lục giác đều: Có 6 trục đối xứng; có 1 tâm đối xứng (giao điểm các đường chéo chính)."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Hãy kể tên ít nhất 3 vật dụng hoặc hình ảnh thực tế xung quanh em có hình dạng hình vuông, 3 vật có hình tam giác đều.",
+      "studentAnswer": "Hình vuông : máy đo không khí, bức tranh, hộp dựng phấn\nHình tam giác : đồ chơi hình tam giác,…",
+      "solution": "- Hình vuông: Viên gạch lát nền nhà, ô bàn cờ vua, mặt đồng hồ treo tường hình vuông, khung ảnh vuông.\n- Hình tam giác đều: Biển báo giao thông nguy hiểm (hình tam giác viền đỏ), kim tự tháp đồ chơi, ke góc xây dựng tam giác đều."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Cho tam giác đều có chu vi bằng chu vi hình vuông cạnh 6 cm. Tính độ dài cạnh của tam giác đều đó.",
+      "studentAnswer": "Cạnh của hình tam giác là: 6 cm",
+      "solution": "- Chu vi hình vuông cạnh 6 cm là:\nP_vuong = 4 × 6 = 24 cm.\n- Chu vi tam giác đều bằng chu vi hình vuông nên P_tamgiac = 24 cm.\n- Vì tam giác đều có 3 cạnh bằng nhau, độ dài cạnh tam giác đều là:\ncạnh = 24 : 3 = 8 cm.\nĐáp số: 8 cm."
+    }
+  ]
+}
