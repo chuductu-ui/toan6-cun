@@ -1,6 +1,6 @@
 {
   "lessonId": "bai-19-hinh-chu-nhat-hinh-thoi-hinh-binh-hanh-hinh-thang-can",
-  "updatedAt": "2026-08-12T02:28:33.662Z",
+  "updatedAt": "2026-08-12T13:38:47.873Z",
   "answers": {
     "mc": {
       "0": "Vuông góc với nhau tại trung điểm của mỗi đường",
@@ -16,6 +16,7 @@
     },
     "written": {
       "0": "Các cặp song song với nhau là: AB, CD, AD, CB",
+      "1": "Các cạnh bên trong bài này là: AB và CD, AD và BC \nAB = CD, AC = BC\nVà đặc điểm của hai đường chéo là bằng nhau",
       "4": "Con sẽ vẽ vào nháp"
     }
   }
