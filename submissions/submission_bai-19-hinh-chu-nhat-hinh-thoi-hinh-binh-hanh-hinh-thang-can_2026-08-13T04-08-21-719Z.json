@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-19-hinh-chu-nhat-hinh-thoi-hinh-binh-hanh-hinh-thang-can",
+  "lessonTitle": "Bài 19: Hình chữ nhật. Hình thoi. Hình bình hành. Hình thang cân",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-13T04:08:21.719Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Hai đường chéo của hình thoi có tính chất đặc trưng nào dưới đây?",
+      "selectedOption": "Vuông góc với nhau tại trung điểm của mỗi đường",
+      "correctAnswer": "Vuông góc với nhau tại trung điểm của mỗi đường",
+      "explanation": "Tính chất đặc trưng của hình thoi là hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường."
+    },
+    {
+      "questionNum": 2,
+      "question": "Hai đường chéo của hình thoi có tính chất đặc trưng nào dưới đây?",
+      "selectedOption": "Vuông góc với nhau tại trung điểm của mỗi đường",
+      "correctAnswer": "Vuông góc với nhau tại trung điểm của mỗi đường",
+      "explanation": "Tính chất đặc trưng của hình thoi là hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường."
+    },
+    {
+      "questionNum": 3,
+      "question": "Hai đường chéo của hình thoi có tính chất đặc trưng nào dưới đây?",
+      "selectedOption": "Vuông góc với nhau tại trung điểm của mỗi đường",
+      "correctAnswer": "Vuông góc với nhau tại trung điểm của mỗi đường",
+      "explanation": "Tính chất đặc trưng của hình thoi là hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường."
+    },
+    {
+      "questionNum": 4,
+      "question": "Hai đường chéo của hình thoi có tính chất đặc trưng nào dưới đây?",
+      "selectedOption": "Vuông góc với nhau tại trung điểm của mỗi đường",
+      "correctAnswer": "Vuông góc với nhau tại trung điểm của mỗi đường",
+      "explanation": "Tính chất đặc trưng của hình thoi là hai đường chéo vuông góc với nhau tại trung điểm của mỗi đường."
+    },
+    {
+      "questionNum": 5,
+      "question": "Cho hình bình hành ABCD có AB = 5 cm, BC = 3 cm. Độ dài cạnh CD và AD lần lượt là:",
+      "selectedOption": "CD = 5 cm, AD = 3 cm",
+      "correctAnswer": "CD = 5 cm, AD = 3 cm",
+      "explanation": "Trong hình bình hành, các cạnh đối diện có độ dài bằng nhau nên CD = AB = 5 cm và AD = BC = 3 cm."
+    },
+    {
+      "questionNum": 6,
+      "question": "Cho hình bình hành ABCD có AB = 6 cm, BC = 4 cm. Độ dài cạnh CD và AD lần lượt là:",
+      "selectedOption": "CD = 6 cm, AD = 4 cm",
+      "correctAnswer": "CD = 6 cm, AD = 4 cm",
+      "explanation": "Trong hình bình hành, các cạnh đối diện có độ dài bằng nhau nên CD = AB = 6 cm và AD = BC = 4 cm."
+    },
+    {
+      "questionNum": 7,
+      "question": "Cho hình bình hành ABCD có AB = 7 cm, BC = 5 cm. Độ dài cạnh CD và AD lần lượt là:",
+      "selectedOption": "CD = 7 cm, AD = 5 cm",
+      "correctAnswer": "CD = 7 cm, AD = 5 cm",
+      "explanation": "Trong hình bình hành, các cạnh đối diện có độ dài bằng nhau nên CD = AB = 7 cm và AD = BC = 5 cm."
+    },
+    {
+      "questionNum": 8,
+      "question": "Cho hình thang cân ABCD (AB // CD) có đường chéo AC = 6 cm. Độ dài đường chéo BD của hình thang cân đó là:",
+      "selectedOption": "6 cm",
+      "correctAnswer": "6 cm",
+      "explanation": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau nên BD = AC = 6 cm."
+    },
+    {
+      "questionNum": 9,
+      "question": "Cho hình thang cân ABCD (AB // CD) có đường chéo AC = 7 cm. Độ dài đường chéo BD của hình thang cân đó là:",
+      "selectedOption": "7 cm",
+      "correctAnswer": "7 cm",
+      "explanation": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau nên BD = AC = 7 cm."
+    },
+    {
+      "questionNum": 10,
+      "question": "Cho hình thang cân ABCD (AB // CD) có đường chéo AC = 8 cm. Độ dài đường chéo BD của hình thang cân đó là:",
+      "selectedOption": "8 cm",
+      "correctAnswer": "8 cm",
+      "explanation": "Trong hình thang cân, hai đường chéo luôn có độ dài bằng nhau nên BD = AC = 8 cm."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Cho hình bình hành ABCD. Kể tên các cặp cạnh đối diện bằng nhau và song song. So sánh các góc đối diện của hình bình hành này.",
+      "studentAnswer": "Các cặp song song với nhau là: AB, CD, AD, CB",
+      "solution": "Trong hình bình hành ABCD:\n- Các cặp cạnh đối song song và bằng nhau là: AB song song và bằng CD (AB = CD); AD song song và bằng BC (AD = BC).\n- Các cặp góc đối diện bằng nhau là: góc A = góc C; góc B = góc D."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Cho hình thang cân ABCD (AB // CD). Hãy kể tên các cạnh bên và so sánh độ dài của chúng. Chỉ ra đặc điểm về hai đường chéo.",
+      "studentAnswer": "Các cạnh bên trong bài này là: AB và CD, AD và BC \nAB = CD, AC = BC\nVà đặc điểm của hai đường chéo là bằng nhau",
+      "solution": "Trong hình thang cân ABCD (đáy AB và CD):\n- Hai cạnh bên là AD và BC. Tính chất hình thang cân: hai cạnh bên bằng nhau (AD = BC).\n- Hai đường chéo là AC và BD. Tính chất: hai đường chéo có độ dài bằng nhau (AC = BD)."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Cho hình thoi MNPQ có hai đường chéo MP và NQ cắt nhau tại O. Hãy chỉ ra đặc điểm về góc tạo bởi hai đường chéo tại O và so sánh các cạnh của hình thoi.",
+      "studentAnswer": "Hai đường chéo MP và NQ vuông góc với nhau tại tâm O\nCác cạnh của hình thoi có độ dài bằng nhau",
+      "solution": "Trong hình thoi MNPQ:\n- Bốn cạnh có độ dài bằng nhau: MN = NP = PQ = QM.\n- Hai đường chéo MP và NQ vuông góc với nhau tại giao điểm O (góc MOP = 90°)."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Nêu các điểm giống nhau và khác nhau cơ bản về đường chéo giữa hình chữ nhật và hình thoi.",
+      "studentAnswer": "Điểm giống nhau của hai hình trên là:\nCả hai hình đều có 2 đường chéo và hai đường chéo đó cắt nhau tại trung điểm\nĐiểm khác nhau của hai hình trên là:\nHình chữ nhật có hai đường chéo bằng nhau và chúng không vuông góc với nhau \nHình thoi thì 2 đường chéo không bằng nhau, cái ngắn cái dài và chúng lại vuông góc với nhau",
+      "solution": "- Giống nhau: Đường chéo của cả hai hình đều cắt nhau tại trung điểm của mỗi đường.\n- Khác nhau:\n* Hình chữ nhật: hai đường chéo có độ dài bằng nhau nhưng không vuông góc.\n* Hình thoi: hai đường chéo vuông góc với nhau nhưng độ dài nói chung không bằng nhau."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Vẽ hình chữ nhật ABCD có chiều dài 6 cm, chiều rộng 4 cm bằng thước kẻ và êke.",
+      "studentAnswer": "Con sẽ vẽ vào nháp",
+      "solution": "Các bước vẽ:\n1. Vẽ đoạn thẳng AB dài 6 cm bằng thước thẳng.\n2. Dùng êke dựng đường thẳng vuông góc với AB tại A, trên đó lấy điểm D sao cho AD = 4 cm.\n3. Dùng êke dựng đường thẳng vuông góc với AB tại B, trên đó lấy điểm C sao cho BC = 4 cm.\n4. Nối C với D. Ta được hình chữ nhật ABCD có chiều dài 6 cm và chiều rộng 4 cm."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Vẽ hình bình hành MNPQ có cạnh MN = 5 cm, NP = 3 cm. Nêu các bước vẽ.",
+      "studentAnswer": "Để vẽ được hình bình hành MNPQ thì chúng ta sẽ vẽ một đường thẳng MN dài 5 cm sau đó lấy thước để ở đỉnh N trùng với 3 cụm trên thước kẻ và để thước theo phía dưới. Lúc này bạn thấy số trùng với điểm nào trên giấy thì đó chính là điểm P. Và khi đó bạn hãy vẽ từ đoạn P đến khi nào thấy đoạn thẳng đó dài 5 cam thì bạn đánh dấu đó là điểm Q\nVà cuối cùng, bạn chỉ cần nối điểm M với điểm Q là xong ",
+      "solution": "Các bước vẽ hình bình hành:\n1. Vẽ đoạn thẳng MN dài 5 cm.\n2. Vẽ đường thẳng đi qua N, trên đó lấy điểm P sao cho NP = 3 cm (vẽ xiên góc tùy ý).\n3. Từ M vẽ đường thẳng song song với NP. Từ P vẽ đường thẳng song song với MN.\n4. Giao điểm của hai đường thẳng này là Q. Nối các điểm lại, ta được hình bình hành MNPQ."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Kể tên các hình có tâm đối xứng trong số bốn hình: hình chữ nhật, hình thoi, hình bình hành, hình thang cân.",
+      "studentAnswer": "Trong các việc trên hình chữ nhật, hình thoi và hình bình hành là các hình có tâm đối xứng",
+      "solution": "- Hình chữ nhật: Có tâm đối xứng (giao hai đường chéo).\n- Hình thoi: Có tâm đối xứng (giao hai đường chéo).\n- Hình bình hành: Có tâm đối xứng (giao hai đường chéo).\n- Hình thang cân: Nói chung không có tâm đối xứng.\nVậy có 3 hình có tâm đối xứng."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Kể tên các hình có trục đối xứng trong bốn hình trên và chỉ ra số trục đối xứng của mỗi hình.",
+      "studentAnswer": "Có phải 4 hình trên trên bài 7 không vậy nếu như nó là đúng 4 hình đó thì hình chữ nhật sẽ có 2 trục đối xứng, hình thoi sẽ có 2 trục đối xứng hình bình hành sẽ không có trục đối xứng nào hết, hình thang cân có 1 trục đối xứng",
+      "solution": "- Hình chữ nhật: Có 2 trục đối xứng (hai đường trung trực của các cạnh đối).\n- Hình thoi: Có 2 trục đối xứng (hai đường thẳng chứa hai đường chéo).\n- Hình bình hành: Không có trục đối xứng.\n- Hình thang cân: Có 1 trục đối xứng (đường trung trực nối trung điểm hai đáy)."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Một mảnh giấy hình chữ nhật kích thước 10cm × 6cm. Người ta muốn cắt mảnh giấy này thành một hình thoi bằng cách nối trung điểm các cạnh kề nhau của hình chữ nhật. Tính độ dài hai đường chéo của hình thoi tạo thành.",
+      "studentAnswer": "Độ dài 2 đường chéo lúc này của hình thoi sẽ là 10 cm và 6 cm",
+      "solution": "- Khi nối trung điểm các cạnh đối diện của hình chữ nhật để tạo hình thoi, hai đường chéo của hình thoi chính bằng chiều dài và chiều rộng của hình chữ nhật.\n- Vậy hai đường chéo của hình thoi lần lượt là: d1 = 10 cm và d2 = 6 cm."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Hãy kể tên các đồ vật xung quanh em có dạng hình chữ nhật (3 vật) và hình bình hành (2 vật).",
+      "studentAnswer": "Hình chữ nhật: quyển vở, bức ảnh, máy đọc sách\nHình bình hành: đồ chơi hình bình hành,…",
+      "solution": "- Hình chữ nhật: Cửa ra vào, bảng viết học sinh, bìa cuốn sách giáo khoa, màn hình điện thoại.\n- Hình bình hành: Khung lưới sắt kéo rào, hình vẽ trang trí trên lan can cầu thang, mái hiên che nghiêng."
+    }
+  ]
+}
