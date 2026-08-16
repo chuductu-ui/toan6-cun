@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-tap-cuoi-chuong-4",
+  "lessonTitle": "Bài tập cuối chương IV",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-16T06:24:57.285Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Kết quả của phép tính cộng tự nhiên: 10 + 15 là bao nhiêu?",
+      "selectedOption": "25",
+      "correctAnswer": "25",
+      "explanation": "Thực hiện phép cộng đơn giản: 10 + 15 = 25."
+    },
+    {
+      "questionNum": 2,
+      "question": "Kết quả của phép tính cộng tự nhiên: 12 + 14 là bao nhiêu?",
+      "selectedOption": "26",
+      "correctAnswer": "26",
+      "explanation": "Thực hiện phép cộng đơn giản: 12 + 14 = 26."
+    },
+    {
+      "questionNum": 3,
+      "question": "Kết quả của phép tính cộng tự nhiên: 14 + 13 là bao nhiêu?",
+      "selectedOption": "27",
+      "correctAnswer": "27",
+      "explanation": "Thực hiện phép cộng đơn giản: 14 + 13 = 27."
+    },
+    {
+      "questionNum": 4,
+      "question": "Kết quả của phép tính cộng tự nhiên: 16 + 12 là bao nhiêu?",
+      "selectedOption": "28",
+      "correctAnswer": "28",
+      "explanation": "Thực hiện phép cộng đơn giản: 16 + 12 = 28."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tìm số tự nhiên x biết rằng: x / 2 = 3.",
+      "selectedOption": "6",
+      "correctAnswer": "6",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 2 = 6."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tìm số tự nhiên x biết rằng: x / 3 = 3.",
+      "selectedOption": "9",
+      "correctAnswer": "9",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 3 = 9."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tìm số tự nhiên x biết rằng: x / 4 = 3.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Muốn tìm số bị chia, ta lấy thương nhân với số chia: x = 3 * 4 = 12."
+    },
+    {
+      "questionNum": 8,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 10.",
+      "selectedOption": "10",
+      "correctAnswer": "10",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 10 chính là BCNN(2, 10). Kết quả là 10."
+    },
+    {
+      "questionNum": 9,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 11.",
+      "selectedOption": "22",
+      "correctAnswer": "22",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 11 chính là BCNN(2, 11). Kết quả là 22."
+    },
+    {
+      "questionNum": 10,
+      "question": "Tìm số tự nhiên x nhỏ nhất thỏa mãn: x chia hết cho cả 2 và 12.",
+      "selectedOption": "12",
+      "correctAnswer": "12",
+      "explanation": "Số tự nhiên nhỏ nhất chia hết cho cả 2 và 12 chính là BCNN(2, 12). Kết quả là 12."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 1: Thực hiện phép tính sau: 20 + 40.",
+      "studentAnswer": "20 + 40=60 ",
+      "solution": "Cộng hai số hạng: 20 + 40 = 60."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 2: Thực hiện phép tính sau: 22 + 38.",
+      "studentAnswer": "22 + 38=60 ",
+      "solution": "Cộng hai số hạng: 22 + 38 = 60."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 3: Thực hiện phép tính sau: 24 + 36.",
+      "studentAnswer": "24 + 36=60 ",
+      "solution": "Cộng hai số hạng: 24 + 36 = 60."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 4: Thực hiện phép tính sau: 26 + 34.",
+      "studentAnswer": "26 + 34=60 ",
+      "solution": "Cộng hai số hạng: 26 + 34 = 60."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 5: Thực hiện phép tính sau: 28 + 32.",
+      "studentAnswer": "28 + 32=60 ",
+      "solution": "Cộng hai số hạng: 28 + 32 = 60."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 6: Thực hiện phép tính sau: 30 + 30.",
+      "studentAnswer": "30 + 30=60 ",
+      "solution": "Cộng hai số hạng: 30 + 30 = 60."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 7: Thực hiện phép tính sau: 32 + 28.",
+      "studentAnswer": "32 + 28=60 ",
+      "solution": "Cộng hai số hạng: 32 + 28 = 60."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 8: Thực hiện phép tính sau: 34 + 26.",
+      "studentAnswer": "34 + 26=60 ",
+      "solution": "Cộng hai số hạng: 34 + 26 = 60."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 9: Thực hiện phép tính sau: 36 + 24.",
+      "studentAnswer": "36 + 24=60 ",
+      "solution": "Cộng hai số hạng: 36 + 24 = 60."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Bài tập tự luyện thực hành tổng hợp số 10: Thực hiện phép tính sau: 38 + 22.",
+      "studentAnswer": "38 + 22=60 ",
+      "solution": "Cộng hai số hạng: 38 + 22 = 60."
+    }
+  ]
+}
