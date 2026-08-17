@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-21-hinh-co-truc-doi-xung",
+  "lessonTitle": "Bài 21: Hình có trục đối xứng",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-17T04:23:51.210Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Hình nào sau đây KHÔNG có trục đối xứng?",
+      "selectedOption": "Hình tam giác thường",
+      "correctAnswer": "Hình tam giác thường",
+      "explanation": "Hình tam giác thường có ba cạnh khác nhau nên không có đường thẳng nào chia nó thành hai phần trùng khít khi gấp lại. Hình tròn, vuông và chữ nhật đều là các hình có trục đối xứng."
+    },
+    {
+      "questionNum": 2,
+      "question": "Hình chữ nhật có bao nhiêu trục đối xứng?",
+      "selectedOption": "2 trục đối xứng",
+      "correctAnswer": "2 trục đối xứng",
+      "explanation": "Hình chữ nhật có 2 trục đối xứng là hai đường thẳng đi qua trung điểm của các cặp cạnh đối diện."
+    },
+    {
+      "questionNum": 3,
+      "question": "Hình vuông có bao nhiêu trục đối xứng?",
+      "selectedOption": "4 trục đối xứng",
+      "correctAnswer": "4 trục đối xứng",
+      "explanation": "Hình vuông có 4 trục đối xứng: 2 đường trung trực của các cạnh đối diện và 2 đường chéo."
+    },
+    {
+      "questionNum": 4,
+      "question": "Cho các chữ cái in hoa sau: B, A, N, M. Chữ cái nào có trục đối xứng nằm ngang?",
+      "selectedOption": "Chữ B",
+      "correctAnswer": "Chữ B",
+      "explanation": "Chữ B có trục đối xứng nằm ngang chia đôi phần trên và phần dưới. Chữ A và M có trục đối xứng thẳng đứng, còn chữ N không có trục đối xứng."
+    },
+    {
+      "questionNum": 5,
+      "question": "Hình tam giác đều có bao nhiêu trục đối xứng?",
+      "selectedOption": "3 trục đối xứng",
+      "correctAnswer": "3 trục đối xứng",
+      "explanation": "Hình tam giác đều có 3 trục đối xứng là ba đường thẳng đi qua các đỉnh và trung điểm của cạnh đối diện tương ứng."
+    },
+    {
+      "questionNum": 6,
+      "question": "Trong các hình sau đây, hình nào có vô số trục đối xứng?",
+      "selectedOption": "Hình tròn",
+      "correctAnswer": "Hình tròn",
+      "explanation": "Hình tròn có vô số trục đối xứng là mọi đường thẳng đi qua tâm của nó."
+    },
+    {
+      "questionNum": 7,
+      "question": "Hình tam giác đều có bao nhiêu trục đối xứng?",
+      "selectedOption": "3",
+      "correctAnswer": "3",
+      "explanation": "Hình tam giác đều có 3 trục đối xứng là 3 đường thẳng đi qua các đỉnh và trung điểm của cạnh đối diện."
+    },
+    {
+      "questionNum": 8,
+      "question": "Hình học nào sau đây KHÔNG có trục đối xứng?",
+      "selectedOption": "Hình bình hành",
+      "correctAnswer": "Hình bình hành",
+      "explanation": "Hình bình hành nói chung không có trục đối xứng. Hình vuông có 4, hình chữ nhật có 2, hình thang cân có 1."
+    },
+    {
+      "questionNum": 9,
+      "question": "Chữ cái in hoa tiếng Việt nào sau đây có trục đối xứng đứng?",
+      "selectedOption": "A",
+      "correctAnswer": "A",
+      "explanation": "Chữ cái A có trục đối xứng dọc (đứng) đi qua đỉnh nhọn chia chữ làm hai nửa đối xứng qua gương."
+    },
+    {
+      "questionNum": 10,
+      "question": "Hình tròn có bao nhiêu trục đối xứng?",
+      "selectedOption": "Vô số",
+      "correctAnswer": "Vô số",
+      "explanation": "Mọi đường thẳng đi qua tâm của hình tròn đều chia hình tròn làm hai phần đối xứng hoàn hảo, nên hình tròn có vô số trục đối xứng."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Trong các chữ cái in hoa sau: A, B, N, O, P, S. Chữ nào có trục đối xứng đứng? Chữ nào có trục đối xứng nằm ngang? Chữ nào có cả hai?",
+      "studentAnswer": "Các chữ có trục đối xứng đứng: là A và O\nCác trục đối xứng nằm ngang là: B và O\n chữ có cả hai: O",
+      "solution": "- Chữ có trục đối xứng đứng (dọc): A, O, H (nếu có H). Trong các chữ trên là: A, O.\n- Chữ có trục đối xứng nằm ngang: B, O. (Chữ B đối xứng gương trên dưới, chữ O đối xứng tròn).\n- Chữ có cả hai trục đối xứng đứng và ngang: Chữ O.\n- Chữ không có trục đối xứng nào: N, P, S."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Cho hình tam giác cân MNP (cân tại M, MN = MP). Hỏi hình tam giác cân này có mấy trục đối xứng? Đó là đường thẳng nào?",
+      "studentAnswer": "Có 1 trục đối xứng là đường thẳng đi từ điểm M đến trung điểm của NP",
+      "solution": "- Hình tam giác cân có đúng 1 trục đối xứng.\n- Trục đối xứng đó là đường thẳng đi qua đỉnh M và trung điểm của cạnh đáy NP."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Hãy vẽ một hình vuông và chỉ ra vị trí của cả 4 trục đối xứng của nó.",
+      "studentAnswer": "Con vẽ và chỉ ra trong nháp rồi",
+      "solution": "Vẽ hình vuông ABCD:\n- Trục đối xứng thứ nhất: Đường thẳng đi qua trung điểm của hai cạnh đối AB và CD.\n- Trục đối xứng thứ hai: Đường thẳng đi qua trung điểm của hai cạnh đối AD và BC.\n- Trục đối xứng thứ ba: Đường thẳng chứa đường chéo AC.\n- Trục đối xứng thứ tư: Đường thẳng chứa đường chéo BD."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Một hình tròn có bao nhiêu trục đối xứng? Em hãy giải thích lý do tại sao.",
+      "studentAnswer": "Một hình tròn có vô số trục đối xứng\nVì mọi đường thẳng đi qua tâm đều là trục đối xứng của nó",
+      "solution": "- Một hình tròn có vô số trục đối xứng.\n- Lý do: Mọi đường thẳng đi qua tâm của hình tròn đều là đường kính và chia hình tròn thành hai nửa đối xứng hoàn hảo. Vì có vô số đường thẳng đi qua tâm nên hình tròn có vô số trục đối xứng."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Cho hình chữ nhật ABCD. Vẽ hình chữ nhật và chỉ rõ 2 trục đối xứng của nó trên hình vẽ. Tại sao hai đường chéo không phải là trục đối xứng của hình chữ nhật?",
+      "studentAnswer": "Khi gấp hình chữ nhật theo đường chéo thì đỉnh của đường chéo bên kia khi gấp lại sẽ không trùng khít với nhau",
+      "solution": "- 2 trục đối xứng của hình chữ nhật là hai đường trung trực của hai cặp cạnh đối diện.\n- Hai đường chéo không phải là trục đối xứng vì khi ta gấp hình chữ nhật theo đường chéo, các đỉnh đối diện không chồng khít lên nhau mà sẽ bị lệch ra ngoài (chỉ khi hình chữ nhật là hình vuông thì mới chồng khít)."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Tìm ít nhất 3 biển báo giao thông quen thuộc có trục đối xứng và mô tả trục đối xứng của chúng.",
+      "studentAnswer": "Biển báo cấm đi ngược chiều: có 2 trục đối xứng, vì có vạch trắng ở giữa nên nó chỉ có 2 trục đối xứng thôi\nBiển đường cấm: có 2 trục đối xứng \nBiển cấm xe ô tô: có 2 trục đối xứng",
+      "solution": "- Biển báo đường cấm (hình tròn đỏ nền trắng): Có vô số trục đối xứng đi qua tâm hình tròn.\n- Biển báo giao nhau với đường ưu tiên (tam giác đều lộn ngược): Có 3 trục đối xứng đi qua các đỉnh tam giác.\n- Biển báo cấm đi ngược chiều (hình tròn đỏ có vạch ngang trắng ở giữa): Có 2 trục đối xứng (1 trục dọc đi qua tâm, 1 trục ngang đi qua tâm dọc theo vạch trắng)."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Hãy nêu trục đối xứng của cơ thể các loài sinh vật sau trong tự nhiên: con sao biển 5 cánh, con bướm, chiếc lá phong.",
+      "studentAnswer": "Con sao biển có 5 trục đối xứng\nCon bướm có 1 trục đối xứng\nChiếc lá Phong có 1 trục đối xứng",
+      "solution": "- Con bướm: Có 1 trục đối xứng dọc chia cơ thể thành hai cánh đối xứng.\n- Chiếc lá phong: Có 1 trục đối xứng dọc đi qua cuống lá và đỉnh lá chính giữa.\n- Con sao biển 5 cánh: Có 5 trục đối xứng đi qua các đỉnh cánh và tâm cơ thể."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Em hãy gấp đôi một tờ giấy, dùng kéo cắt một hình đơn giản sao cho khi mở ra ta được một hình có trục đối xứng. Nêu tên hình em nhận được.",
+      "studentAnswer": "Hình vuông",
+      "solution": "Nếp gấp giấy đóng vai trò là trục đối xứng.\n- Nếu cắt đường cong khép kín hình nửa trái tim, khi mở ra được: Hình trái tim đối xứng.\n- Nếu cắt đường răng cưa chéo, khi mở ra được: Hình cây thông Noel đối xứng."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Cho đoạn thẳng AB dài 6 cm. Hỏi đoạn thẳng AB có trục đối xứng không? Nếu có, hãy mô tả vị trí của trục đối xứng đó.",
+      "studentAnswer": "Đoạn thẳng AB có trục đối xứng\nTrục đối xứng đó Nằm ở trung điểm của đoạn thẳng AB",
+      "solution": "Đoạn thẳng AB có trục đối xứng.\n- Trục thứ nhất: Chính là đường thẳng AB (đối xứng dọc).\n- Trục thứ hai: Đường trung trực của đoạn thẳng AB (đường thẳng đi qua trung điểm O của AB và vuông góc với AB tại O)."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Chữ cái in hoa 'H' có mấy trục đối xứng? Hãy vẽ hình và chỉ ra các trục đối xứng đó.",
+      "studentAnswer": "Chữ H có 2 trục đối xứng\nTrục đối xứng thứ nhất là đường thẳng nằm ngang đi qua chính giữa của chữ H\nTrục đối xứng thứ hai là đường thẳng đi từ trên đỉnh xuống dưới đáy của chữ H",
+      "solution": "Chữ H có 2 trục đối xứng:\n- Trục đối xứng dọc: Đường thẳng đi qua tâm chữ H chia đôi hai nét dọc trái và phải.\n- Trục đối xứng ngang: Đường thẳng đi qua nét gạch ngang ở giữa chia chữ H thành nửa trên và nửa dưới đối xứng nhau."
+    }
+  ]
+}
