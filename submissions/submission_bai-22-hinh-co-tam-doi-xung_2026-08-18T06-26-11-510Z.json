@@ -1,0 +1,140 @@
+{
+  "lessonId": "bai-22-hinh-co-tam-doi-xung",
+  "lessonTitle": "Bài 22: Hình có tâm đối xứng",
+  "studentName": "Cún",
+  "submittedAt": "2026-08-18T06:26:11.510Z",
+  "multipleChoiceAnswers": [
+    {
+      "questionNum": 1,
+      "question": "Hình học nào sau đây KHÔNG có tâm đối xứng?",
+      "selectedOption": "Hình tam giác đều",
+      "correctAnswer": "Hình tam giác đều",
+      "explanation": "Hình tam giác đều không có tâm đối xứng. Hình tròn, vuông, chữ nhật đều có tâm đối xứng nằm ở chính giữa hình."
+    },
+    {
+      "questionNum": 2,
+      "question": "Hình học nào sau đây KHÔNG có tâm đối xứng?",
+      "selectedOption": "Hình tam giác đều",
+      "correctAnswer": "Hình tam giác đều",
+      "explanation": "Hình tam giác đều không có tâm đối xứng. Hình tròn, vuông, chữ nhật đều có tâm đối xứng nằm ở chính giữa hình."
+    },
+    {
+      "questionNum": 3,
+      "question": "Hình học nào sau đây KHÔNG có tâm đối xứng?",
+      "selectedOption": "Hình tam giác đều",
+      "correctAnswer": "Hình tam giác đều",
+      "explanation": "Hình tam giác đều không có tâm đối xứng. Hình tròn, vuông, chữ nhật đều có tâm đối xứng nằm ở chính giữa hình."
+    },
+    {
+      "questionNum": 4,
+      "question": "Hình học nào sau đây KHÔNG có tâm đối xứng?",
+      "selectedOption": "Hình tam giác đều",
+      "correctAnswer": "Hình tam giác đều",
+      "explanation": "Hình tam giác đều không có tâm đối xứng. Hình tròn, vuông, chữ nhật đều có tâm đối xứng nằm ở chính giữa hình."
+    },
+    {
+      "questionNum": 5,
+      "question": "Tâm đối xứng của hình bình hành ABCD là điểm nào?",
+      "selectedOption": "Giao điểm của hai đường chéo AC và BD",
+      "correctAnswer": "Giao điểm của hai đường chéo AC và BD",
+      "explanation": "Đối với hình bình hành, tâm đối xứng chính là giao điểm của hai đường chéo AC và BD."
+    },
+    {
+      "questionNum": 6,
+      "question": "Tâm đối xứng của hình bình hành ABCD là điểm nào?",
+      "selectedOption": "Giao điểm của hai đường chéo AC và BD",
+      "correctAnswer": "Giao điểm của hai đường chéo AC và BD",
+      "explanation": "Đối với hình bình hành, tâm đối xứng chính là giao điểm của hai đường chéo AC và BD."
+    },
+    {
+      "questionNum": 7,
+      "question": "Tâm đối xứng của hình bình hành ABCD là điểm nào?",
+      "selectedOption": "Giao điểm của hai đường chéo AC và BD",
+      "correctAnswer": "Giao điểm của hai đường chéo AC và BD",
+      "explanation": "Đối với hình bình hành, tâm đối xứng chính là giao điểm của hai đường chéo AC và BD."
+    },
+    {
+      "questionNum": 8,
+      "question": "Trong các hình: Hình chữ nhật, hình thang cân, hình thoi, hình lục giác đều. Có bao nhiêu hình có tâm đối xứng?",
+      "selectedOption": "3 hình",
+      "correctAnswer": "3 hình",
+      "explanation": "Hình chữ nhật, hình thoi, hình lục giác đều có tâm đối xứng. Hình thang cân nói chung không có tâm đối xứng. Vậy có 3 hình."
+    },
+    {
+      "questionNum": 9,
+      "question": "Trong các hình: Hình chữ nhật, hình thang cân, hình thoi, hình lục giác đều. Có bao nhiêu hình có tâm đối xứng?",
+      "selectedOption": "3 hình",
+      "correctAnswer": "3 hình",
+      "explanation": "Hình chữ nhật, hình thoi, hình lục giác đều có tâm đối xứng. Hình thang cân nói chung không có tâm đối xứng. Vậy có 3 hình."
+    },
+    {
+      "questionNum": 10,
+      "question": "Trong các hình: Hình chữ nhật, hình thang cân, hình thoi, hình lục giác đều. Có bao nhiêu hình có tâm đối xứng?",
+      "selectedOption": "3 hình",
+      "correctAnswer": "3 hình",
+      "explanation": "Hình chữ nhật, hình thoi, hình lục giác đều có tâm đối xứng. Hình thang cân nói chung không có tâm đối xứng. Vậy có 3 hình."
+    }
+  ],
+  "writtenAnswers": [
+    {
+      "exerciseNum": 1,
+      "problem": "Trong các hình sau, hình nào có tâm đối xứng: Tam giác đều, Hình chữ nhật, Hình thoi, Hình bình hành, Hình tròn? Hãy chỉ ra vị trí tâm đối xứng của các hình đó.",
+      "studentAnswer": "Các hình có tâm đối xứng: hình chữ nhật, hình thoi, hình tròn\nVị trí lần lượt của các hình trên là: giao điểm của hai đường chéo, giao điểm của hai đường chéo, tâm của hình tròn",
+      "solution": "- Các hình có tâm đối xứng:\n* Hình chữ nhật, hình thoi, hình bình hành: Tâm đối xứng là giao điểm của hai đường chéo.\n* Hình tròn: Tâm đối xứng chính là tâm của đường tròn.\n- Tam giác đều không có tâm đối xứng."
+    },
+    {
+      "exerciseNum": 2,
+      "problem": "Trong các chữ cái in hoa sau: H, N, S, X, O, Z. Chữ nào có tâm đối xứng? Hãy chỉ ra vị trí tâm đối xứng của mỗi chữ.",
+      "studentAnswer": "H, N, X, O, Z có tâm đối xứng\nH là giao điểm của hai nét gạch, ở chính giữa chữ\nchữ N là giao điểm của đường chéo nối 2 góc \nchữ O là tâm của chữ O\nchữ Z là trung điểm của nét xiên ở giữa",
+      "solution": "Tất cả các chữ cái: H, N, S, X, O, Z đều là các chữ có tâm đối xứng.\n- Tâm đối xứng nằm ở chính giữa trung tâm hình học của các chữ cái đó. Khi quay mỗi chữ này góc 180 độ quanh tâm, ta thu được chính chữ đó."
+    },
+    {
+      "exerciseNum": 3,
+      "problem": "Hãy giải thích tại sao tam giác đều không có tâm đối xứng bằng trực quan phép quay 180 độ.",
+      "studentAnswer": "Vì khi chúng ta lấy chữ O là trung điểm của hình tam giác đó và giữ nguyên tay ở điểm O đó và xoay 180 độ thì lúc này hình tam giác sẽ bị lộn ngược hoàn toàn đầu ngọn của tam giác sẽ hướng về phía dưới. Và khi chúng ta so sánh hai hình tam giác lúc ban đầu và lúc sau thì hình tam giác lúc sau sẽ không trùng khít với hình tam giác ban đầu ",
+      "solution": "Khi ta đặt một tam giác đều có đỉnh hướng lên trên. Nếu ta quay tam giác này một góc 180 độ (nửa vòng) quanh tâm của nó, đỉnh nhọn của tam giác sẽ hướng xuống dưới đất.\nHình dáng sau khi quay không trùng khít với hình dáng ban đầu (đỉnh hướng lên trên). Do đó, tam giác đều không có tâm đối xứng."
+    },
+    {
+      "exerciseNum": 4,
+      "problem": "Một hình tròn có bao nhiêu tâm đối xứng? Đó là điểm nào?",
+      "studentAnswer": "Một hình tròn có một tâm đối xứng và đó chính là tâm của cái hình tròn đó",
+      "solution": "Một hình tròn chỉ có duy nhất 1 tâm đối xứng.\nĐó chính là tâm O của hình tròn."
+    },
+    {
+      "exerciseNum": 5,
+      "problem": "Tìm các chữ số trong hệ thập phân từ 0 đến 9 có tâm đối xứng.",
+      "studentAnswer": "Các số đó sẽ là 0, 1, 8",
+      "solution": "Trong các chữ số viết in chuẩn:\n- Chữ số 0: Có tâm đối xứng (nằm ở tâm vòng tròn/oval).\n- Chữ số 8: Có tâm đối xứng (nằm ở giao điểm hai vòng tròn nhỏ).\n- Chữ số 1 (viết thẳng đứng |): Có tâm đối xứng ở trung điểm.\nCác số khác không có."
+    },
+    {
+      "exerciseNum": 6,
+      "problem": "Hãy tìm 2 biển báo giao thông có tâm đối xứng trong các biển báo cấm hoặc nguy hiểm.",
+      "studentAnswer": "Biển báo cấm đi ngược chiều và biển cấm đỗ xe",
+      "solution": "- Biển báo đường cấm (hình tròn trống màu trắng viền đỏ): Tâm đối xứng ở tâm hình tròn.\n- Biển báo cấm đi ngược chiều (hình tròn đỏ vạch trắng): Tâm đối xứng ở tâm hình tròn."
+    },
+    {
+      "exerciseNum": 7,
+      "problem": "Một chiếc chong chóng có 4 cánh đối xứng nhau. Hỏi chong chóng này có tâm đối xứng không? Trục đối xứng không? Chỉ ra số trục đối xứng.",
+      "studentAnswer": "Có tâm đối xứng\nCó trục đối xứng và số lường là 4 trục đối xứng\n",
+      "solution": "- Chong chóng 4 cánh có tâm đối xứng (là giao điểm ghim các cánh ở giữa).\n- Chong chóng 4 cánh có trục đối xứng nếu hình dáng cánh đối xứng qua trục gập. Nếu cánh xoắn một chiều thì chong chóng chỉ có tâm đối xứng mà không có trục đối xứng."
+    },
+    {
+      "exerciseNum": 8,
+      "problem": "Nêu một hình hình học phẳng có cả trục đối xứng và tâm đối xứng, và một hình chỉ có trục đối xứng mà không có tâm đối xứng.",
+      "studentAnswer": "Các hình lần lượt là: hình tròn, hình bình hành",
+      "solution": "- Hình có cả trục đối xứng và tâm đối xứng: Hình vuông, hình chữ nhật, hình tròn, lục giác đều.\n- Hình chỉ có trục đối xứng mà không có tâm đối xứng: Tam giác đều, hình thang cân."
+    },
+    {
+      "exerciseNum": 9,
+      "problem": "Hãy tìm trong các quân bài của bộ bài Tây (từ quân 2 đến quân 10) xem những quân bài nào có tính chất đối xứng tâm (quay 180 độ hình ảnh không đổi).",
+      "studentAnswer": "Đó sẽ là các quân chẵn từ 2 đến 10",
+      "solution": "Các quân bài chẵn thường có tính đối xứng tâm do cách sắp xếp các họa tiết đối xứng qua tâm:\n- Quân 2, 4, 10, 8 của các chất thường có tính đối xứng tâm.\n- Các quân lẻ như 3, 5, 7, 9 có họa tiết ở chính giữa lệch hướng nên không đối xứng tâm."
+    },
+    {
+      "exerciseNum": 10,
+      "problem": "Hãy vẽ một hình đơn giản có tâm đối xứng nhưng không có bất kỳ trục đối xứng nào.",
+      "studentAnswer": "Con vẽ trong nháp",
+      "solution": "Vẽ hình chữ S in hoa hoặc hình chong chóng 2 cánh xoắn (như biểu tượng âm dương hoặc hình quạt 2 cánh cong một chiều). Hình này quay 180 độ trùng khít nhưng gập đôi theo bất kỳ đường thẳng nào cũng không chồng khít."
+    }
+  ]
+}
